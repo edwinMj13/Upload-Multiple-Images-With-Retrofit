@@ -137,13 +137,12 @@ EditText editText;
             @Override
             public void onResponse(Call<ResponsePOJO> call, retrofit2.Response<ResponsePOJO> response) {
                 progressDialog.dismiss();
-                ResponsePOJO responsePOJO=response.body();
 
                     if (response.isSuccessful()) {
 
                         Toast.makeText(MainActivity.this, "Successfull", Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(MainActivity.this, "Not Successfull Response"+responsePOJO.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Not Successfull Response", Toast.LENGTH_SHORT).show();
                         Log.d("code Response", String.valueOf(response.code()));
                         String po=String.valueOf(response.code());
 
