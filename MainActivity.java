@@ -17,9 +17,12 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+
+import com.google.gson.JsonObject;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
@@ -27,34 +30,45 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
+import java.lang.annotation.Annotation;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
-import retrofit2.Response;
+import retrofit2.Converter;
 
 public class MainActivity extends AppCompatActivity {
-
+EditText editText;
     ImageView imagesV;
     Button uploadButton, selectButton;
     private int IMG_REQUEST = 2;
     private Bitmap bitmap;
-    private String encodedImage = null;
+    private String encodedImage;
+    String apiName; String apiIMage;
+
     ProgressDialog progressDialog;
     MultipartBody.Part encodedImagePart;
+   // private static final String BASE_URL="http://192.168.0.102/thanova/uploadifirst.php";
     String imgName;
+    Bitmap decodedByte;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         imagesV = findViewById(R.id.imageView3);
         uploadButton = findViewById(R.id.upload_IMgae_BUTT);
         selectButton = findViewById(R.id.sel_Image_BUTT);
+        editText=findViewById(R.id.shows);
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading... ");
 
@@ -96,54 +111,60 @@ public class MainActivity extends AppCompatActivity {
         uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ByteArrayOutputStream byteArrayOutputStream=new ByteArrayOutputStream();
-                bitmap.compress(Bitmap.CompressFormat.JPEG,100,byteArrayOutputStream);
-                byte[] imageInByte=byteArrayOutputStream.toByteArray();
-                encodedImage = Base64.encodeToString(imageInByte,Base64.DEFAULT);
-                imgName= String.valueOf(Calendar.getInstance().getTimeInMillis());
-                Log.d("encodedImage",encodedImage);
-                Log.d("imgName",imgName);
-
-                try {
-                    encodedImage= URLEncoder.encode(Base64.encodeToString(imageInByte, Base64.DEFAULT), "UTF-8");
-                } catch (UnsupportedEncodingException e) {
-                    e.printStackTrace();
-                }
-              /*
-                File imagefile = new File(encodedImage);
-                RequestBody reqBody = RequestBody.create(imagefile, MediaType.parse("multipart/form-data"));
-                encodedImagePart = MultipartBody.Part.createFormData("imageupload", imagefile.getName(), reqBody);
-*/
-                uploadImage();
+              uploadImage();
             }
         });
     }
 
     private void uploadImage() {
         progressDialog.show();
+        ByteArrayOutputStream byteArrayOutputStream=new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.JPEG,100,byteArrayOutputStream);
+        byte[] imageInByte=byteArrayOutputStream.toByteArray();
+        encodedImage = Base64.encodeToString(imageInByte,Base64.DEFAULT);
+        imgName= String.valueOf(Calendar.getInstance().getTimeInMillis());
+      //  byte[] decodedString = Base64.decode(encodedImage, Base64.DEFAULT);
+      //  decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
         Toast.makeText(this, encodedImage, Toast.LENGTH_SHORT).show();
+        Log.d("encodedImage",encodedImage);
+        Log.d("imgName",imgName);
+
+      //  String qw="12345",er="123654";
         ApiInterface apiInterface = RetroClient.getRetrofit().create(ApiInterface.class);
         Call<ResponsePOJO> call = apiInterface.uploadIm(imgName,encodedImage);
         call.enqueue(new Callback<ResponsePOJO>() {
+
             @Override
-            public void onResponse(Call<ResponsePOJO> call, Response<ResponsePOJO> response) {
+            public void onResponse(Call<ResponsePOJO> call, retrofit2.Response<ResponsePOJO> response) {
                 progressDialog.dismiss();
-                Log.d("REsponse.Body", response.body().toString());
-                if (response.body().getSuccess().equals("1")) {
-                    Toast.makeText(MainActivity.this, "SuccessFully" + response.body().getMessage(), Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(MainActivity.this, "Not SuccessFull" + response.body().getMessage(), Toast.LENGTH_SHORT).show();
-                }
+                ResponsePOJO responsePOJO=response.body();
+
+                    if (response.isSuccessful()) {
+
+                        Toast.makeText(MainActivity.this, "Successfull", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Not Successfull Response"+responsePOJO.getMessage(), Toast.LENGTH_SHORT).show();
+                        Log.d("code Response", String.valueOf(response.code()));
+                        String po=String.valueOf(response.code());
+
+                      //  apiInterface.uploadIm(apiName,apiIMage);
+                        editText.setText(po);
+                    }
             }
 
             @Override
             public void onFailure(Call<ResponsePOJO> call, Throwable t) {
-                Log.d("onFailure", t.getMessage());
+                Log.d("onFailure logs", t.getMessage());
                 Toast.makeText(MainActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
                 progressDialog.dismiss();
             }
         });
+
+
+
     }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -156,6 +177,8 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     inputStream = getContentResolver().openInputStream(pathp);
                     bitmap = BitmapFactory.decodeStream(inputStream);
+
+                  //  String deco=Base64.decode(encodedImage)
                     imagesV.setImageBitmap(bitmap);
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
@@ -181,4 +204,3 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
