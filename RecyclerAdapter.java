@@ -3,6 +3,7 @@ package com.example.imageuploading__retrofit;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -21,6 +23,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MYviewHolder> {
@@ -28,8 +31,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MYview
     List<File> files=new ArrayList<>();
     Context context;
     Bitmap bitmap;
+    Bitmap equalsqw;
     View v;
     ArrayList<Bitmap> uploadedBITS;
+    ItemThumbnailListner itemThumbnailListner;
+    int currentPosition = -1;
     public void fileMOthod(List<File> files){
         this.files=files;
         notifyDataSetChanged();
@@ -51,29 +57,36 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MYview
 
     @Override
     public void onBindViewHolder(@NonNull MYviewHolder holder,final int position) {
-    //    Uri uri=Uri.fromFile(files.get(position));
-    /*    try {
+        Uri uri=Uri.fromFile(files.get(position));
+       try {
             bitmap= MediaStore.Images.Media.getBitmap(context.getContentResolver(),uri);
         } catch (IOException e) {
             e.printStackTrace();
         }
-     */
-           holder.imageView.setImageBitmap(bitmapArray.get(position));
-      /* Glide.with(context)
-                .load(bitmap)
-                .override(250,250)
-                .into(holder.imageView);
-*/
+
+        int heig=bitmap.getHeight();
+        int widt=bitmap.getWidth();
+        if (heig>widt) {
+            equalsqw = Bitmap.createScaledBitmap(bitmap,160,240,false);
+        }
+        if (heig<widt) {
+            equalsqw = Bitmap.createScaledBitmap(bitmap,240,160,false);
+        }
+        if (heig==widt) {
+            equalsqw = Bitmap.createScaledBitmap(bitmap,240,240,false);
+        }
+          // holder.imageView.setImageBitmap(bitmapArray.get(position));
+       Glide.with(context)
+               .load(equalsqw)
+               .into(holder.imageView);
+
 
         holder.closes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-              //  bitmapArray.remove(position);
                       bitmapArray.remove(position);
                       uploadedBITS.remove(position);
-                 notifyDataSetChanged();
-               // notifyItemRemoved(position);
+                    notifyDataSetChanged();
             }
         });
         Log.d("Files  Adapter:", bitmapArray.get(position).toString());
@@ -83,6 +96,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MYview
     public int getItemCount() {
         return bitmapArray.size();
     }
+
+
     public class MYviewHolder extends RecyclerView.ViewHolder {
         ImageView imageView;
         ImageView closes;
