@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView imagesV;
     Button uploadButton, selectButton;
     private int IMG_REQUEST = 2;
-    private Bitmap bitmap;
+  //  private Bitmap bitmap;
     String apiName;
     String apiIMage;
     List<File> files = new ArrayList<>();
@@ -66,9 +66,11 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> stringImagesList;
     ArrayList<String> stringNAMEList;
     ArrayList<Bitmap> array;
+    int image;
 
     RecyclerAdapter recyclerAdapter;
     RecyclerView recyclerView;
+ //   ImageView imageThumbnail;
     Bitmap bitt;
 
     ProgressDialog progressDialog;
@@ -77,7 +79,10 @@ public class MainActivity extends AppCompatActivity {
     String imgName;
     Bitmap decodedByte;
     private String encodedImage;
+    Bundle bundle;
    // ArrayList<byte[]> imageInByte;
+   Bitmap recy;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         selectButton = findViewById(R.id.sel_Image_BUTT);
         editText = findViewById(R.id.shows);
         recyclerView=findViewById(R.id.recyclervie);
+      //  imageThumbnail=findViewById(R.id.thumbn);
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading... ");
@@ -99,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
      //   stringImagesList=new ArrayList<>(0);
     //    stringNAMEList=new ArrayList<>(0);
    //      imageInByte =new ArrayList<>();
+
+
 
         recyclerAdapter=new RecyclerAdapter(mutBitArray,bitmapArray,getApplicationContext());
         GridLayoutManager layoutManager=new GridLayoutManager(this,3, LinearLayoutManager.HORIZONTAL,false);
@@ -138,10 +146,14 @@ public class MainActivity extends AppCompatActivity {
         uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (mutBitArray!=null) {
-                    uploadImage();
-                } else {
+                ArrayList<Bitmap> emptyOne=new ArrayList<>();
+                Log.d(MainActivity.class.getSimpleName(),"MUTBITARRAY   :::::"+mutBitArray);
+                Log.d(MainActivity.class.getSimpleName(),"BITMAP_ARRAY   :::::"+bitmapArray);
+                if (mutBitArray.isEmpty() && bitmapArray.isEmpty()) {
                     Toast.makeText(MainActivity.this, "Null", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    uploadImage();
                 }
             }
         });
@@ -150,15 +162,27 @@ public class MainActivity extends AppCompatActivity {
     public void resizeIMages(){
        progressDialog.show();
     ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                    bitmaps.compress(Bitmap.CompressFormat.JPEG,20,stream);
-                    Bitmap equals=BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
+                    bitmaps.compress(Bitmap.CompressFormat.JPEG,70,stream);
+        Bitmap equals=BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
+        int heig=bitmaps.getHeight();
+        int widt=bitmaps.getWidth();
+        if (heig>widt) {
+            recy = Bitmap.createScaledBitmap(bitmaps,160,240,false);
+        }
+        if (heig<widt) {
+            recy = Bitmap.createScaledBitmap(bitmaps,240,160,false);
+        }
+        if (heig==widt) {
+            recy = Bitmap.createScaledBitmap(bitmaps,240,240,false);
+        }
+
                     String savedImageURL = MediaStore.Images.Media.insertImage(
                             getContentResolver(),
-                            equals,
+                            recy,
                             String.valueOf(Calendar.getInstance().getTimeInMillis()),
                             "Image of bird"
                     );
-                    array.add(equals);
+                    array.add(recy);
                     updateBitmap(array);
     /*    int heights=toResize.getHeight();
         int widths=toResize.getWidth();
@@ -189,12 +213,10 @@ public class MainActivity extends AppCompatActivity {
 */
     }
 
-
-
     private void uploadImage() {
         progressDialog.show();
-     //   imageInByte.clear();
-//mutBitArray.add(mutableBitmap);
+        //   imageInByte.clear();
+        //mutBitArray.add(mutableBitmap);
 
         for (int i=0;i<mutBitArray.size();i++) {
             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -248,36 +270,34 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Data any THING", String.valueOf(data));
         InputStream inputStream = null;
         if (requestCode == ImagePicker.IMAGE_PICKER_REQUEST_CODE && resultCode == RESULT_OK) {
+            assert data != null;
             List<String> mPaths = data.getStringArrayListExtra(ImagePicker.EXTRA_IMAGE_PATH);
 //            Bitmap bitmap= BitmapFactory.decodeFile(mPaths.get(0));
             Log.d("mPaths MainActivity", String.valueOf(mPaths));
             //    Glide.with(this).load(bitmap).into(img);
             //   if (iru!=null){
-            if (files != null) {
                 for (int i = 0; i < mPaths.size(); i++) {
                     files.add(new File(mPaths.get(i)));
                     recyclerAdapter.fileMOthod(files);
+                    recyclerAdapter.notifyDataSetChanged();
                //      bitt=BitmapFactory.decodeFile(mPaths.get(i));
                 }
                 for (int i = 0; i < files.size(); i++) {
                     try {
                         inputStream = getContentResolver().openInputStream(Uri.fromFile(files.get(i)));
+                        Log.d("File", String.valueOf(files));
+                        Log.d("stream", String.valueOf(inputStream));
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     }
                     Log.d("DATASSSSSSSSSSSTTTT", String.valueOf(data.getData()));
                     bitmaps = BitmapFactory.decodeStream(inputStream);
-
                     Log.e("IMages From Stream", String.valueOf(bitmaps));
                     Log.d("Images from Steam", String.valueOf(bitmaps));
-
                     resizeIMages();
                     // bitmaps = BitmapFactory.decodeFile(files.get(i).getAbsolutePath());
                     imageResize(bitmaps);
-
                 }
-
-            }
         }
     }
 
