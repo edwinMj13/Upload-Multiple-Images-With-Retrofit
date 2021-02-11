@@ -1,0 +1,1820 @@
+02-11 12:29:28.699 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 0) DAMAGED Handle(10)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 12:29:28.699 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.699 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(10)
+02-11 12:29:28.699 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 1) DAMAGED Handle(15)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 12:29:28.699 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.699 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(15)
+02-11 12:29:28.699 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 2) DAMAGED Handle(17)
+02-11 12:29:28.699 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 12:29:28.699 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.699 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(17)
+02-11 12:29:28.704 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.704 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 12:29:28.704 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 12:29:28.704 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 12:29:28.704 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 12:29:28.704 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 12:29:28.704 3116-16440/? E/libEGL: HWUI     Unit 3) DAMAGED Handle(19)
+02-11 12:29:28.704 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 12:29:28.704 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(19)
+02-11 12:29:29.019 28464-28464/? E/Zygote: no v2
+02-11 12:29:29.234 28464-28474/? E/JavaBinder: *** Uncaught remote exception!  (Exceptions are not yet supported across processes.)
+    java.lang.RuntimeException: Need Update Check First
+        at com.keniu.security.update.a.a.c(ManualUpdateMonitor.java:176)
+        at com.cleanmaster.CleanService$KSCleanerImp.StartUpdateData(CleanService.java:228)
+        at com.cleanmaster.sdk.IKSCleaner$Stub.onTransact(IKSCleaner.java:186)
+        at android.os.Binder.execTransact(Binder.java:453)
+02-11 12:29:30.674 28480-28480/? E/Zygote: no v2
+02-11 12:29:31.869 28480-28480/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:29:32.759 28508-28508/? E/Zygote: no v2
+02-11 12:29:32.919 28521-28521/? E/Zygote: no v2
+02-11 12:29:33.574 2773-2773/? E/OTPFW: ProvisionData::getAllEntries Table is empty
+02-11 12:29:33.649 4085-4103/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 12:29:33.759 3248-3248/? E/Launcher.Model: onPackageRemoved :com.example.imageuploading__retrofit
+02-11 12:29:35.139 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:29:35.144 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:29:35.339 28521-28595/? E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+02-11 12:29:36.209 28635-28635/? E/Zygote: no v2
+02-11 12:29:36.234 28565-28577/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x3000e in tid 28577 (Compiler driver)
+02-11 12:29:36.334 4104-4104/? E/audit: type=1701 msg=audit(1613026776.329:1444): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=28575 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-11 12:29:36.334 4104-4104/? E/audit: type=1701 msg=audit(1613026776.334:1445): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=28577 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-11 12:29:36.349 25924-25924/? E/DEBUG: unexpected waitpid response: n=28577, status=0000000b
+02-11 12:29:36.349 25924-25924/? E/DEBUG: tid exited before attach completed: tid 28577
+02-11 12:29:36.524 28652-28652/? E/Zygote: no v2
+02-11 12:29:36.814 28667-28667/? E/Zygote: no v2
+02-11 12:29:36.984 28680-28680/? E/Zygote: no v2
+02-11 12:29:37.144 28693-28693/? E/Zygote: no v2
+02-11 12:29:37.304 28710-28710/? E/Zygote: no v2
+02-11 12:29:37.429 28726-28726/? E/Zygote: no v2
+02-11 12:29:37.569 28741-28741/? E/Zygote: no v2
+02-11 12:29:37.604 2773-3915/? E/SensorService: getSensorList a sensor (Sensor's Diagnostic Monitor) without holding its required permission: com.samsung.permission.SSENSOR
+02-11 12:29:37.609 28521-28752/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-11 12:29:37.609 28521-28752/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-11 12:29:37.609 28521-28752/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-11 12:29:37.699 2182-2182/? E/lowmemorykiller: Error writing /proc/28741/oom_score_adj; errno=22
+02-11 12:29:37.774 28760-28760/? E/Zygote: no v2
+02-11 12:29:37.954 3234-3549/? E/PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+02-11 12:29:38.144 28782-28782/? E/Zygote: no v2
+02-11 12:29:38.634 28803-28803/? E/Zygote: no v2
+02-11 12:29:39.529 28871-28871/? E/Zygote: no v2
+02-11 12:29:40.204 28871-28871/? E/SALog: false
+02-11 12:29:40.234 28918-28918/? E/Zygote: no v2
+02-11 12:29:41.064 28974-28974/? E/Zygote: no v2
+02-11 12:29:41.639 28999-28999/? E/Zygote: no v2
+02-11 12:29:41.684 2773-2832/? E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 80)
+02-11 12:29:41.684 2773-2832/? E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 80)
+02-11 12:29:41.809 28999-29017/? E/SPPClientService: ShipBuild Binary : True
+02-11 12:29:41.954 28999-28999/? E/SPPClientService: [PackageInfoChangeReceiver] android.intent.action.PACKAGE_FULLY_REMOVED
+02-11 12:29:41.959 28999-28999/? E/SPPClientService: [PackageInfoChangeReceiver] [handlePkgRemovedEvent] PackageName : com.example.imageuploading__retrofit
+02-11 12:29:41.979 28999-28999/? E/SPPClientService: [PackageInfoChangeReceiver] [handlePkgRemovedEvent] User : Owner, appId : null
+02-11 12:29:43.209 28991-28991/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:29:45.039 29036-29036/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:29:45.069 29038-29038/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:29:46.604 29056-29056/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:29:49.934 29070-29070/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:29:50.659 2773-2944/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:29:50.684 28508-28519/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:29:50.699 28508-28518/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:29:50.754 28782-28782/? E/Finsky: [1] VerifyPerSourceInstallationConsentInstallTask.f(2): Package name null is not an installed package
+02-11 12:29:50.759 29083-29083/? E/Zygote: no v2
+02-11 12:29:51.484 3643-7822/? E/axfe: Exception occurred while getting SettingsStore instance.
+    java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at bsvc.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):19)
+        at bsvc.get(:com.google.android.gms@203019017@20.30.19 (040306-326531024):13)
+        at axfe.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axfe.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):20)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):4)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+     Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at gai.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):8)
+        at gao.c(:com.google.android.gms@203019017@20.30.19 (040306-326531024):15)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):1)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at gao.e(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfr.call(Unknown Source)
+        at bsyo.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at bsyp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxw.execute(:com.google.android.gms@203019017@20.30.19 (040306-326531024):5)
+        at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:104)
+        at bsvd.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfs.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68) 
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11) 
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2) 
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12) 
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0) 
+        at java.lang.Thread.run(Thread.java:818) 
+02-11 12:29:51.569 29083-29104/? E/PlayCommon: [2285] ect.<init>: Failed to restore PlayMetalog
+02-11 12:29:51.569 29083-29104/? E/PlayCommon: [2285] ect.<init>: Failed to restore LogsUploadAttempt
+02-11 12:29:51.669 3643-7822/? E/axfe: Exception occurred while getting SettingsStore instance.
+    java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at bsvc.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):19)
+        at bsvc.get(:com.google.android.gms@203019017@20.30.19 (040306-326531024):13)
+        at axfe.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axfe.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):20)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):4)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+     Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at gai.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):8)
+        at gao.c(:com.google.android.gms@203019017@20.30.19 (040306-326531024):15)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):1)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at gao.e(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfr.call(Unknown Source)
+        at bsyo.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at bsyp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxw.execute(:com.google.android.gms@203019017@20.30.19 (040306-326531024):5)
+        at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:104)
+        at bsvd.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfs.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68) 
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11) 
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2) 
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12) 
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0) 
+        at java.lang.Thread.run(Thread.java:818) 
+02-11 12:30:12.304 29130-29130/? E/Zygote: no v2
+02-11 12:30:13.009 29130-29147/? E/PlayCommon: [2284] axeo.<init>(8): Failed to restore PlayMetalog
+02-11 12:30:13.009 29130-29147/? E/PlayCommon: [2284] axeo.<init>(11): Failed to restore LogsUploadAttempt
+02-11 12:30:16.139 2773-2884/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:30:24.494 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60051 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:30:27.584 2773-2884/? E/SecureStorageService: Process failed status=0x0200
+02-11 12:30:27.879 2199-2199/? E/installd: Couldn't opendir /data/app/vmdl887183791.tmp: No such file or directory
+02-11 12:30:27.964 29173-29173/? E/Zygote: no v2
+02-11 12:30:28.084 29173-29173/? E/AASAservice-TokenRule: parseToken() : TokenFile is null
+02-11 12:30:28.089 29173-29173/? E/AASAservice-UpdateReceiver: AASAUpdateReceiver : myrule is null.
+02-11 12:30:28.204 29188-29188/? E/Zygote: no v2
+02-11 12:30:28.709 27127-27657/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-11 12:30:28.864 3248-3248/? E/Launcher.Model: onPackageAdded :com.example.imageuploading__retrofit
+02-11 12:30:28.989 27127-29217/? E/ChromeSync: [Sync,SyncIntentOperation] Error handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.imageuploading__retrofit flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService bqHint=4 (has extras) }.
+02-11 12:30:29.824 29171-29171/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:30:29.899 29238-29238/? E/Zygote: no v2
+02-11 12:30:30.724 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:30:30.724 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:30:30.724 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:30:30.749 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 12:30:30.749 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 12:30:30.754 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 12:30:30.759 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 12:30:30.759 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 12:30:30.769 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:30:30.769 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:30:30.769 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:30:30.779 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:30:30.779 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:30:30.779 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:30:30.854 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:30:30.924 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:30:34.709 29281-29281/? E/Zygote: no v2
+02-11 12:30:35.084 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 12:30:35.084 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 12:30:35.084 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 12:30:35.089 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 12:30:35.089 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 12:30:43.714 29319-29319/? E/Zygote: no v2
+02-11 12:30:43.714 29238-29238/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:30:43.864 29334-29334/? E/Zygote: no v2
+02-11 12:30:44.019 29334-29334/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+02-11 12:30:44.109 27723-27723/? E/MotionRecognitionManager: mSContextService = null
+02-11 12:30:44.109 27723-27723/? E/MotionRecognitionManager: motionService = null
+02-11 12:30:45.904 29238-29238/? E/File: [/storage/emulated/0/mediapicker/images/756dcbd9-6c88-4956-8b28-41f8e0f4c6f0.jpg]
+02-11 12:30:45.904 29238-29238/? E/stream: java.io.FileInputStream@348199a
+02-11 12:30:45.939 29238-29238/? E/IMages From Stream: android.graphics.Bitmap@4e600a7
+02-11 12:30:46.179 29365-29365/? E/Zygote: no v2
+02-11 12:30:46.199 29238-29238/? E/MediaStore: Failed to insert image
+    java.io.FileNotFoundException: No such file or directory
+        at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:144)
+        at android.content.ContentProviderProxy.openAssetFile(ContentProviderNative.java:621)
+        at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1009)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:751)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:727)
+        at android.provider.MediaStore$Images$Media.insertImage(MediaStore.java:995)
+        at com.example.imageuploading__retrofit.MainActivity.resizeIMagestoAdapter(MainActivity.java:188)
+        at com.example.imageuploading__retrofit.MainActivity.onActivityResult(MainActivity.java:311)
+        at android.app.Activity.dispatchActivityResult(Activity.java:7165)
+        at android.app.ActivityThread.deliverResults(ActivityThread.java:5028)
+        at android.app.ActivityThread.handleSendResult(ActivityThread.java:5075)
+        at android.app.ActivityThread.access$1600(ActivityThread.java:229)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1886)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+02-11 12:30:46.579 29365-29383/? E/ServiceManager: [#CMH#] Failed binding To Service  EnhanceService
+02-11 12:30:46.589 29395-29395/? E/Zygote: no v2
+02-11 12:30:46.639 29238-29238/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:30:46.654 29238-29238/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:30:46.744 29365-29384/? E/Controller: [#CMH#] Content inserted without datetaken 
+02-11 12:30:48.829 29238-29238/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:30:48.929 27723-27723/? E/MotionRecognitionManager: mSContextService = null
+02-11 12:30:48.929 27723-27723/? E/MotionRecognitionManager: motionService = null
+02-11 12:30:49.594 29365-29400/? E/ServiceManager: [#CMH#] Failed binding To Service  IPService
+02-11 12:30:49.594 29365-29400/? E/ServiceManager: [#CMH#] Failed binding To Service  FaceService
+02-11 12:30:49.604 29427-29427/? E/Zygote: no v2
+02-11 12:30:49.609 29365-29400/? E/ServiceManager: [#CMH#] Failed binding To Service  TapestryService
+02-11 12:31:24.544 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 8ms lastUpdatedAfter : 60047 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:31:44.314 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:31:44.319 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:32:24.669 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60125 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:33:19.324 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 12:33:24.789 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60122 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:33:34.339 29238-29238/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:33:34.439 27723-27723/? E/MotionRecognitionManager: mSContextService = null
+02-11 12:33:34.444 27723-27723/? E/MotionRecognitionManager: motionService = null
+02-11 12:33:47.459 29238-29238/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:33:47.559 27723-27723/? E/MotionRecognitionManager: mSContextService = null
+02-11 12:33:47.559 27723-27723/? E/MotionRecognitionManager: motionService = null
+02-11 12:33:53.504 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:33:53.509 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:34:24.889 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60101 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:34:39.294 28782-28838/? E/PlayCommon: [2277] axex.h(133): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+02-11 12:34:39.309 28782-28838/? E/PlayCommon: [2277] axex.h(172): Failed to connect to server for log upload.
+02-11 12:35:23.379 29570-29570/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:35:23.514 29582-29582/? E/Zygote: no v2
+02-11 12:35:23.609 29596-29596/? E/Zygote: no v2
+02-11 12:35:23.964 29613-29613/? E/Zygote: no v2
+02-11 12:35:24.304 29629-29629/? E/Zygote: no v2
+02-11 12:35:25.004 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 4ms lastUpdatedAfter : 60114 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:35:25.314 29609-29609/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:35:25.344 29611-29611/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:35:26.874 29658-29658/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:35:29.959 29671-29671/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:35:30.674 2773-2944/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:35:30.689 29682-29682/? E/Zygote: no v2
+02-11 12:35:30.789 29682-29692/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:35:30.799 29682-29693/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:35:30.819 28782-28782/? E/Finsky: [1] VerifyPerSourceInstallationConsentInstallTask.f(2): Package name null is not an installed package
+02-11 12:35:33.424 3643-29707/? E/WakeLock: GCM_HB_ALARM release without a matched acquire!
+02-11 12:35:33.474 3643-29707/? E/WakeLock: GCM_CONN_ALARM release without a matched acquire!
+02-11 12:35:34.519 29710-29710/? E/Zygote: no v2
+02-11 12:35:55.499 2773-2884/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 12:36:02.659 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:36:02.664 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:36:08.024 2773-2884/? E/SecureStorageService: Process failed status=0x0200
+02-11 12:36:08.284 2199-2199/? E/installd: Couldn't opendir /data/app/vmdl435567898.tmp: No such file or directory
+02-11 12:36:08.434 4085-4097/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 12:36:08.464 29744-29744/? E/Zygote: no v2
+02-11 12:36:08.934 3248-3248/? E/Launcher.Model: onPackageChanged :com.example.imageuploading__retrofit
+02-11 12:36:09.899 29744-29799/? E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.cricbuzz.android/app_webview/variations_seed_new": /data/user/0/com.cricbuzz.android/app_webview/variations_seed_new: open failed: ENOENT (No such file or directory)
+02-11 12:36:10.444 29743-29743/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 12:36:10.474 29744-29818/? E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+02-11 12:36:10.584 29836-29836/? E/Zygote: no v2
+02-11 12:36:11.724 29884-29884/? E/Zygote: no v2
+02-11 12:36:11.819 29783-29783/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x3000e in tid 29783 (main)
+02-11 12:36:11.889 4104-4104/? E/audit: type=1701 msg=audit(1613027171.884:1446): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=29795 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-11 12:36:11.889 4104-4104/? E/audit: type=1701 msg=audit(1613027171.884:1447): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=29783 comm="main" reason="memory violation" sig=11
+02-11 12:36:11.924 25924-25924/? E/DEBUG: unexpected waitpid response: n=29783, status=0000000b
+02-11 12:36:11.924 25924-25924/? E/DEBUG: tid exited before attach completed: tid 29783
+02-11 12:36:12.249 29901-29901/? E/Zygote: no v2
+02-11 12:36:12.389 29915-29915/? E/Zygote: no v2
+02-11 12:36:12.574 29933-29933/? E/Zygote: no v2
+02-11 12:36:12.749 29949-29949/? E/Zygote: no v2
+02-11 12:36:12.784 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 12:36:12.784 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 12:36:12.784 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 12:36:12.914 3234-3246/? E/PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+02-11 12:36:13.119 29970-29970/? E/Zygote: no v2
+02-11 12:36:13.384 29988-29988/? E/Zygote: no v2
+02-11 12:36:13.634 29988-29988/? E/SALog: false
+02-11 12:36:13.774 30036-30036/? E/Zygote: no v2
+02-11 12:36:13.919 2773-2832/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:36:14.169 30066-30066/? E/Zygote: no v2
+02-11 12:36:14.249 30066-30066/? E/AASAservice-TokenRule: parseToken() : TokenFile is null
+02-11 12:36:14.254 30066-30066/? E/AASAservice-UpdateReceiver: AASAUpdateReceiver : myrule is null.
+02-11 12:36:14.334 30079-30079/? E/Zygote: no v2
+02-11 12:36:14.759 30098-30098/? E/Zygote: no v2
+02-11 12:36:14.934 27127-27657/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-11 12:36:15.004 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:36:15.004 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:36:15.004 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:36:15.034 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 12:36:15.034 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 12:36:15.109 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 12:36:15.109 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 12:36:15.109 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 12:36:15.134 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:36:15.134 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:36:15.134 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:36:15.149 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:36:15.149 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:36:15.154 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:36:15.309 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:36:15.359 27127-30007/? E/ChromeSync: [Sync,SyncIntentOperation] Error handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.imageuploading__retrofit flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService bqHint=4 (has extras) }.
+02-11 12:36:15.414 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:36:25.129 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 7ms lastUpdatedAfter : 60125 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:36:59.599 30151-30151/? E/Zygote: no v2
+02-11 12:37:00.014 30173-30173/? E/Zygote: no v2
+02-11 12:37:25.264 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60134 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:37:39.869 2773-3156/? E/Watchdog: !@Sync 158 [02-11 12:37:39.870]
+02-11 12:38:09.864 2773-3156/? E/Watchdog: !@Sync 159 [02-11 12:38:09.871]
+02-11 12:38:11.829 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:38:11.834 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:38:25.344 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 7ms lastUpdatedAfter : 60079 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:38:39.869 2773-3156/? E/Watchdog: !@Sync 160 [02-11 12:38:39.873]
+02-11 12:39:09.874 2773-3156/? E/Watchdog: !@Sync 161 [02-11 12:39:09.875]
+02-11 12:39:25.424 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60080 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:39:39.419 28782-28838/? E/PlayCommon: [2277] axex.h(133): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+02-11 12:39:39.434 28782-28838/? E/PlayCommon: [2277] axex.h(172): Failed to connect to server for log upload.
+02-11 12:39:39.869 2773-3156/? E/Watchdog: !@Sync 162 [02-11 12:39:39.876]
+02-11 12:40:09.874 2773-3156/? E/Watchdog: !@Sync 163 [02-11 12:40:09.878]
+02-11 12:40:21.034 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:40:21.039 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:40:25.569 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60145 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:40:39.879 2773-3156/? E/Watchdog: !@Sync 164 [02-11 12:40:39.880]
+02-11 12:40:53.054 2773-2858/? E/MARsDBManager: updateDBAll : begin --size 1
+02-11 12:40:53.074 2773-2858/? E/MARsDBManager: updateDBAll : end
+02-11 12:41:04.629 30254-30254/? E/Zygote: no v2
+02-11 12:41:04.634 29836-29836/? E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:41:04.719 30254-30266/? E/Resources: RunTimeException
+    android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
+        at android.content.res.Resources.getValue(Resources.java:2598)
+        at android.content.res.Resources.startRC(Resources.java:1132)
+        at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 12:41:04.779 30269-30269/? E/Zygote: no v2
+02-11 12:41:04.929 30269-30269/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+02-11 12:41:04.999 30293-30293/? E/Zygote: no v2
+02-11 12:41:05.129 30308-30308/? E/Zygote: no v2
+02-11 12:41:05.254 30293-30293/? E/MotionRecognitionManager: mSContextService = null
+02-11 12:41:05.259 30293-30293/? E/MotionRecognitionManager: motionService = null
+02-11 12:41:05.279 30323-30323/? E/Zygote: no v2
+02-11 12:41:05.394 30346-30346/? E/Zygote: no v2
+02-11 12:41:05.479 2773-3914/? E/InputMethodManagerService: Perflock object null
+02-11 12:41:05.494 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 12:41:05.494 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 12:41:05.494 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 12:41:05.504 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 12:41:05.504 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 12:41:09.879 2773-3156/? E/Watchdog: !@Sync 165 [02-11 12:41:09.881]
+02-11 12:41:25.699 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60130 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:41:32.999 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 12:41:39.879 2773-3156/? E/Watchdog: !@Sync 166 [02-11 12:41:39.883]
+02-11 12:42:09.884 2773-3156/? E/Watchdog: !@Sync 167 [02-11 12:42:09.885]
+02-11 12:42:25.749 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60051 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:42:30.214 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:42:30.219 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:42:39.884 2773-3156/? E/Watchdog: !@Sync 168 [02-11 12:42:39.887]
+02-11 12:42:53.474 29836-29836/? E/File: [/storage/emulated/0/mediapicker/images/5fcc8b10-1a88-4d77-b92b-cff926791665.jpg, /storage/emulated/0/mediapicker/images/a14b7af8-8980-4ff0-a97b-e36d22c433ad.jpg, /storage/emulated/0/mediapicker/images/3dbe36d4-73df-4159-b5a4-95f55f9a7994.jpg, /storage/emulated/0/mediapicker/images/34add847-8f67-43b3-8487-5d7e49ae43b5.jpg]
+02-11 12:42:55.219 29836-29836/? E/stream: java.io.FileInputStream@32f15c
+02-11 12:43:02.304 29836-29836/? E/IMages From Stream: android.graphics.Bitmap@60ed44a
+02-11 12:43:09.884 2773-3156/? E/Watchdog: !@Sync 169 [02-11 12:43:09.888]
+02-11 12:43:20.194 30418-30418/? E/Zygote: no v2
+02-11 12:43:20.214 29836-29836/? E/MediaStore: Failed to insert image
+    java.io.FileNotFoundException: No such file or directory
+        at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:144)
+        at android.content.ContentProviderProxy.openAssetFile(ContentProviderNative.java:621)
+        at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1009)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:751)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:727)
+        at android.provider.MediaStore$Images$Media.insertImage(MediaStore.java:995)
+        at com.example.imageuploading__retrofit.MainActivity.resizeIMagestoAdapter(MainActivity.java:188)
+        at com.example.imageuploading__retrofit.MainActivity.onActivityResult(MainActivity.java:311)
+        at android.app.Activity.dispatchActivityResult(Activity.java:7165)
+        at android.app.ActivityThread.deliverResults(ActivityThread.java:5028)
+        at android.app.ActivityThread.handleSendResult(ActivityThread.java:5075)
+        at android.app.ActivityThread.access$1600(ActivityThread.java:229)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1886)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+02-11 12:43:20.484 30418-30436/? E/ServiceManager: [#CMH#] Failed binding To Service  EnhanceService
+02-11 12:43:20.494 30445-30445/? E/Zygote: no v2
+02-11 12:43:20.609 30418-30437/? E/Controller: [#CMH#] Content inserted without datetaken 
+02-11 12:43:23.499 30418-30450/? E/ServiceManager: [#CMH#] Failed binding To Service  IPService
+02-11 12:43:23.499 30418-30450/? E/ServiceManager: [#CMH#] Failed binding To Service  FaceService
+02-11 12:43:23.509 30418-30450/? E/ServiceManager: [#CMH#] Failed binding To Service  TapestryService
+02-11 12:43:25.864 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60115 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:43:26.234 4104-4104/? E/audit: type=1701 msg=audit(1613027606.234:1448): auid=4294967295 uid=10201 gid=10201 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=29836 comm="ading__retrofit" reason="memory violation" sig=11
+02-11 12:43:26.349 30475-30475/com.example.imageuploading__retrofit E/Zygote: no v2
+02-11 12:43:26.969 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:43:26.974 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:43:26.974 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:43:26.984 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 12:43:26.984 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 12:43:26.989 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 12:43:26.989 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 12:43:26.989 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 12:43:27.004 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:43:27.004 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:43:27.004 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:43:27.009 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:43:27.009 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:43:27.009 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:43:27.069 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:43:27.124 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:43:39.884 2773-3156/? E/Watchdog: !@Sync 170 [02-11 12:43:39.890]
+02-11 12:44:09.884 2773-3156/? E/Watchdog: !@Sync 171 [02-11 12:44:09.891]
+02-11 12:44:26.004 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60136 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:44:39.409 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:44:39.419 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:44:39.524 28782-28838/? E/PlayCommon: [2277] axex.h(133): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+02-11 12:44:39.534 28782-28838/? E/PlayCommon: [2277] axex.h(172): Failed to connect to server for log upload.
+02-11 12:44:39.889 2773-3156/? E/Watchdog: !@Sync 172 [02-11 12:44:39.893]
+02-11 12:45:09.889 2773-3156/? E/Watchdog: !@Sync 173 [02-11 12:45:09.895]
+02-11 12:45:26.139 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 7ms lastUpdatedAfter : 60137 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:45:39.894 2773-3156/? E/Watchdog: !@Sync 174 [02-11 12:45:39.896]
+02-11 12:46:05.059 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 12:46:09.894 2773-3156/? E/Watchdog: !@Sync 175 [02-11 12:46:09.898]
+02-11 12:46:26.269 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60130 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:46:39.894 2773-3156/? E/Watchdog: !@Sync 176 [02-11 12:46:39.900]
+02-11 12:46:48.584 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:46:48.589 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:47:09.899 2773-3156/? E/Watchdog: !@Sync 177 [02-11 12:47:09.901]
+02-11 12:47:26.409 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60140 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:47:39.899 2773-3156/? E/Watchdog: !@Sync 178 [02-11 12:47:39.903]
+02-11 12:48:09.904 2773-3156/? E/Watchdog: !@Sync 179 [02-11 12:48:09.905]
+02-11 12:48:26.494 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60083 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:48:39.899 2773-3156/? E/Watchdog: !@Sync 180 [02-11 12:48:39.906]
+02-11 12:48:57.749 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:48:57.749 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:49:09.904 2773-3156/? E/Watchdog: !@Sync 181 [02-11 12:49:09.908]
+02-11 12:49:26.614 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 4ms lastUpdatedAfter : 60122 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:49:39.649 28782-28838/? E/PlayCommon: [2277] axex.h(133): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+02-11 12:49:39.654 28782-28838/? E/PlayCommon: [2277] axex.h(172): Failed to connect to server for log upload.
+02-11 12:49:39.904 2773-3156/? E/Watchdog: !@Sync 182 [02-11 12:49:39.909]
+02-11 12:50:09.909 2773-3156/? E/Watchdog: !@Sync 183 [02-11 12:50:09.911]
+02-11 12:50:20.959 30475-30475/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:50:20.964 30254-30626/? E/Resources: RunTimeException
+    android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
+        at android.content.res.Resources.getValue(Resources.java:2598)
+        at android.content.res.Resources.startRC(Resources.java:1132)
+        at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 12:50:21.069 30293-30293/? E/MotionRecognitionManager: mSContextService = null
+02-11 12:50:21.069 30293-30293/? E/MotionRecognitionManager: motionService = null
+02-11 12:50:21.219 2773-3849/? E/InputMethodManagerService: Perflock object null
+02-11 12:50:21.224 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 12:50:21.224 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 12:50:21.224 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 12:50:21.229 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 12:50:21.229 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 12:50:26.759 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 7ms lastUpdatedAfter : 60143 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:50:29.899 30475-30475/com.example.imageuploading__retrofit E/File: [/storage/emulated/0/mediapicker/images/d91be4e9-743e-4b91-b7e9-bf14a1f96b69.jpg, /storage/emulated/0/mediapicker/images/c5bcc76d-31c7-4792-b522-4313cbff9374.jpg]
+02-11 12:50:29.899 30475-30475/com.example.imageuploading__retrofit E/stream: java.io.FileInputStream@b9b61ea
+02-11 12:50:29.919 30475-30475/com.example.imageuploading__retrofit E/IMages From Stream: android.graphics.Bitmap@8c5b2b6
+02-11 12:50:30.139 30418-30637/? E/Controller: [#CMH#] Content inserted without datetaken 
+02-11 12:50:30.149 30475-30475/com.example.imageuploading__retrofit E/MediaStore: Failed to insert image
+    java.io.FileNotFoundException: No such file or directory
+        at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:144)
+        at android.content.ContentProviderProxy.openAssetFile(ContentProviderNative.java:621)
+        at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1009)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:751)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:727)
+        at android.provider.MediaStore$Images$Media.insertImage(MediaStore.java:995)
+        at com.example.imageuploading__retrofit.MainActivity.resizeIMagestoAdapter(MainActivity.java:188)
+        at com.example.imageuploading__retrofit.MainActivity.onActivityResult(MainActivity.java:311)
+        at android.app.Activity.dispatchActivityResult(Activity.java:7165)
+        at android.app.ActivityThread.deliverResults(ActivityThread.java:5028)
+        at android.app.ActivityThread.handleSendResult(ActivityThread.java:5075)
+        at android.app.ActivityThread.access$1600(ActivityThread.java:229)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1886)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+02-11 12:50:30.449 30475-30475/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:50:30.454 30475-30475/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:50:34.544 30653-30653/? E/Zygote: no v2
+02-11 12:50:35.124 3643-7822/? E/axfe: Exception occurred while getting SettingsStore instance.
+    java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at bsvc.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):19)
+        at bsvc.get(:com.google.android.gms@203019017@20.30.19 (040306-326531024):13)
+        at axfe.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axfe.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):20)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):4)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+     Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at gai.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):8)
+        at gao.c(:com.google.android.gms@203019017@20.30.19 (040306-326531024):15)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):1)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at gao.e(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfr.call(Unknown Source)
+        at bsyo.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at bsyp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxw.execute(:com.google.android.gms@203019017@20.30.19 (040306-326531024):5)
+        at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:104)
+        at bsvd.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfs.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68) 
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11) 
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2) 
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12) 
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0) 
+        at java.lang.Thread.run(Thread.java:818) 
+02-11 12:50:35.324 3643-7822/? E/axfe: Exception occurred while getting SettingsStore instance.
+    java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at bsvc.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):19)
+        at bsvc.get(:com.google.android.gms@203019017@20.30.19 (040306-326531024):13)
+        at axfe.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axfe.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):20)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):4)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+     Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at gai.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):8)
+        at gao.c(:com.google.android.gms@203019017@20.30.19 (040306-326531024):15)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):1)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at gao.e(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfr.call(Unknown Source)
+        at bsyo.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at bsyp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxw.execute(:com.google.android.gms@203019017@20.30.19 (040306-326531024):5)
+        at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:104)
+        at bsvd.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfs.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68) 
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11) 
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2) 
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12) 
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0) 
+        at java.lang.Thread.run(Thread.java:818) 
+02-11 12:50:39.909 2773-3156/? E/Watchdog: !@Sync 184 [02-11 12:50:39.913]
+02-11 12:50:57.264 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 12:51:06.934 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:51:06.934 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:51:09.909 2773-3156/? E/Watchdog: !@Sync 185 [02-11 12:51:09.914]
+02-11 12:51:11.324 30475-30475/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 12:51:26.884 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 8ms lastUpdatedAfter : 60126 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:51:30.729 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 12:51:30.729 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 12:51:30.729 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 12:51:30.759 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 12:51:30.759 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 12:51:30.784 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:51:30.829 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 12:51:39.914 2773-3156/? E/Watchdog: !@Sync 186 [02-11 12:51:39.915]
+02-11 12:52:09.909 2773-3156/? E/Watchdog: !@Sync 187 [02-11 12:52:09.917]
+02-11 12:52:26.994 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60111 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:52:39.914 2773-3156/? E/Watchdog: !@Sync 188 [02-11 12:52:39.918]
+02-11 12:52:53.059 2773-2858/? E/MARsDBManager: updateDBAll : begin --size 1
+02-11 12:52:53.074 2773-2858/? E/MARsDBManager: updateDBAll : end
+02-11 12:53:09.919 2773-3156/? E/Watchdog: !@Sync 189 [02-11 12:53:09.920]
+02-11 12:53:16.094 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:53:16.104 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:53:27.044 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60049 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:53:39.914 2773-3156/? E/Watchdog: !@Sync 190 [02-11 12:53:39.922]
+02-11 12:54:09.919 2773-3156/? E/Watchdog: !@Sync 191 [02-11 12:54:09.923]
+02-11 12:54:27.089 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60046 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:54:39.764 28782-28838/? E/PlayCommon: [2277] axex.h(133): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+02-11 12:54:39.774 28782-28838/? E/PlayCommon: [2277] axex.h(172): Failed to connect to server for log upload.
+02-11 12:54:39.924 2773-3156/? E/Watchdog: !@Sync 192 [02-11 12:54:39.925]
+02-11 12:55:09.924 2773-3156/? E/Watchdog: !@Sync 193 [02-11 12:55:09.927]
+02-11 12:55:25.309 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:55:25.314 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:55:27.154 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60067 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:55:39.924 2773-3156/? E/Watchdog: !@Sync 194 [02-11 12:55:39.928]
+02-11 12:56:09.929 2773-3156/? E/Watchdog: !@Sync 195 [02-11 12:56:09.930]
+02-11 12:56:27.289 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60134 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:56:29.764 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 12:56:39.924 2773-3156/? E/Watchdog: !@Sync 196 [02-11 12:56:39.931]
+02-11 12:56:53.504 3643-30791/? E/WakeLock: GCM_HB_ALARM release without a matched acquire!
+02-11 12:56:53.509 3643-30791/? E/WakeLock: GCM_CONN_ALARM release without a matched acquire!
+02-11 12:57:09.929 2773-3156/? E/Watchdog: !@Sync 197 [02-11 12:57:09.933]
+02-11 12:57:27.404 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60115 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:57:34.469 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:57:34.474 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:57:39.934 2773-3156/? E/Watchdog: !@Sync 198 [02-11 12:57:39.935]
+02-11 12:58:09.934 2773-3156/? E/Watchdog: !@Sync 199 [02-11 12:58:09.936]
+02-11 12:58:27.544 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60137 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:58:39.934 2773-3156/? E/Watchdog: !@Sync 200 [02-11 12:58:39.938]
+02-11 12:58:41.734 30828-30828/? E/Zygote: no v2
+02-11 12:58:41.754 30838-30838/? E/Zygote: no v2
+02-11 12:58:41.839 30838-30838/? E/<GBA>: GbaSrv: initGbaAccessibleObj GBA not supported tm /need to support GBA-ME
+02-11 12:58:41.839 30838-30838/? E/<GBA>: GbaSrv: intent is null
+02-11 12:59:00.274 30894-30894/? E/Zygote: no v2
+02-11 12:59:09.934 2773-3156/? E/Watchdog: !@Sync 201 [02-11 12:59:09.940]
+02-11 12:59:27.629 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 4ms lastUpdatedAfter : 60084 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 12:59:39.884 28782-28838/? E/PlayCommon: [2277] axex.h(133): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+02-11 12:59:39.894 28782-28838/? E/PlayCommon: [2277] axex.h(172): Failed to connect to server for log upload.
+02-11 12:59:39.934 2773-3156/? E/Watchdog: !@Sync 202 [02-11 12:59:39.941]
+02-11 12:59:43.629 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:59:43.634 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 12:59:44.734 30949-30949/? E/Zygote: no v2
+02-11 13:00:09.939 2773-3156/? E/Watchdog: !@Sync 203 [02-11 13:00:09.943]
+02-11 13:00:27.684 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60056 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:00:39.944 2773-3156/? E/Watchdog: !@Sync 204 [02-11 13:00:39.944]
+02-11 13:01:09.944 2773-3156/? E/Watchdog: !@Sync 205 [02-11 13:01:09.946]
+02-11 13:01:27.774 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60093 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:01:30.259 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:01:30.259 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:01:30.259 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:01:30.269 3064-10191/? E/KeyguardViewMediator: lockAfterTimeout = 5000 policyTimeout = 0
+02-11 13:01:30.294 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:01:30.294 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:01:30.294 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:01:30.299 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:01:30.299 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:01:30.299 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:01:30.354 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:01:30.419 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:01:31.089 2773-2868/? E/PowerManagerService: handleSandman : startDreaming, but isDreaming false
+02-11 13:01:31.114 2773-2773/? E/InputMethodManagerService: Perflock object null
+02-11 13:01:31.129 31040-31040/? E/Zygote: no v2
+02-11 13:01:31.139 4085-4103/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 13:01:31.164 2773-3007/? E/WifiNative-wlan0: do suspend true
+02-11 13:01:31.319 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: isLockScreenEnabled []
+02-11 13:01:31.319 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:01:31.324 6307-6427/? E/BtGatt.GattService: [GSIM LOG]: gsimLogHandler: com.samsung.android.beaconmanager, msg: MESSAGE_STOP_SCAN
+02-11 13:01:32.334 31054-31054/? E/Zygote: no v2
+02-11 13:01:32.424 31054-31066/? E/SPPClientService: ShipBuild Binary : True
+02-11 13:01:32.544 31068-31068/? E/Zygote: no v2
+02-11 13:01:32.684 31068-31087/? E/SPPClientService: ShipBuild Binary : True
+02-11 13:01:32.689 31054-31054/? E/SPPClientService: [ICommonReqService] invalid request. do nothing
+02-11 13:01:32.764 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=61, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:01:35.304 3064-3064/? E/KeyguardViewMediator: setShowingLocked mShowing = true
+02-11 13:01:35.489 3064-3064/? E/LSO: LSO Service is not yet ready!!!
+02-11 13:01:39.944 2773-3156/? E/Watchdog: !@Sync 206 [02-11 13:01:39.947]
+02-11 13:01:42.154 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 13:02:09.949 2773-3156/? E/Watchdog: !@Sync 207 [02-11 13:02:09.949]
+02-11 13:02:27.909 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60135 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:02:39.949 2773-3156/? E/Watchdog: !@Sync 208 [02-11 13:02:39.951]
+02-11 13:03:09.949 2773-3156/? E/Watchdog: !@Sync 209 [02-11 13:03:09.952]
+02-11 13:03:28.024 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60116 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:03:39.949 2773-3156/? E/Watchdog: !@Sync 210 [02-11 13:03:39.954]
+02-11 13:03:40.339 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:03:40.344 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:04:09.954 2773-3156/? E/Watchdog: !@Sync 211 [02-11 13:04:09.955]
+02-11 13:04:28.164 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60136 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:04:39.954 2773-3156/? E/Watchdog: !@Sync 212 [02-11 13:04:39.957]
+02-11 13:04:53.064 2773-2858/? E/MARsDBManager: updateDBAll : begin --size 0
+02-11 13:04:53.064 2773-2858/? E/MARsDBManager: updateDBAll : end
+02-11 13:05:09.954 2773-3156/? E/Watchdog: !@Sync 213 [02-11 13:05:09.958]
+02-11 13:05:17.534 2773-2970/? E/SamsungWindowManager: mCoreNumLockHelper.acquire
+02-11 13:05:17.669 4085-4103/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 13:05:17.749 2773-3007/? E/WifiNative-wlan0: do suspend false
+02-11 13:05:17.809 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: isLockScreenEnabled []
+02-11 13:05:17.809 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:05:17.864 2773-3044/? E/lights: write_int failed to open -1
+02-11 13:05:17.979 6307-6427/? E/BtGatt.GattService: [GSIM LOG]: gsimLogHandler: com.samsung.android.beaconmanager, msg: MESSAGE_START_SCAN
+02-11 13:05:17.989 6307-6415/? E/BtGatt.ScanManager: default value of curScanSetting 0 is choosen
+02-11 13:05:18.864 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:05:18.864 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:05:19.364 2773-3044/? E/lights: write_int failed to open -1
+02-11 13:05:19.614 31425-31425/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:05:19.689 31434-31434/? E/Zygote: no v2
+02-11 13:05:19.709 2773-2969/? E/InputDispatcher: channel ~ Channel is unrecoverably broken and will be disposed!
+02-11 13:05:19.724 2773-2830/? E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 56)
+02-11 13:05:19.789 31448-31448/? E/Zygote: no v2
+02-11 13:05:21.209 3064-3064/? E/LockPatternView: notifyPatternDetected
+02-11 13:05:21.279 2215-2215/? E/gatekeeperd: verify ret = 0
+02-11 13:05:21.279 2215-2215/? E/GateKeeperService: verify ret = 0
+02-11 13:05:21.284 3064-3064/? E/SecurityPatternView: onPatternChecked true
+02-11 13:05:21.509 3064-3064/? E/KeyguardViewMediator: setShowingLocked mShowing = false
+02-11 13:05:21.534 31473-31473/? E/Zygote: no v2
+02-11 13:05:21.624 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: isLockScreenEnabled []
+02-11 13:05:21.624 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:05:21.679 4085-4097/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 13:05:21.814 31467-31467/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:05:22.039 2773-3480/? E/InputMethodManagerService: Perflock object null
+02-11 13:05:22.049 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:05:22.049 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:05:22.049 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:05:22.054 31465-31465/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:05:22.064 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 13:05:22.064 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:05:22.249 31507-31507/? E/Zygote: no v2
+02-11 13:05:22.729 31519-31519/? E/Zygote: no v2
+02-11 13:05:23.674 31500-31500/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:05:23.779 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 13:05:24.849 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:05:24.849 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:05:27.164 31553-31553/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:05:27.949 2773-2944/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:05:27.969 31564-31564/? E/Zygote: no v2
+02-11 13:05:28.069 31564-31575/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:05:28.079 31564-31574/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:05:28.099 31577-31577/? E/Zygote: no v2
+02-11 13:05:28.289 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 7ms lastUpdatedAfter : 60127 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:05:29.734 31577-31577/? E/Finsky: [1] VerifyPerSourceInstallationConsentInstallTask.f(2): Package name null is not an installed package
+02-11 13:05:29.964 31649-31649/? E/Zygote: no v2
+02-11 13:05:32.559 31674-31674/? E/Zygote: no v2
+02-11 13:05:39.184 31699-31699/? E/Zygote: no v2
+02-11 13:05:39.954 2773-3156/? E/Watchdog: !@Sync 214 [02-11 13:05:39.960]
+02-11 13:05:42.034 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:05:42.039 19291-19291/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-11 13:05:55.409 2773-2884/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:06:07.944 2773-2884/? E/SecureStorageService: Process failed status=0x0200
+02-11 13:06:08.244 2199-2199/? E/installd: Couldn't opendir /data/app/vmdl2147413579.tmp: No such file or directory
+02-11 13:06:08.334 4085-4097/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 13:06:08.409 31739-31739/? E/Zygote: no v2
+02-11 13:06:08.684 2773-2858/? E/MARsDBManager: insertPackage com.example.imageuploading__retrofit is already exist in DB!
+02-11 13:06:08.874 3248-3248/? E/Launcher.Model: onPackageChanged :com.example.imageuploading__retrofit
+02-11 13:06:09.739 31739-31795/? E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.cricbuzz.android/app_webview/variations_seed_new": /data/user/0/com.cricbuzz.android/app_webview/variations_seed_new: open failed: ENOENT (No such file or directory)
+02-11 13:06:09.954 2773-3156/? E/Watchdog: !@Sync 215 [02-11 13:06:09.961]
+02-11 13:06:10.299 31739-31809/? E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+02-11 13:06:11.044 31779-31789/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x3000e in tid 31789 (Compiler driver)
+02-11 13:06:11.079 4104-4104/? E/audit: type=1701 msg=audit(1613028971.079:1449): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=31779 comm="main" reason="memory violation" sig=11
+02-11 13:06:11.084 4104-4104/? E/audit: type=1701 msg=audit(1613028971.079:1450): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=31789 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-11 13:06:11.099 25924-25924/? E/DEBUG: unexpected waitpid response: n=31789, status=0000000b
+02-11 13:06:11.099 25924-25924/? E/DEBUG: tid exited before attach completed: tid 31789
+02-11 13:06:11.144 31848-31848/? E/Zygote: no v2
+02-11 13:06:11.339 31863-31863/? E/Zygote: no v2
+02-11 13:06:11.514 31877-31877/? E/Zygote: no v2
+02-11 13:06:11.724 31897-31897/? E/Zygote: no v2
+02-11 13:06:11.824 31910-31910/? E/Zygote: no v2
+02-11 13:06:11.889 2773-3894/? E/SensorService: getSensorList a sensor (Sensor's Diagnostic Monitor) without holding its required permission: com.samsung.permission.SSENSOR
+02-11 13:06:11.894 31739-31923/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-11 13:06:11.899 31739-31923/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-11 13:06:11.899 31739-31923/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-11 13:06:11.969 31926-31926/? E/Zygote: no v2
+02-11 13:06:12.114 2182-2182/? E/lowmemorykiller: Error writing /proc/31926/oom_score_adj; errno=22
+02-11 13:06:12.139 31941-31941/? E/Zygote: no v2
+02-11 13:06:12.204 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:06:12.204 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:06:12.349 3234-3951/? E/PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+02-11 13:06:12.634 31967-31967/? E/Zygote: no v2
+02-11 13:06:12.924 31967-31967/? E/SALog: false
+02-11 13:06:13.284 31967-32018/? E/ActivityThread: Failed to find provider info for null
+02-11 13:06:13.379 32028-32028/? E/Zygote: no v2
+02-11 13:06:13.419 2773-2832/? E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 80)
+02-11 13:06:13.444 32028-32028/? E/AASAservice-TokenRule: parseToken() : TokenFile is null
+02-11 13:06:13.454 32028-32028/? E/AASAservice-UpdateReceiver: AASAUpdateReceiver : myrule is null.
+02-11 13:06:13.604 32042-32042/? E/Zygote: no v2
+02-11 13:06:13.884 32061-32061/? E/Zygote: no v2
+02-11 13:06:13.894 27127-27657/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-11 13:06:14.154 27127-31987/? E/ChromeSync: [Sync,SyncIntentOperation] Error handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.imageuploading__retrofit flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService bqHint=4 (has extras) }.
+02-11 13:06:14.259 32061-32061/? E/ACRA: Initializing ANR detector for process: com.facebook.appmanager
+02-11 13:06:14.494 32061-32061/? E/SQLiteLog: (14) cannot open file at line 31558 of [5a3022e081]
+02-11 13:06:14.494 32061-32061/? E/SQLiteLog: (14) os_unix.c:31558: (2) open(/data/user/0/com.facebook.appmanager/databases/androidx.work.workdb) - 
+02-11 13:06:14.499 32061-32061/? E/SQLiteDatabase: Failed to open database '/data/user/0/com.facebook.appmanager/databases/androidx.work.workdb'.
+    android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 1294): Could not open database
+    #################################################################
+    Error Code : 1294 (SQLITE_CANTOPEN_ENOENT)
+    Caused By : Specified directory or database file does not exist.
+    	(unknown error (code 1294): Could not open database)
+    #################################################################
+        at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:238)
+        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:199)
+        at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:514)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:206)
+        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:178)
+        at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:934)
+        at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:895)
+        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:708)
+        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:683)
+        at com.facebook.oxygen.common.androidx.workmanager.initializer.b.a(WorkManagerDatabase.java:20)
+        at com.facebook.oxygen.appmanager.app.c.b(AppManagerApplicationImpl.java:19)
+        at com.facebook.oxygen.common.e.b.d.onCreate(OxpDelegatingApplication.java:68)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1037)
+        at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6456)
+        at android.app.ActivityThread.access$1800(ActivityThread.java:229)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1898)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+02-11 13:06:14.589 32094-32094/? E/Zygote: no v2
+02-11 13:06:14.904 32061-32108/? E/ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+02-11 13:06:15.484 2773-3012/? E/ConnectivityService: updateNetworkInfo()
+02-11 13:06:15.664 2773-3007/? E/WifiNative-wlan0: do suspend false
+02-11 13:06:15.754 32119-32119/? E/dhcpcd: fopen `/system/etc/dhcpcd/dhcpcd.conf': No such file or directory
+02-11 13:06:15.764 32119-32119/? E/dhcpcd: fopen `/system/etc/dhcpcd/dhcpcd.conf': No such file or directory
+02-11 13:06:16.514 32146-32146/? E/Zygote: no v2
+02-11 13:06:16.714 2773-3012/? E/ConnectivityService: updateNetworkInfo()
+02-11 13:06:16.729 3594-3738/? E/CII: IMSConnectivityManager MOBILE_INET [DISCONNECTED] Since (N/A) MOBILE_IMS [DISCONNECTED] Since (N/A) WIFI [CONNECTING] Since (13:06:15.520): changeState : Already In State [0]
+02-11 13:06:16.804 2773-3007/? E/WifiStateMachine: Did not find remoteAddress {192.168.152.97} in /proc/net/arp
+02-11 13:06:16.804 2773-3007/? E/WifiStateMachine: Did not find remoteAddress {192.168.152.97} in /proc/net/arp
+02-11 13:06:16.909 2193-2938/? E/Netd: netlink response contains error (File exists)
+02-11 13:06:16.909 2773-3012/? E/ConnectivityService: Unexpected mtu value: 0, wlan0
+02-11 13:06:16.959 2773-3012/? E/ConnectivityService: updateNetworkInfo()
+02-11 13:06:17.209 2773-3012/? E/CSLegacyTypeTracker: add() : Adding agent NetworkAgentInfo{ ni{[type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "Galaxy M218440", roaming: false, failover: false, isAvailable: true]}  network{503}  lp{{InterfaceName: wlan0 LinkAddresses: [192.168.152.43/24,fe80::e65d:75ff:fe37:ce70/64,]  Routes: [fe80::/64 -> :: wlan0,::/0 -> fe80::70be:47ff:fe0a:fde2 wlan0,2401:4900:260b:9f47::/64 -> :: wlan0,192.168.152.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.152.97 wlan0,] DnsAddresses: [192.168.152.97,] Domains:  MTU: 0 TcpBufferSizes: 524288,1048576,2097152,524288,1048576,4525824}}  nc{[ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -20]}  Score{20}  everValidated{false}  lastValidated{false}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} } for legacy network type 1
+02-11 13:06:17.279 3594-3738/? E/CII: IMSConnectivityManager MOBILE_INET [DISCONNECTED] Since (N/A) MOBILE_IMS [DISCONNECTED] Since (N/A) WIFI [CONNECTED] Since (13:06:16.848): changeState : Already In State [1]
+02-11 13:06:17.319 32180-32180/? E/Zygote: no v2
+02-11 13:06:17.394 3594-3649/? E/RegistrationManager: selectMatchingProfileForEPDN : No matching profile for EPDN!
+02-11 13:06:17.649 32180-32205/? E/SPPClientService: ShipBuild Binary : True
+02-11 13:06:18.029 32222-32222/? E/Zygote: no v2
+02-11 13:06:18.554 2773-3185/? E/libgps: LIBGPS: Cannot communicate (write) with a GPSD
+02-11 13:06:18.554 2773-3185/? E/libgps: IPC Communication Error, ../../../../tmp/14666616_258815/proprietary/deliverables/android/gps_interface/gpsi_client/GpsiClient.cpp:1634 agps_ril_update_network_state
+02-11 13:06:18.774 3643-32241/? E/WakeLock: GCM_CONN_ALARM release without a matched acquire!
+02-11 13:06:18.934 27127-27127/? E/GCM: Dropping message to GMS from null as no component is set
+02-11 13:06:19.604 2773-3185/? E/libgps: LIBGPS: Cannot communicate (write) with a GPSD
+02-11 13:06:19.614 2773-3185/? E/libgps: IPC Communication Error, ../../../../tmp/14666616_258815/proprietary/deliverables/android/gps_interface/gpsi_client/GpsiClient.cpp:1653 agps_ril_update_network_availability
+02-11 13:06:20.269 32222-32264/? E/GEL_DELAYED_EVENT_DEBUG: Failed delayed event dispatch, no dispatchers.
+02-11 13:06:20.444 32146-32146/? E/ConnectionService: Failed to connect to GoogleApiClient: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+02-11 13:06:20.449 32146-32321/? E/CustomThreadFactory: UNCAUGHT in thread DataSyncServiceHelper-0
+    java.lang.IllegalStateException: could not connect to GoogleApiClient: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+        at com.google.android.wearable.datatransfer.internal.DefaultPeerProvider.blockingConnect(DefaultPeerProvider.java:73)
+        at com.google.android.wearable.datatransfer.internal.DefaultPeerProvider.getConnectedPeers(DefaultPeerProvider.java:30)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper.processIntent(DataSyncServiceHelper.java:380)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper.access$000(DataSyncServiceHelper.java:49)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper$IntentProcessor.run(DataSyncServiceHelper.java:727)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:06:20.484 32146-32336/? E/CustomThreadFactory: UNCAUGHT in thread DataSyncServiceHelper-1
+    java.lang.IllegalStateException: could not connect to GoogleApiClient: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+        at com.google.android.wearable.datatransfer.internal.DefaultPeerProvider.blockingConnect(DefaultPeerProvider.java:73)
+        at com.google.android.wearable.datatransfer.internal.DefaultPeerProvider.getConnectedPeers(DefaultPeerProvider.java:30)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper.processIntent(DataSyncServiceHelper.java:380)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper.access$000(DataSyncServiceHelper.java:49)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper$IntentProcessor.run(DataSyncServiceHelper.java:727)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:06:20.539 32146-32339/? E/CustomThreadFactory: UNCAUGHT in thread DataSyncServiceHelper-2
+    java.lang.IllegalStateException: could not connect to GoogleApiClient: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+        at com.google.android.wearable.datatransfer.internal.DefaultPeerProvider.blockingConnect(DefaultPeerProvider.java:73)
+        at com.google.android.wearable.datatransfer.internal.DefaultPeerProvider.getConnectedPeers(DefaultPeerProvider.java:30)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper.processIntent(DataSyncServiceHelper.java:380)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper.access$000(DataSyncServiceHelper.java:49)
+        at com.google.android.wearable.datatransfer.internal.DataSyncServiceHelper$IntentProcessor.run(DataSyncServiceHelper.java:727)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:06:22.554 32222-32362/? E/WM-WorkerWrapper: Didn't find WorkSpec for id 9d7d256e-232b-43fc-bd1d-5834508e0488
+02-11 13:06:22.749 3643-4056/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:06:22.854 32222-32362/? E/WM-WorkerWrapper: Didn't find WorkSpec for id 9d7d256e-232b-43fc-bd1d-5834508e0488
+02-11 13:06:22.889 3643-4056/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:06:23.149 32356-32356/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:06:23.234 32397-32397/? E/Zygote: no v2
+02-11 13:06:25.019 32146-32425/? E/GmsUtils: Failed to connect to Google API client: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+02-11 13:06:25.094 32413-32413/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:06:25.104 32411-32411/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:06:25.294 32146-32444/? E/GmsUtils: Failed to connect to Google API client: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+02-11 13:06:26.684 32442-32442/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:06:28.414 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 9ms lastUpdatedAfter : 60122 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:06:29.139 32460-32460/? E/Zygote: no v2
+02-11 13:06:29.779 32472-32472/? E/Zygote: no v2
+02-11 13:06:29.894 32458-32458/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:06:30.619 2773-2944/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:06:30.639 31564-31574/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:06:30.654 31564-31575/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:06:30.669 31577-31577/? E/Finsky: [1] VerifyPerSourceInstallationConsentInstallTask.f(2): Package name null is not an installed package
+02-11 13:06:32.314 32497-32497/? E/Zygote: no v2
+02-11 13:06:32.914 32527-32527/? E/Zygote: no v2
+02-11 13:06:34.424 32546-32546/? E/Zygote: no v2
+02-11 13:06:35.039 2773-3002/? E/SensorService: getSensorList a sensor (Sensor's Diagnostic Monitor) without holding its required permission: com.samsung.permission.SSENSOR
+02-11 13:06:35.354 32546-32602/? E/AudioSystem: AudioSystem::getInputBufferSize failed sampleRate 8000 format 9d7172bc00000010 channelMask 5
+02-11 13:06:36.294 32546-32618/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-11 13:06:36.294 32546-32618/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-11 13:06:36.294 32546-32618/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-11 13:06:36.394 32546-32618/? E/FBAudienceNetwork: You are using custom Application class and don't call AudienceNetworkAds.isInAdsProcess(). Multi-process support will be disabled. Please call AudienceNetworkAds.isInAdsProcess() if you want to support multi-process mode.
+02-11 13:06:36.644 32634-32634/? E/Zygote: no v2
+02-11 13:06:39.524 32670-32670/? E/Zygote: no v2
+02-11 13:06:39.734 32685-32685/? E/Zygote: no v2
+02-11 13:06:39.854 32698-32698/? E/Zygote: no v2
+02-11 13:06:39.954 32714-32714/? E/Zygote: no v2
+02-11 13:06:39.954 2773-3156/? E/Watchdog: !@Sync 216 [02-11 13:06:39.962]
+02-11 13:06:40.044 32670-32727/? E/DBG_POLICYDM: [com.policydm.XDMService(374/lllIlIlIIIllIIlIllIl)] network changed.... 
+02-11 13:06:40.044 32670-32727/? E/DBG_POLICYDM: [com.policydm.XDMBroadcastReceiver(418/llllIIIllIlIIIIllllI)] bNetworkChange : true
+02-11 13:06:40.044 32670-32727/? E/DBG_POLICYDM: [com.policydm.XDMBroadcastReceiver(245/llIIIIlllllIIllIIllI)] DM Not Init
+02-11 13:06:40.084 32670-32727/? E/DBG_POLICYDM: [com.policydm.XDMBroadcastReceiver(409/llIIllllIIlllIIIIlll)] SPD SERVICE Stop!!
+02-11 13:06:40.144 32670-32727/? E/DBG_POLICYDM: [com.policydm.XDMBroadcastReceiver(418/llllIIIllIlIIIIllllI)] bNetworkChange : false
+02-11 13:06:40.494 32670-32712/? E/SQLiteLog: (1) no such column: servicetype
+02-11 13:06:40.744 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=67, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:06:40.744 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=66, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:06:42.684 32735-32735/? E/Zygote: no v2
+02-11 13:06:44.329 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 13:06:45.134 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:06:46.749 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:06:47.289 301-301/? E/Zygote: no v2
+02-11 13:06:47.959 315-315/? E/Zygote: no v2
+02-11 13:06:48.049 315-315/? E/ActivityThread: Failed to find provider info for com.myscript.atk.rmc
+02-11 13:06:49.959 333-333/? E/Zygote: no v2
+02-11 13:06:50.064 347-347/? E/Zygote: no v2
+02-11 13:06:50.174 3248-3248/? E/Launcher.Model: onPackageChanged :com.sec.android.soagent
+02-11 13:06:50.224 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:06:52.234 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:06:53.344 374-374/? E/Zygote: no v2
+02-11 13:06:53.464 386-386/? E/Zygote: no v2
+02-11 13:06:53.654 386-386/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+02-11 13:06:53.824 414-414/? E/Zygote: no v2
+02-11 13:06:53.909 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=68, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:06:57.339 467-467/? E/Zygote: no v2
+02-11 13:06:58.254 467-520/? E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.cricbuzz.android/app_webview/variations_seed_new": /data/user/0/com.cricbuzz.android/app_webview/variations_seed_new: open failed: ENOENT (No such file or directory)
+02-11 13:06:58.699 467-537/? E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+02-11 13:07:00.664 506-522/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x3000e in tid 522 (Compiler driver)
+02-11 13:07:00.729 4104-4104/? E/audit: type=1701 msg=audit(1613029020.729:1469): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=523 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-11 13:07:00.734 4104-4104/? E/audit: type=1701 msg=audit(1613029020.729:1470): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=522 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-11 13:07:00.779 25924-25924/? E/DEBUG: unexpected waitpid response: n=522, status=0000000b
+02-11 13:07:00.779 25924-25924/? E/DEBUG: tid exited before attach completed: tid 522
+02-11 13:07:00.854 2773-2884/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:07:01.349 2773-3263/? E/SensorService: getSensorList a sensor (Sensor's Diagnostic Monitor) without holding its required permission: com.samsung.permission.SSENSOR
+02-11 13:07:01.349 467-613/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-11 13:07:01.349 467-613/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-11 13:07:01.349 467-613/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-11 13:07:09.959 2773-3156/? E/Watchdog: !@Sync 217 [02-11 13:07:09.963]
+02-11 13:07:13.729 2773-2884/? E/SecureStorageService: Process failed status=0x0200
+02-11 13:07:13.979 2199-2199/? E/installd: Couldn't opendir /data/app/vmdl383456224.tmp: No such file or directory
+02-11 13:07:14.164 4085-4103/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 13:07:14.404 643-643/? E/Zygote: no v2
+02-11 13:07:14.424 651-651/? E/Zygote: no v2
+02-11 13:07:14.624 2773-2858/? E/MARsDBManager: insertPackage com.example.imageuploading__retrofit is already exist in DB!
+02-11 13:07:14.699 674-674/? E/Zygote: no v2
+02-11 13:07:14.819 3248-3248/? E/Launcher.Model: onPackageChanged :com.example.imageuploading__retrofit
+02-11 13:07:15.424 688-688/? E/Zygote: no v2
+02-11 13:07:15.494 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=70, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:07:15.544 700-700/? E/Zygote: no v2
+02-11 13:07:15.674 713-713/? E/Zygote: no v2
+02-11 13:07:15.834 726-726/? E/Zygote: no v2
+02-11 13:07:15.949 742-742/? E/Zygote: no v2
+02-11 13:07:16.064 755-755/? E/Zygote: no v2
+02-11 13:07:16.104 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:07:16.109 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:07:16.239 3234-3246/? E/PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+02-11 13:07:16.324 638-638/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:07:16.434 781-781/? E/Zygote: no v2
+02-11 13:07:16.624 806-806/? E/Zygote: no v2
+02-11 13:07:16.769 806-806/? E/AASAservice-TokenRule: parseToken() : TokenFile is null
+02-11 13:07:16.789 806-806/? E/AASAservice-UpdateReceiver: AASAUpdateReceiver : myrule is null.
+02-11 13:07:16.909 827-827/? E/Zygote: no v2
+02-11 13:07:17.319 27127-27657/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-11 13:07:17.449 864-864/? E/Zygote: no v2
+02-11 13:07:17.574 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:07:17.574 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:07:17.574 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:07:17.604 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 13:07:17.604 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:07:17.614 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:07:17.614 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:07:17.614 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:07:17.639 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:07:17.639 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:07:17.639 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:07:17.649 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:07:17.649 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:07:17.649 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:07:17.724 880-880/? E/Zygote: no v2
+02-11 13:07:17.779 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:07:17.894 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:07:18.024 27127-28069/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:07:18.329 27127-28069/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:07:18.734 914-914/? E/Zygote: no v2
+02-11 13:07:21.384 939-939/? E/Zygote: no v2
+02-11 13:07:21.729 31577-31627/? E/PlayCommon: [2530] axeo.<init>(8): Failed to restore PlayMetalog
+02-11 13:07:21.729 31577-31627/? E/PlayCommon: [2530] axeo.<init>(11): Failed to restore LogsUploadAttempt
+02-11 13:07:22.559 939-980/? E/GEL_DELAYED_EVENT_DEBUG: Failed delayed event dispatch, no dispatchers.
+02-11 13:07:28.559 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 17ms lastUpdatedAfter : 60144 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:07:39.959 2773-3156/? E/Watchdog: !@Sync 218 [02-11 13:07:39.964]
+02-11 13:07:49.884 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:07:49.884 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:07:51.209 1085-1085/? E/Zygote: no v2
+02-11 13:07:51.214 781-781/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:07:51.309 1085-1101/? E/Resources: RunTimeException
+    android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
+        at android.content.res.Resources.getValue(Resources.java:2598)
+        at android.content.res.Resources.startRC(Resources.java:1132)
+        at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:07:51.479 1104-1104/? E/Zygote: no v2
+02-11 13:07:51.624 1117-1117/? E/Zygote: no v2
+02-11 13:07:51.759 1104-1104/? E/MotionRecognitionManager: mSContextService = null
+02-11 13:07:51.759 1104-1104/? E/MotionRecognitionManager: motionService = null
+02-11 13:07:51.814 1135-1135/? E/Zygote: no v2
+02-11 13:07:51.934 1165-1165/? E/Zygote: no v2
+02-11 13:07:52.024 2773-3849/? E/InputMethodManagerService: Perflock object null
+02-11 13:07:52.049 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:07:52.049 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:07:52.049 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:07:52.059 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 13:07:52.059 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:07:54.769 781-781/com.example.imageuploading__retrofit E/File: [/storage/emulated/0/mediapicker/images/0d3e200f-9a8e-470a-8a93-cc6c10885c40.jpg]
+02-11 13:07:54.769 781-781/com.example.imageuploading__retrofit E/stream: java.io.FileInputStream@99cca8c
+02-11 13:07:54.809 781-781/com.example.imageuploading__retrofit E/IMages From Stream: android.graphics.Bitmap@70a3a51
+02-11 13:07:55.059 1210-1210/? E/Zygote: no v2
+02-11 13:07:55.084 781-781/com.example.imageuploading__retrofit E/MediaStore: Failed to insert image
+    java.io.FileNotFoundException: No such file or directory
+        at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:144)
+        at android.content.ContentProviderProxy.openAssetFile(ContentProviderNative.java:621)
+        at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1009)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:751)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:727)
+        at android.provider.MediaStore$Images$Media.insertImage(MediaStore.java:995)
+        at com.example.imageuploading__retrofit.MainActivity.resizeIMagestoAdapter(MainActivity.java:188)
+        at com.example.imageuploading__retrofit.MainActivity.onActivityResult(MainActivity.java:309)
+        at android.app.Activity.dispatchActivityResult(Activity.java:7165)
+        at android.app.ActivityThread.deliverResults(ActivityThread.java:5028)
+        at android.app.ActivityThread.handleSendResult(ActivityThread.java:5075)
+        at android.app.ActivityThread.access$1600(ActivityThread.java:229)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1886)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+02-11 13:07:55.514 781-781/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:07:55.524 781-781/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:07:55.529 1210-1228/? E/ServiceManager: [#CMH#] Failed binding To Service  EnhanceService
+02-11 13:07:55.544 1242-1242/? E/Zygote: no v2
+02-11 13:07:55.684 1210-1229/? E/Controller: [#CMH#] Content inserted without datetaken 
+02-11 13:07:56.834 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:07:56.834 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:07:56.844 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=71, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:07:56.849 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=72, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:07:56.869 27127-27127/? E/ActivityThread: Service com.google.android.gms.chimera.GmsBoundBrokerService has leaked IntentReceiver artm@f931332 that was originally registered here. Are you missing a call to unregisterReceiver()?
+    android.app.IntentReceiverLeaked: Service com.google.android.gms.chimera.GmsBoundBrokerService has leaked IntentReceiver artm@f931332 that was originally registered here. Are you missing a call to unregisterReceiver()?
+        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1034)
+        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:821)
+        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1271)
+        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1251)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at arug.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at aruy.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):41)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:07:58.549 1210-1247/? E/ServiceManager: [#CMH#] Failed binding To Service  IPService
+02-11 13:07:58.549 1210-1247/? E/ServiceManager: [#CMH#] Failed binding To Service  FaceService
+02-11 13:07:58.574 1271-1271/? E/Zygote: no v2
+02-11 13:07:58.574 1210-1247/? E/ServiceManager: [#CMH#] Failed binding To Service  TapestryService
+02-11 13:08:09.959 2773-3156/? E/Watchdog: !@Sync 219 [02-11 13:08:09.966]
+02-11 13:08:12.324 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:08:12.324 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:08:23.919 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:08:23.919 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:08:28.684 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60128 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:08:39.964 2773-3156/? E/Watchdog: !@Sync 220 [02-11 13:08:39.967]
+02-11 13:08:43.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:08:43.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:09:09.969 2773-3156/? E/Watchdog: !@Sync 221 [02-11 13:09:09.969]
+02-11 13:09:15.469 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 13:09:24.439 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:09:24.439 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:09:28.819 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60134 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:09:39.964 2773-3156/? E/Watchdog: !@Sync 222 [02-11 13:09:39.971]
+02-11 13:09:44.524 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:09:44.524 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:10:09.969 2773-3156/? E/Watchdog: !@Sync 223 [02-11 13:10:09.972]
+02-11 13:10:23.524 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:10:23.524 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:10:28.964 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 9ms lastUpdatedAfter : 60145 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:10:35.289 1358-1358/? E/Zygote: no v2
+02-11 13:10:35.904 3643-3863/? E/axfe: Exception occurred while getting SettingsStore instance.
+    java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at bsvc.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):19)
+        at bsvc.get(:com.google.android.gms@203019017@20.30.19 (040306-326531024):13)
+        at axfe.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axfe.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):20)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):4)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+     Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at gai.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):8)
+        at gao.c(:com.google.android.gms@203019017@20.30.19 (040306-326531024):15)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):1)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at gao.e(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfr.call(Unknown Source)
+        at bsyo.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at bsyp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxw.execute(:com.google.android.gms@203019017@20.30.19 (040306-326531024):5)
+        at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:104)
+        at bsvd.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfs.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68) 
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11) 
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2) 
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12) 
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0) 
+        at java.lang.Thread.run(Thread.java:818) 
+02-11 13:10:36.059 3643-3863/? E/axfe: Exception occurred while getting SettingsStore instance.
+    java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at bsvc.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):19)
+        at bsvc.get(:com.google.android.gms@203019017@20.30.19 (040306-326531024):13)
+        at axfe.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axfe.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):20)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):4)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+     Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at gai.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at gao.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):8)
+        at gao.c(:com.google.android.gms@203019017@20.30.19 (040306-326531024):15)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):1)
+        at gao.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at gao.e(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfr.call(Unknown Source)
+        at bsyo.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at bsyp.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at bsxw.execute(:com.google.android.gms@203019017@20.30.19 (040306-326531024):5)
+        at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:104)
+        at bsvd.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024))
+        at axfs.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at axax.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):68) 
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11) 
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2) 
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12) 
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0) 
+        at java.lang.Thread.run(Thread.java:818) 
+02-11 13:10:39.969 2773-3156/? E/Watchdog: !@Sync 224 [02-11 13:10:39.974]
+02-11 13:10:53.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:10:53.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:11:09.974 2773-3156/? E/Watchdog: !@Sync 225 [02-11 13:11:09.975]
+02-11 13:11:19.434 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:11:19.434 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:11:29.099 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 7ms lastUpdatedAfter : 60136 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:11:39.969 2773-3156/? E/Watchdog: !@Sync 226 [02-11 13:11:39.977]
+02-11 13:11:50.124 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:11:50.124 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:12:09.974 2773-3156/? E/Watchdog: !@Sync 227 [02-11 13:12:09.979]
+02-11 13:12:19.439 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:12:19.439 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:12:29.244 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 9ms lastUpdatedAfter : 60143 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:12:34.369 27127-1439/? E/FA-SVC: Session engagement user property is in the bundle without session ID. appId: com.cricbuzz.android
+02-11 13:12:35.044 3643-32111/? E/NetworkScheduler.ATC: Called cancelTask for already completed task com.google.android.gms/.measurement.PackageMeasurementTaskService{u=0 tag="Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG" trigger=window{start=178s,end=357s,earliest=-180s,latest=-1s} requirements=[NET_CONNECTED] attributes=[PERSISTED] scheduled=-358s last_run=-1s jid=N/A status=ACTIVE retries=0 client_lib=GMS_TASK_SCHEDULER-203019000} :1 [CONTEXT service_id=218 ]
+02-11 13:12:35.044 3643-32111/? E/NetworkScheduler.ATC: Called cancelTask for already completed task com.google.android.gms/.measurement.PackageMeasurementTaskService{u=0 tag="Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG" trigger=window{start=178s,end=357s,earliest=-180s,latest=-1s} requirements=[NET_CONNECTED] attributes=[PERSISTED] scheduled=-358s last_run=-1s jid=N/A status=ACTIVE retries=0 client_lib=GMS_TASK_SCHEDULER-203019000} :1 [CONTEXT service_id=218 ]
+02-11 13:12:39.979 2773-3156/? E/Watchdog: !@Sync 228 [02-11 13:12:39.980]
+02-11 13:12:50.004 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:12:50.004 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:13:09.979 2773-3156/? E/Watchdog: !@Sync 229 [02-11 13:13:09.982]
+02-11 13:13:29.349 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60104 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:13:39.979 2773-3156/? E/Watchdog: !@Sync 230 [02-11 13:13:39.984]
+02-11 13:14:09.979 2773-3156/? E/Watchdog: !@Sync 231 [02-11 13:14:09.985]
+02-11 13:14:29.489 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60141 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:14:39.984 2773-3156/? E/Watchdog: !@Sync 232 [02-11 13:14:39.987]
+02-11 13:15:09.984 2773-3156/? E/Watchdog: !@Sync 233 [02-11 13:15:09.988]
+02-11 13:15:29.624 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60135 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:15:39.989 2773-3156/? E/Watchdog: !@Sync 234 [02-11 13:15:39.990]
+02-11 13:16:09.989 2773-3156/? E/Watchdog: !@Sync 235 [02-11 13:16:09.992]
+02-11 13:16:22.634 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:16:22.634 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:16:28.724 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 13:16:29.759 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60136 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:16:39.989 2773-3156/? E/Watchdog: !@Sync 236 [02-11 13:16:39.993]
+02-11 13:16:40.329 3643-30136/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:16:40.754 3643-30136/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:16:48.764 1508-1508/? E/Zygote: no v2
+02-11 13:16:49.254 1532-1532/? E/Zygote: no v2
+02-11 13:16:51.284 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:16:52.919 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:16:53.064 2773-2858/? E/MARsDBManager: updateDBAll : begin --size 1
+02-11 13:16:53.094 1548-1548/? E/Zygote: no v2
+02-11 13:16:53.214 2773-2858/? E/MARsDBManager: updateDBAll : end
+02-11 13:16:58.604 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:17:00.694 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:17:09.989 2773-3156/? E/Watchdog: !@Sync 237 [02-11 13:17:09.994]
+02-11 13:17:15.884 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:17:15.884 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:17:21.899 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:17:21.899 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:17:29.809 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60048 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:17:30.254 1578-1578/? E/Zygote: no v2
+02-11 13:17:30.634 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=73, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:17:30.639 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:17:30.644 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:17:30.644 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:17:30.649 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:17:32.559 1594-1594/? E/Zygote: no v2
+02-11 13:17:32.874 1608-1608/? E/Zygote: no v2
+02-11 13:17:34.589 1623-1623/? E/Zygote: no v2
+02-11 13:17:35.264 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:17:35.264 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:17:35.264 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:17:35.279 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 13:17:35.279 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:17:35.284 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:17:35.284 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:17:35.284 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:17:35.304 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:17:35.304 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:17:35.304 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:17:35.309 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:17:35.309 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:17:35.309 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:17:35.379 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:17:35.449 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:17:37.109 1623-1623/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:17:37.114 1085-1662/? E/Resources: RunTimeException
+    android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
+        at android.content.res.Resources.getValue(Resources.java:2598)
+        at android.content.res.Resources.startRC(Resources.java:1132)
+        at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:17:37.219 1104-1104/? E/MotionRecognitionManager: mSContextService = null
+02-11 13:17:37.219 1104-1104/? E/MotionRecognitionManager: motionService = null
+02-11 13:17:37.374 2773-3502/? E/InputMethodManagerService: Perflock object null
+02-11 13:17:37.374 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:17:37.374 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:17:37.374 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:17:37.379 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 13:17:37.379 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 0) DAMAGED Handle(10)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(10)
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 1) DAMAGED Handle(15)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(15)
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 2) DAMAGED Handle(17)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(17)
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 13:17:37.984 3116-16440/? E/libEGL: HWUI     Unit 3) DAMAGED Handle(19)
+02-11 13:17:37.984 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:17:37.984 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(19)
+02-11 13:17:39.994 2773-3156/? E/Watchdog: !@Sync 238 [02-11 13:17:39.995]
+02-11 13:17:45.674 1623-1623/com.example.imageuploading__retrofit E/File: [/storage/emulated/0/mediapicker/images/a12d2fc4-1765-4cac-9fa3-8f0f6181c475.jpg, /storage/emulated/0/mediapicker/images/ed13f598-1c05-4970-9374-b75ae114ffb5.jpg, /storage/emulated/0/mediapicker/images/281161aa-334a-4fe7-a328-f28fe42be882.jpg]
+02-11 13:17:45.674 1623-1623/com.example.imageuploading__retrofit E/stream: java.io.FileInputStream@dfa2cdb
+02-11 13:17:45.694 1623-1623/com.example.imageuploading__retrofit E/IMages From Stream: android.graphics.Bitmap@d9fdf24
+02-11 13:17:45.934 1210-1679/? E/Controller: [#CMH#] Content inserted without datetaken 
+02-11 13:17:45.944 1623-1623/com.example.imageuploading__retrofit E/MediaStore: Failed to insert image
+    java.io.FileNotFoundException: No such file or directory
+        at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:144)
+        at android.content.ContentProviderProxy.openAssetFile(ContentProviderNative.java:621)
+        at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1009)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:751)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:727)
+        at android.provider.MediaStore$Images$Media.insertImage(MediaStore.java:995)
+        at com.example.imageuploading__retrofit.MainActivity.resizeIMagestoAdapter(MainActivity.java:188)
+        at com.example.imageuploading__retrofit.MainActivity.onActivityResult(MainActivity.java:309)
+        at android.app.Activity.dispatchActivityResult(Activity.java:7165)
+        at android.app.ActivityThread.deliverResults(ActivityThread.java:5028)
+        at android.app.ActivityThread.handleSendResult(ActivityThread.java:5075)
+        at android.app.ActivityThread.access$1600(ActivityThread.java:229)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1886)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+02-11 13:17:46.289 1623-1623/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:17:46.294 1623-1623/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:17:52.404 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:17:52.404 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:18:01.329 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:18:01.329 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:18:09.989 2773-3156/? E/Watchdog: !@Sync 239 [02-11 13:18:09.997]
+02-11 13:18:16.404 1623-1623/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:18:26.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:18:26.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:18:29.884 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60077 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:18:39.994 2773-3156/? E/Watchdog: !@Sync 240 [02-11 13:18:39.998]
+02-11 13:19:09.994 2773-3156/? E/Watchdog: !@Sync 241 [02-11 13:19:10.000]
+02-11 13:19:30.004 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60120 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:19:39.994 2773-3156/? E/Watchdog: !@Sync 242 [02-11 13:19:40.001]
+02-11 13:20:09.999 2773-3156/? E/Watchdog: !@Sync 243 [02-11 13:20:10.002]
+02-11 13:20:30.074 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60071 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:20:40.004 2773-3156/? E/Watchdog: !@Sync 244 [02-11 13:20:40.004]
+02-11 13:20:42.314 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:20:42.314 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:20:57.404 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:20:57.404 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:21:10.004 2773-3156/? E/Watchdog: !@Sync 245 [02-11 13:21:10.006]
+02-11 13:21:30.169 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60094 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:21:40.004 2773-3156/? E/Watchdog: !@Sync 246 [02-11 13:21:40.008]
+02-11 13:21:42.129 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:21:42.129 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:21:57.244 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:21:57.244 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:22:10.009 2773-3156/? E/Watchdog: !@Sync 247 [02-11 13:22:10.009]
+02-11 13:22:30.309 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60140 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:22:40.009 2773-3156/? E/Watchdog: !@Sync 248 [02-11 13:22:40.011]
+02-11 13:23:06.589 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:23:06.589 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:23:10.009 2773-3156/? E/Watchdog: !@Sync 249 [02-11 13:23:10.012]
+02-11 13:23:21.644 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:23:21.644 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:23:30.439 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60129 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:23:40.009 2773-3156/? E/Watchdog: !@Sync 250 [02-11 13:23:40.014]
+02-11 13:24:10.014 2773-3156/? E/Watchdog: !@Sync 251 [02-11 13:24:10.016]
+02-11 13:24:30.559 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60122 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:24:40.014 2773-3156/? E/Watchdog: !@Sync 252 [02-11 13:24:40.017]
+02-11 13:24:49.104 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:24:49.104 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:24:50.844 30894-30894/? E/vqs: Sync is not initialized yet
+02-11 13:24:53.249 30894-30894/? E/com.google.android.libraries.uploader.service.lib.service.UploadService: FileNotFoundException!
+    java.io.FileNotFoundException: /data/user/0/com.google.android.gm/cache/uploader/#msg-a:r5202994994293114408/0_ENG LISH MC14.doc: open failed: ENOENT (No such file or directory)
+        at libcore.io.IoBridge.open(IoBridge.java:452)
+        at java.io.FileInputStream.<init>(FileInputStream.java:76)
+        at java.io.FileInputStream.<init>(FileInputStream.java:103)
+        at android.content.ContentResolver.openInputStream(ContentResolver.java:709)
+        at lcx.a(SourceFile:35)
+        at ldg.a(SourceFile:49)
+        at ldh.onServiceConnected(SourceFile:19)
+        at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1339)
+        at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1356)
+        at android.os.Handler.handleCallback(Handler.java:739)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+     Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+        at libcore.io.Posix.open(Native Method)
+        at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+        at libcore.io.IoBridge.open(IoBridge.java:438)
+        at java.io.FileInputStream.<init>(FileInputStream.java:76) 
+        at java.io.FileInputStream.<init>(FileInputStream.java:103) 
+        at android.content.ContentResolver.openInputStream(ContentResolver.java:709) 
+        at lcx.a(SourceFile:35) 
+        at ldg.a(SourceFile:49) 
+        at ldh.onServiceConnected(SourceFile:19) 
+        at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1339) 
+        at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1356) 
+        at android.os.Handler.handleCallback(Handler.java:739) 
+        at android.os.Handler.dispatchMessage(Handler.java:95) 
+        at android.os.Looper.loop(Looper.java:148) 
+        at android.app.ActivityThread.main(ActivityThread.java:7402) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120) 
+02-11 13:24:53.254 30894-30894/? E/Gmail: hjq:Attachment -1857780753 failed during attempt 11 with reason 7
+02-11 13:24:53.254 30894-30894/? E/Gmail: Gmail:Compose Event 1 failed with reason=7
+02-11 13:25:10.019 2773-3156/? E/Watchdog: !@Sync 253 [02-11 13:25:10.019]
+02-11 13:25:11.484 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:25:11.484 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:25:30.694 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60135 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:25:31.289 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:25:31.289 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:25:40.019 2773-3156/? E/Watchdog: !@Sync 254 [02-11 13:25:40.021]
+02-11 13:25:46.324 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:25:46.324 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:25:50.779 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:25:50.779 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:26:10.019 2773-3156/? E/Watchdog: !@Sync 255 [02-11 13:26:10.023]
+02-11 13:26:10.844 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:26:10.844 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:26:30.829 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60131 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:26:40.019 2773-3156/? E/Watchdog: !@Sync 256 [02-11 13:26:40.024]
+02-11 13:26:57.074 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:26:57.074 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:26:59.729 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:27:01.739 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-11 13:27:10.024 2773-3156/? E/Watchdog: !@Sync 257 [02-11 13:27:10.026]
+02-11 13:27:17.124 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:27:17.124 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:27:17.734 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:27:17.739 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:27:17.739 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:27:17.744 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:27:30.909 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60080 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:27:40.024 2773-3156/? E/Watchdog: !@Sync 258 [02-11 13:27:40.027]
+02-11 13:28:10.029 2773-3156/? E/Watchdog: !@Sync 259 [02-11 13:28:10.029]
+02-11 13:28:13.969 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
+02-11 13:28:31.039 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 5ms lastUpdatedAfter : 60131 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:28:40.029 2773-3156/? E/Watchdog: !@Sync 260 [02-11 13:28:40.031]
+02-11 13:28:52.399 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:28:52.399 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:28:53.064 2773-2858/? E/MARsDBManager: updateDBAll : begin --size 1
+02-11 13:28:53.089 2773-2858/? E/MARsDBManager: updateDBAll : end
+02-11 13:29:07.524 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:29:07.524 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 0) DAMAGED Handle(10)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(10)
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 1) DAMAGED Handle(15)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(15)
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 2) DAMAGED Handle(17)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 3) Handle(19)
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(17)
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI Context(-1349646656) Damaged Report-Shader
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI   Shaders(4):
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 0) Handle(10)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 1) Handle(15)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 2) Handle(17)
+02-11 13:29:09.259 3116-16440/? E/libEGL: HWUI     Unit 3) DAMAGED Handle(19)
+02-11 13:29:09.259 3116-16440/? E/libEGL: ------------------------------------------------
+02-11 13:29:09.259 3116-16440/? E/libGLESv2: HWUI Protection: wrong calling from app context F:ES2-glDeleteShader, handle(19)
+02-11 13:29:09.879 2095-2095/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:29:09.979 2107-2107/? E/Zygote: no v2
+02-11 13:29:10.024 2773-3156/? E/Watchdog: !@Sync 261 [02-11 13:29:10.032]
+02-11 13:29:10.144 2120-2120/? E/Zygote: no v2
+02-11 13:29:10.234 2120-2120/? E/<GBA>: GbaSrv: initGbaAccessibleObj GBA not supported tm /need to support GBA-ME
+02-11 13:29:10.234 2120-2120/? E/<GBA>: GbaSrv: intent is null
+02-11 13:29:11.804 2132-2132/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:29:11.804 2137-2137/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:29:13.579 2170-2170/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:29:17.099 2201-2201/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:29:17.884 2773-2944/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:29:17.899 2241-2241/? E/Zygote: no v2
+02-11 13:29:18.009 2241-2274/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:29:18.024 2241-2271/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:29:18.049 31577-31577/? E/Finsky: [1] VerifyPerSourceInstallationConsentInstallTask.f(2): Package name null is not an installed package
+02-11 13:29:19.799 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:29:19.799 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:29:21.354 2291-2291/? E/Zygote: no v2
+02-11 13:29:31.159 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 6ms lastUpdatedAfter : 60119 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:29:39.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:29:39.964 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:29:40.029 2773-3156/? E/Watchdog: !@Sync 262 [02-11 13:29:40.033]
+02-11 13:29:45.564 2326-2326/? E/Zygote: no v2
+02-11 13:29:46.009 2326-2326/? E/AXLOG: Total-CameraPreviewLoading**StartU[1613030386016]**
+02-11 13:29:46.009 2326-2326/? E/AXLOG: Total-CameraUILoading(TSP)**StartU[1613030386016]**
+02-11 13:29:46.164 2326-2326/? E/SecCamera-JNI-Cpp: JNI_OnLoad
+02-11 13:29:46.214 2326-2349/? E/AXLOG: HW Open**StartU[1613030386220]**
+02-11 13:29:46.219 2326-2349/? E/SecCamera-JNI-Java: SecCamera.open()
+02-11 13:29:46.224 2326-2350/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-11 13:29:46.224 2326-2350/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-11 13:29:46.224 2326-2350/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-11 13:29:46.224 2326-2350/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 3, Sensor's Diagnostic Monitor, Samsung Electronics
+02-11 13:29:46.239 2198-2943/? E/CameraService: setCompanionDisableSysFs : cc.disable property set to 0
+02-11 13:29:46.244 2326-2326/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-11 13:29:46.244 2326-2326/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-11 13:29:46.249 2326-2326/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-11 13:29:46.249 2326-2326/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 3, Sensor's Diagnostic Monitor, Samsung Electronics
+02-11 13:29:46.254 2326-2326/? E/AXLOG: GLSurfaceCreate**StartU[1613030386260]**
+02-11 13:29:46.254 2326-2326/? E/AXLOG: onCreate-End**End[1613030386261]**[245]**[]**
+02-11 13:29:46.259 2326-2326/? E/AXLOG: onResume**Start[1613030386267]**
+02-11 13:29:46.264 2198-2943/? E/ExynosCamera: Build Date is (Apr 16 2018) (21:45:46) 
+02-11 13:29:46.339 2326-2349/? E/AXLOG: HW Open**EndU[1613030386345]**
+02-11 13:29:46.374 2326-2326/? E/AXLOG: surfaceCreate**StartU[1613030386379]**
+02-11 13:29:46.419 2326-2346/? E/SecCamera-JNI-Java: checkSupportedShotMode(1000)
+02-11 13:29:46.474 2326-2326/? E/AXLOG: onResume**End[1613030386481]**[214]**[]**
+02-11 13:29:46.549 2326-2326/? E/AXLOG: surfaceCreate**EndU[1613030386557]**
+02-11 13:29:46.564 2326-2346/? E/AXLOG: PrepareStartPreview-End**End[1613030386571]**[10]**[]**
+02-11 13:29:46.569 2326-2385/? E/AXLOG: StartPreview**StartU[1613030386576]**
+02-11 13:29:46.594 2198-2388/? E/ExynosCameraBufferManager: [CAM_ID(0)][SCP_BUF]-ERR(m_alloc[1918]):m_reqBufCount(12)
+02-11 13:29:46.664 2326-2352/? E/AXLOG: GLSurfaceChanged**EndU[1613030386673]**
+02-11 13:29:46.679 2326-2399/? E/AXLOG: BaseMenu-loading**StartU[1613030386686]**
+02-11 13:29:46.814 2326-2352/? E/GLContext: Start drawing frame #1
+02-11 13:29:46.814 2326-2352/? E/GLContext: End drawing frame #1 Elapsed time: 1ms
+02-11 13:29:46.874 2326-2352/? E/GLContext: Start drawing frame #2
+02-11 13:29:46.874 2326-2352/? E/GLContext: End drawing frame #2 Elapsed time: 1ms
+02-11 13:29:46.899 2326-2326/? E/ViewRootImpl: mStopped=false mHasWindowFocus=false mPausedForTransition=false
+02-11 13:29:46.934 2326-2352/? E/GLContext: Start drawing frame #3
+02-11 13:29:46.939 2326-2352/? E/GLContext: End drawing frame #3 Elapsed time: 0ms
+02-11 13:29:46.944 2326-2352/? E/GLContext: Start drawing frame #4
+02-11 13:29:46.944 2326-2352/? E/GLContext: End drawing frame #4 Elapsed time: 0ms
+02-11 13:29:47.194 2326-2385/? E/AXLOG: StartPreview**EndU[1613030387202]**
+02-11 13:29:47.194 2326-2385/? E/AXLOG: Total-CameraPreviewLoading**EndU[1613030387202]**
+02-11 13:29:47.194 2326-2385/? E/AXLOG: Total-Shot2Shot**EndU[1613030387202]**
+02-11 13:29:47.289 2326-2399/? E/AXLOG: BaseMenu-loading**added[1613030387294]**
+02-11 13:29:47.459 2326-2326/? E/AXLOG: Shot2Shot-Autofocus**EndU[1613030387467]**
+02-11 13:29:47.709 2326-2326/? E/AXLOG: StopPreview**End[1613030387715]**[76]**[]**
+02-11 13:29:47.924 2198-2198/? E/libcsc: csc_deinit:: unsupported csc_hw_type
+02-11 13:29:47.924 2198-2198/? E/libcsc: csc_deinit:: unsupported csc_hw_type
+02-11 13:29:47.924 2198-2198/? E/libcsc: csc_deinit:: unsupported csc_hw_type
+02-11 13:29:47.924 2198-2198/? E/libcsc: csc_deinit:: unsupported csc_hw_type
+02-11 13:29:47.934 2198-2198/? E/CameraService: onTorchStatusChangedLocked: cannot get torch status of camera 0
+    : No such file or directory (-2)
+02-11 13:29:47.939 2326-2326/? E/SecCamera-JNI-Java: release mQueue FD Size = 0
+02-11 13:29:47.979 2326-2326/? E/Camera4: Black overlay is already invisible
+02-11 13:29:47.984 2326-2326/? E/AXLOG: BaseMenu-loading**EndU[1613030387990]**
+02-11 13:29:47.984 2326-2326/? E/AXLOG: Total-CameraUILoading(TSP)**EndU[1613030387990]**
+02-11 13:29:48.019 2326-2326/? E/AXLOG: HeavyResource-loading**StartU[1613030388027]**
+02-11 13:29:48.019 2326-2326/? E/AXLOG: HeavyResource-loading**previewThreadComplete[1613030388027]**
+02-11 13:29:48.119 2326-2337/? E/SecCamera-JNI-Java: release mQueue FD Size = 0
+02-11 13:29:48.239 2326-2326/? E/AXLOG: HeavyResource-loading**EndU[1613030388244]**
+02-11 13:29:48.319 2326-2373/? E/ion: ioctl c0044901 failed with code -1: Invalid argument
+02-11 13:29:50.684 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:29:50.684 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:30:10.034 2773-3156/? E/Watchdog: !@Sync 263 [02-11 13:30:10.034]
+02-11 13:30:10.724 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:30:10.724 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:30:20.664 31577-31577/? E/Finsky: [1] aoqr.run(3): Error while cleaning up task
+    java.util.concurrent.ExecutionException: com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: cfn@5bd3a42[status=PENDING, info=[tag=[class anut]]]
+        at bale.s(PG:3)
+        at bale.get(PG:2)
+        at baog.a(PG:1)
+        at banb.r(PG)
+        at aoqr.run(Unknown Source)
+        at android.os.Handler.handleCallback(Handler.java:739)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+     Caused by: com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException: Timed out: cfn@5bd3a42[status=PENDING, info=[tag=[class anut]]]
+02-11 13:30:21.774 2475-2475/? E/Zygote: no v2
+02-11 13:30:24.559 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:30:24.559 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:30:25.044 2773-2884/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-11 13:30:31.309 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 16ms lastUpdatedAfter : 60147 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:30:37.149 2773-2884/? E/SecureStorageService: Process failed status=0x0200
+02-11 13:30:37.524 2199-2199/? E/installd: Couldn't opendir /data/app/vmdl731253147.tmp: No such file or directory
+02-11 13:30:37.669 4085-4097/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-11 13:30:37.724 2507-2507/? E/Zygote: no v2
+02-11 13:30:38.429 2773-2858/? E/MARsDBManager: insertPackage com.example.imageuploading__retrofit is already exist in DB!
+02-11 13:30:38.494 3248-3248/? E/Launcher.Model: onPackageChanged :com.example.imageuploading__retrofit
+02-11 13:30:39.684 2506-2506/? E/AffinityControl: AffinityControl: registerfunction enter
+02-11 13:30:39.794 2593-2593/? E/Zygote: no v2
+02-11 13:30:39.869 2507-2607/? E/cr_VariationsUtils: Failed reading seed file "/data/user/0/com.cricbuzz.android/app_webview/variations_seed_new": /data/user/0/com.cricbuzz.android/app_webview/variations_seed_new: open failed: ENOENT (No such file or directory)
+02-11 13:30:40.029 2773-3156/? E/Watchdog: !@Sync 264 [02-11 13:30:40.036]
+02-11 13:30:40.669 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:30:40.669 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:30:40.669 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:30:40.699 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 13:30:40.699 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:30:40.709 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:30:40.709 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:30:40.709 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:30:40.724 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:30:40.724 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:30:40.724 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:30:40.734 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-11 13:30:40.734 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-11 13:30:40.734 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-11 13:30:40.849 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:30:40.949 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-11 13:30:40.959 2507-2648/? E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+02-11 13:30:41.679 2562-2576/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x3000e in tid 2576 (Compiler driver)
+02-11 13:30:41.764 25924-25924/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-11 13:30:41.764 25924-25924/? E/DEBUG: AM write failed: Broken pipe
+02-11 13:30:41.764 25924-25924/? A/DEBUG: Build fingerprint: 'samsung/o5ltedd/o5lte:6.0.1/MMB29K/G550FYDDU1BRD1:user/release-keys'
+02-11 13:30:41.764 25924-25924/? A/DEBUG: Revision: '0'
+02-11 13:30:41.764 25924-25924/? A/DEBUG: ABI: 'arm'
+02-11 13:30:41.764 25924-25924/? A/DEBUG: pid: 2562, tid: 2576, name: Compiler driver  >>> /system/bin/dex2oat <<<
+02-11 13:30:41.764 25924-25924/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x3000e
+02-11 13:30:41.774 25924-25924/? A/DEBUG:     r0 b1642040  r1 b1642210  r2 ffffffcc  r3 b16420d8
+02-11 13:30:41.774 25924-25924/? A/DEBUG:     r4 b1642040  r5 b16424e8  r6 b1642480  r7 b1644058
+02-11 13:30:41.774 25924-25924/? A/DEBUG:     r8 0003000e  r9 00000000  sl 00000000  fp b1643c08
+02-11 13:30:41.774 25924-25924/? A/DEBUG:     ip b6ef5988  sp b1abf420  lr b6c415f5  pc b6c3f234  cpsr 200f0030
+02-11 13:30:41.794 25924-25924/? A/DEBUG: backtrace:
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #00 pc 00139234  /system/lib/libart-compiler.so (_ZNSt3__16__treeINS_12__value_typeIjjEENS_19__map_value_compareIjS2_NS_4lessIjEELb1EEEN3art21ArenaAllocatorAdapterIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE+655)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #01 pc 0013b5f1  /system/lib/libart-compiler.so (_ZN3art20GlobalValueNumberingD1Ev+1264)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #02 pc 00218d2d  /system/lib/libart-compiler.so (_ZN3art8MIRGraph27GlobalValueNumberingCleanupEv+28)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #03 pc 00218eff  /system/lib/libart-compiler.so (_ZN3art16PassDriverMEOpts9ApplyPassEPNS_14PassDataHolderEPKNS_4PassE+18)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #04 pc 001ca01f  /system/lib/libart-compiler.so
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #05 pc 001ca8a3  /system/lib/libart-compiler.so (_ZNK3art13QuickCompiler7CompileEPKNS_7DexFile8CodeItemEjNS_10InvokeTypeEtjP8_jobjectRKS1_+1478)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #06 pc 002ba57f  /system/lib/libart-compiler.so (_ZNK3art18OptimizingCompiler7CompileEPKNS_7DexFile8CodeItemEjNS_10InvokeTypeEtjP8_jobjectRKS1_+98)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #07 pc 00227335  /system/lib/libart-compiler.so (_ZN3art14CompilerDriver13CompileMethodEPNS_6ThreadEPKNS_7DexFile8CodeItemEjNS_10InvokeTypeEtjP8_jobjectRKS3_NS_24DexToDexCompilationLevelEb+1848)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #08 pc 00227fcf  /system/lib/libart-compiler.so (_ZN3art14CompilerDriver12CompileClassEPKNS_26ParallelCompilationManagerEj+1942)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #09 pc 0021e7b1  /system/lib/libart-compiler.so
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #10 pc 00348741  /system/lib/libart.so (_ZN3art16ThreadPoolWorker3RunEv+256)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #11 pc 00348d79  /system/lib/libart.so (_ZN3art16ThreadPoolWorker8CallbackEPv+52)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #12 pc 0003fe37  /system/lib/libc.so (_ZL15__pthread_startPv+30)
+02-11 13:30:41.794 25924-25924/? A/DEBUG:     #13 pc 0001a56d  /system/lib/libc.so (__start_thread+6)
+02-11 13:30:41.979 25924-25924/? A/DEBUG: Tombstone written to: /data/tombstones/tombstone_09
+02-11 13:30:41.984 4104-4104/? E/audit: type=1701 msg=audit(1613030441.979:1479): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=2576 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-11 13:30:42.074 2686-2686/? E/Zygote: no v2
+02-11 13:30:42.314 2701-2701/? E/Zygote: no v2
+02-11 13:30:42.544 2720-2720/? E/Zygote: no v2
+02-11 13:30:42.899 2745-2745/? E/Zygote: no v2
+02-11 13:30:42.999 2758-2758/? E/Zygote: no v2
+02-11 13:30:43.144 2789-2789/? E/Zygote: no v2
+02-11 13:30:43.329 2801-2801/? E/Zygote: no v2
+02-11 13:30:43.364 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:30:43.364 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:30:43.364 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-11 13:30:43.389 27127-27127/? E/ActivityThread: Service com.google.android.gms.chimera.GmsBoundBrokerService has leaked IntentReceiver artm@f931332 that was originally registered here. Are you missing a call to unregisterReceiver()?
+    android.app.IntentReceiverLeaked: Service com.google.android.gms.chimera.GmsBoundBrokerService has leaked IntentReceiver artm@f931332 that was originally registered here. Are you missing a call to unregisterReceiver()?
+        at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1034)
+        at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:821)
+        at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1271)
+        at android.app.ContextImpl.registerReceiver(ContextImpl.java:1251)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:583)
+        at arug.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):3)
+        at aruy.a(:com.google.android.gms@203019017@20.30.19 (040306-326531024):41)
+        at aaii.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):11)
+        at bnyw.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):2)
+        at suq.b(:com.google.android.gms@203019017@20.30.19 (040306-326531024):12)
+        at suq.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tas.run(:com.google.android.gms@203019017@20.30.19 (040306-326531024):0)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:30:43.484 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=75, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:30:43.484 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=76, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-11 13:30:43.489 3234-3532/? E/PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+02-11 13:30:43.779 2828-2828/? E/Zygote: no v2
+02-11 13:30:44.329 2866-2866/? E/Zygote: no v2
+02-11 13:30:44.514 2828-2828/? E/SALog: false
+02-11 13:30:45.334 2994-2994/? E/Zygote: no v2
+02-11 13:30:45.339 2593-2593/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:30:45.544 2994-3057/? E/Resources: RunTimeException
+    android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
+        at android.content.res.Resources.getValue(Resources.java:2598)
+        at android.content.res.Resources.startRC(Resources.java:1132)
+        at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:30:45.604 2866-2963/? E/WM-WorkerWrapper: Didn't find WorkSpec for id d62363c1-28a6-41e9-b104-dc4732481c0f
+02-11 13:30:45.619 3065-3065/? E/Zygote: no v2
+02-11 13:30:45.729 2828-3089/? E/ActivityThread: Failed to find provider info for null
+02-11 13:30:45.929 3065-3065/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+02-11 13:30:46.044 1104-1104/? E/MotionRecognitionManager: mSContextService = null
+02-11 13:30:46.044 1104-1104/? E/MotionRecognitionManager: motionService = null
+02-11 13:30:46.054 3115-3115/? E/Zygote: no v2
+02-11 13:30:46.189 3115-3115/? E/AASAservice-TokenRule: parseToken() : TokenFile is null
+02-11 13:30:46.214 3115-3115/? E/AASAservice-UpdateReceiver: AASAUpdateReceiver : myrule is null.
+02-11 13:30:46.314 3143-3143/? E/Zygote: no v2
+02-11 13:30:46.329 2773-3263/? E/InputMethodManagerService: Perflock object null
+02-11 13:30:46.344 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-11 13:30:46.344 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-11 13:30:46.344 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-11 13:30:46.364 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-11 13:30:46.364 14772-14772/? E/SamsungIME: invoke(): method is null
+02-11 13:30:46.954 27127-27657/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-11 13:30:47.054 3176-3176/? E/Zygote: no v2
+02-11 13:30:47.174 3201-3201/? E/Zygote: no v2
+02-11 13:30:47.294 2773-2832/? E/JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 80)
+02-11 13:30:47.924 27127-28068/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:30:48.099 27127-28068/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-11 13:30:56.884 2593-2593/com.example.imageuploading__retrofit E/File: [/storage/emulated/0/mediapicker/images/ef55779c-d65d-4507-8e7b-0d0b333c398d.jpg, /storage/emulated/0/mediapicker/images/f7af5aa5-476e-4f4f-858f-11fc98ec9305.jpg]
+02-11 13:30:56.884 2593-2593/com.example.imageuploading__retrofit E/stream: java.io.FileInputStream@99cca8c
+02-11 13:30:56.904 2593-2593/com.example.imageuploading__retrofit E/IMages From Stream: android.graphics.Bitmap@70a3a51
+02-11 13:30:57.164 3252-3252/? E/Zygote: no v2
+02-11 13:30:57.179 2593-2593/com.example.imageuploading__retrofit E/MediaStore: Failed to insert image
+    java.io.FileNotFoundException: No such file or directory
+        at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:144)
+        at android.content.ContentProviderProxy.openAssetFile(ContentProviderNative.java:621)
+        at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1009)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:751)
+        at android.content.ContentResolver.openOutputStream(ContentResolver.java:727)
+        at android.provider.MediaStore$Images$Media.insertImage(MediaStore.java:995)
+        at com.example.imageuploading__retrofit.MainActivity.resizeIMagestoAdapter(MainActivity.java:188)
+        at com.example.imageuploading__retrofit.MainActivity.onActivityResult(MainActivity.java:309)
+        at android.app.Activity.dispatchActivityResult(Activity.java:7165)
+        at android.app.ActivityThread.deliverResults(ActivityThread.java:5028)
+        at android.app.ActivityThread.handleSendResult(ActivityThread.java:5075)
+        at android.app.ActivityThread.access$1600(ActivityThread.java:229)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1886)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:7402)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+02-11 13:30:57.464 2593-2593/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:30:57.474 2593-2593/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:30:57.494 3252-3278/? E/ServiceManager: [#CMH#] Failed binding To Service  EnhanceService
+02-11 13:30:57.514 3291-3291/? E/Zygote: no v2
+02-11 13:30:57.689 3252-3281/? E/Controller: [#CMH#] Content inserted without datetaken 
+02-11 13:31:00.519 3252-3300/? E/ServiceManager: [#CMH#] Failed binding To Service  IPService
+02-11 13:31:00.519 3252-3300/? E/ServiceManager: [#CMH#] Failed binding To Service  FaceService
+02-11 13:31:00.524 3252-3300/? E/ServiceManager: [#CMH#] Failed binding To Service  TapestryService
+02-11 13:31:10.029 2773-3156/? E/Watchdog: !@Sync 265 [02-11 13:31:10.037]
+02-11 13:31:14.689 2593-2593/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-11 13:31:14.689 2994-3360/? E/Resources: RunTimeException
+    android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
+        at android.content.res.Resources.getValue(Resources.java:2598)
+        at android.content.res.Resources.startRC(Resources.java:1132)
+        at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
+        at java.lang.Thread.run(Thread.java:818)
+02-11 13:31:14.799 1104-1104/? E/MotionRecognitionManager: mSContextService = null
+02-11 13:31:14.799 1104-1104/? E/MotionRecognitionManager: motionService = null
+02-11 13:31:17.084 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:31:17.084 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-11 13:31:31.364 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 3 size : 1Kb duration : 17ms lastUpdatedAfter : 60058 ms mFlush_time_threasold : 2000 mCurrentSize : 930
+02-11 13:31:40.034 2773-3156/? E/Watchdog: !@Sync 266 [02-11 13:31:40.038]
+02-11 13:31:48.939 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-11 13:31:48.939 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
