@@ -20,6 +20,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.imageuploading__retrofit.R;
+import com.squareup.picasso.Picasso;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,25 +31,16 @@ import java.util.Iterator;
 import java.util.List;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MYviewHolder> {
-    ArrayList<Bitmap> bitmapArray;
-    List<File> files=new ArrayList<>();
+    ArrayList<Bitmap> bitmapArray=new ArrayList<>(0);
     Context context;
-    Bitmap bitmap;
-    Bitmap equalsqw;
     View v;
-    ArrayList<Bitmap> uploadedBITS;
-    ItemThumbnailListner itemThumbnailListner;
-    Bitmap bitmapq;
-    int currentPosition = -1;
-    public void fileMOthod(List<File> files){
-        this.files=files;
-        notifyDataSetChanged();
-    }
+    RecyclerviewClickInterface recyclerviewClickInterface;
 
-    public RecyclerAdapter(@NonNull ArrayList<Bitmap> uploadedBITS,ArrayList<Bitmap> bitmapArray, Context applicationContext) {
+
+    public RecyclerAdapter(ArrayList<Bitmap> bitmapArray, Context applicationContext,RecyclerviewClickInterface recyclerviewClickInterface) {
         this.bitmapArray = bitmapArray;
         this.context=applicationContext;
-        this.uploadedBITS=uploadedBITS;
+        this.recyclerviewClickInterface=recyclerviewClickInterface;
         notifyDataSetChanged();
     }
 
@@ -61,44 +53,32 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MYview
 
     @Override
     public void onBindViewHolder(@NonNull MYviewHolder holder,final int position) {
-     /*   Uri uri=Uri.fromFile(files.get(position));
-       try {
-            bitmap= MediaStore.Images.Media.getBitmap(context.getContentResolver(),uri);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-*/
-       Glide.with(context)
-               .load(bitmapArray.get(position))
-               .into(holder.imageView);
-
-     //    holder.imageView.setImageBitmap(bitmapArray.get(position));
-
-        holder.closes.setOnClickListener(new View.OnClickListener() {
+        Glide.with(context)
+                .load(bitmapArray.get(position))
+                .into(holder.imageView);
+  /*      holder.closes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                      bitmapArray.remove(position);
-                      uploadedBITS.remove(position);
-                      files.remove(position);
-                    notifyDataSetChanged();
-
+                bitmapArray.remove(position);
+                uploadedBITS.remove(position);
+             //   files.remove(position);
+                notifyDataSetChanged();
             }
         });
-   //     Log.d("Files  Adapter:", bitmapArray.get(position).toString());
+        //     Log.d("Files  Adapter:", bitmapArray.get(position).toString());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            //    bitmapq=bitmapArray.get(position);
+                //    bitmapq=bitmapArray.get(position);
                 Intent intent = new Intent(v.getContext(),Thumbnail_Image.class);
                 intent.putExtra("image_url",bitmapArray.get(position));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
-          //      holder.th.setImageBitmap(uploadedBITS.get(position));
+                //      holder.th.setImageBitmap(uploadedBITS.get(position));
             }
         });
-
-
+   */
     }
 
     @Override
@@ -111,8 +91,22 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MYview
         ImageView closes;
         public MYviewHolder(@NonNull View itemView) {
             super(itemView);
-            imageView=v.findViewById(R.id.image_recycle_id);
-            closes=v.findViewById(R.id.closs);
+            imageView=itemView.findViewById(R.id.image_recycle_id);
+            closes=itemView.findViewById(R.id.closs);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    recyclerviewClickInterface.onItemClicks(getAdapterPosition());
+                }
+            });
+            itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v) {
+                    recyclerviewClickInterface.onLongItemClicks(getAdapterPosition());
+                    return true;
+                }
+            });
         }
     }
 }
