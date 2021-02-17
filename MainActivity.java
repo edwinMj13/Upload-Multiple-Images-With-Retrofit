@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
 import android.app.ProgressDialog;
+import android.content.ClipData;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -17,6 +18,7 @@ import android.graphics.Matrix;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Base64;
 import android.util.Log;
@@ -27,6 +29,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 
+import com.gun0912.tedpermission.TedPermission;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
@@ -40,6 +43,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -50,39 +54,28 @@ import okhttp3.MultipartBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerviewClickInterface {
     EditText editText;
     ImageView imagesV;
     Button uploadButton, selectButton;
     private int IMG_REQUEST = 2;
-  //  private Bitmap bitmap;
-    String apiName;
-    String apiIMage;
+  
     List<File> files = new ArrayList<>();
+
     Bitmap bitmaps;
     ArrayList<Bitmap> bitmapArray;
     Bitmap mutableBitmap;
     ArrayList<Bitmap> mutBitArray;
-    ArrayList<String> stringImagesList;
-    ArrayList<String> stringNAMEList;
     ArrayList<Bitmap> array;
-    int image;
 
     RecyclerAdapter recyclerAdapter;
     RecyclerView recyclerView;
- //   ImageView imageThumbnail;
-    Bitmap bitt;
 
     ProgressDialog progressDialog;
-    MultipartBody.Part encodedImagePart;
-    // private static final String BASE_URL="http://192.168.0.102/thanova/uploadifirst.php";
     String imgName;
-    Bitmap decodedByte;
     private String encodedImage;
-    Bundle bundle;
-   // ArrayList<byte[]> imageInByte;
    Bitmap recy;
-
+    InputStream inputStream;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
         selectButton = findViewById(R.id.sel_Image_BUTT);
         editText = findViewById(R.id.shows);
         recyclerView=findViewById(R.id.recyclervie);
-      //  imageThumbnail=findViewById(R.id.thumbn);
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading... ");
@@ -102,13 +94,8 @@ public class MainActivity extends AppCompatActivity {
         bitmapArray=new ArrayList<>(0);
         mutBitArray=new ArrayList<>(0);
        array = new ArrayList<>(0);
-     //   stringImagesList=new ArrayList<>(0);
-    //    stringNAMEList=new ArrayList<>(0);
-   //      imageInByte =new ArrayList<>();
-
-
-
-        recyclerAdapter=new RecyclerAdapter(mutBitArray,bitmapArray,getApplicationContext());
+    
+       recyclerAdapter=new RecyclerAdapter(bitmapArray,getApplicationContext(),this);
         GridLayoutManager layoutManager=new GridLayoutManager(this,3, LinearLayoutManager.HORIZONTAL,false);
         recyclerView.setAdapter(recyclerAdapter);
         recyclerView.setLayoutManager(layoutManager);
@@ -116,37 +103,12 @@ public class MainActivity extends AppCompatActivity {
         selectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Dexter.withActivity(MainActivity.this)
-                        .withPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
-                        .withListener(new PermissionListener() {
-                            @Override
-                            public void onPermissionGranted(PermissionGrantedResponse permissionGrantedResponse) {
-                                new ImagePicker.Builder(MainActivity.this)
-                                        .mode(ImagePicker.Mode.CAMERA_AND_GALLERY)
-                                        .compressLevel(ImagePicker.ComperesLevel.MEDIUM)
-                                        .directory(ImagePicker.Directory.DEFAULT)
-                                        .extension(ImagePicker.Extension.JPG)
-                                        .allowMultipleImages(true)
-                                        .enableDebuggingMode(true)
-                                        .build();
-                            }
-
-                            @Override
-                            public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
-
-                            }
-
-                            @Override
-                            public void onPermissionRationaleShouldBeShown(PermissionRequest permissionRequest, PermissionToken permissionToken) {
-                                permissionToken.continuePermissionRequest();
-                            }
-                        }).check();
+                requestPermissionsok();
             }
         });
         uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ArrayList<Bitmap> emptyOne=new ArrayList<>();
                 Log.d(MainActivity.class.getSimpleName(),"MUTBITARRAY   :::::"+mutBitArray);
                 Log.d(MainActivity.class.getSimpleName(),"BITMAP_ARRAY   :::::"+bitmapArray);
                 if (mutBitArray.isEmpty() && bitmapArray.isEmpty()) {
@@ -158,65 +120,68 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void requestPermissionsok(){
+        com.gun0912.tedpermission.PermissionListener permissionlistener = new com.gun0912.tedpermission.PermissionListener() {
+            @Override
+            public void onPermissionGranted() {
+                new ImagePicker.Builder(MainActivity.this)
+                        .mode(ImagePicker.Mode.CAMERA_AND_GALLERY)
+                        .compressLevel(ImagePicker.ComperesLevel.SOFT)
+                        .directory(ImagePicker.Directory.DEFAULT)
+                        .extension(ImagePicker.Extension.JPG)
+                        .allowMultipleImages(true)
+                        .enableDebuggingMode(true)
+                        .build();            }
 
-    public void resizeIMages(){
+            @Override
+            public void onPermissionDenied(List<String> deniedPermissions) {
+                Toast.makeText(getApplicationContext(), "Permission Denied\n" + deniedPermissions.toString(), Toast.LENGTH_SHORT).show();
+            }
+
+
+        };
+        TedPermission.with(getApplicationContext())
+                .setPermissionListener(permissionlistener)
+                .setDeniedMessage("If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]")
+                .setPermissions(Manifest.permission.CAMERA, Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.INTERNET)
+                .check();
+    }
+
+    public void resizeIMagestoAdapter(){
        progressDialog.show();
-    ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                    bitmaps.compress(Bitmap.CompressFormat.JPEG,70,stream);
-        Bitmap equals=BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
-        int heig=bitmaps.getHeight();
-        int widt=bitmaps.getWidth();
-        if (heig>widt) {
-            recy = Bitmap.createScaledBitmap(bitmaps,160,240,false);
-        }
-        if (heig<widt) {
-            recy = Bitmap.createScaledBitmap(bitmaps,240,160,false);
-        }
-        if (heig==widt) {
-            recy = Bitmap.createScaledBitmap(bitmaps,240,240,false);
-        }
+       try {
+           ByteArrayOutputStream stream = new ByteArrayOutputStream();
+           bitmaps.compress(Bitmap.CompressFormat.JPEG, 70, stream);
+           Bitmap equals = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
+           int heig = equals.getHeight();
+           int widt = equals.getWidth();
+           if (heig > widt) {
+               recy = Bitmap.createScaledBitmap(equals, 160, 240, false);
+           }
+           if (heig < widt) {
+               recy = Bitmap.createScaledBitmap(equals, 240, 160, false);
+           }
+           if (heig == widt) {
+               recy = Bitmap.createScaledBitmap(equals, 240, 240, false);
+           }
 
                     String savedImageURL = MediaStore.Images.Media.insertImage(
                             getContentResolver(),
                             recy,
                             String.valueOf(Calendar.getInstance().getTimeInMillis()),
-                            "Image of bird"
-                    );
-                    array.add(recy);
-                    updateBitmap(array);
-    /*    int heights=toResize.getHeight();
-        int widths=toResize.getWidth();
-        if (heights==widths){
-            Bitmap equ=Bitmap.createScaledBitmap(toResize,900,900,false);
-            ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            equ.compress(Bitmap.CompressFormat.JPEG,100,stream);
-            Bitmap equals=BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
-            watermarkImages(equals);
-        }
-        else if ((heights | widths)<= 950){
-            watermarkImages(toResize);
-        }
-        else if (heights < widths){
-            Bitmap widthGre=Bitmap.createScaledBitmap(toResize,900,500,false);
-            ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            widthGre.compress(Bitmap.CompressFormat.JPEG,100,stream);
-            Bitmap hW=BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
-            watermarkImages(hW);
-        }
-        else {
-            Bitmap heightGre=Bitmap.createScaledBitmap(toResize,500,900,false);
-            ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            heightGre.compress(Bitmap.CompressFormat.JPEG,100,stream);
-            Bitmap Hw=BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
-            watermarkImages(Hw);
-        }
-*/
-    }
+                            "Image of bird");
 
-    private void uploadImage() {
+           //   sdCards(recy);
+           array.add(recy);
+           updateBitmap(array);
+       }catch (Exception e){
+           e.printStackTrace();
+           Log.e("ExceptionResize  ::",e.getMessage());
+       }
+    }
+            private void uploadImage() {
         progressDialog.show();
-        //   imageInByte.clear();
-        //mutBitArray.add(mutableBitmap);
+        
 
         for (int i=0;i<mutBitArray.size();i++) {
             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -228,7 +193,6 @@ public class MainActivity extends AppCompatActivity {
             imgName=String.valueOf(Calendar.getInstance().getTimeInMillis());
 
          Toast.makeText(this, encodedImage, Toast.LENGTH_SHORT).show();
-      //      Log.d("image In BYTE", String.valueOf(imageInByte));
 
             ApiInterface apiInterface = RetroClient.getRetrofit().create(ApiInterface.class);
             Call<ResponsePOJO> call = apiInterface.uploadIm(imgName, encodedImage);
@@ -245,7 +209,6 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Not Successfull Response", Toast.LENGTH_SHORT).show();
                         Log.d("code Response", String.valueOf(response.code()));
                         String po = String.valueOf(response.code());
-
                         //  apiInterface.uploadIm(apiName,apiIMage);
                         editText.setText(po);
                     }
@@ -259,44 +222,49 @@ public class MainActivity extends AppCompatActivity {
                     editText.setText(t.getMessage());
                 }
             });
-
         }
     }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         Log.d("Data any THING", String.valueOf(data));
-        InputStream inputStream = null;
         if (requestCode == ImagePicker.IMAGE_PICKER_REQUEST_CODE && resultCode == RESULT_OK) {
             assert data != null;
             List<String> mPaths = data.getStringArrayListExtra(ImagePicker.EXTRA_IMAGE_PATH);
-//            Bitmap bitmap= BitmapFactory.decodeFile(mPaths.get(0));
             Log.d("mPaths MainActivity", String.valueOf(mPaths));
-            //    Glide.with(this).load(bitmap).into(img);
-            //   if (iru!=null){
-                for (int i = 0; i < mPaths.size(); i++) {
-                    files.add(new File(mPaths.get(i)));
-                    recyclerAdapter.fileMOthod(files);
-                    recyclerAdapter.notifyDataSetChanged();
-               //      bitt=BitmapFactory.decodeFile(mPaths.get(i));
-                }
-                for (int i = 0; i < files.size(); i++) {
-                    try {
-                        inputStream = getContentResolver().openInputStream(Uri.fromFile(files.get(i)));
-                        Log.d("File", String.valueOf(files));
-                        Log.d("stream", String.valueOf(inputStream));
-                    } catch (FileNotFoundException e) {
+            
+            for (int i = 0; i < mPaths.size(); i++) {
+                files.add(new File(mPaths.get(i)));
+                
+            }
+                if (inputStream==null) {
+                    for (int i = 0; i < files.size(); i++) {
+
+                        Toast.makeText(this, "Files" + String.valueOf(Uri.fromFile(files.get(i))), Toast.LENGTH_SHORT).show();
+
+                        try {
+                            inputStream = getContentResolver().openInputStream(Uri.fromFile(files.get(i)));
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                        }
+                    }try {
+                        bitmaps = BitmapFactory.decodeStream(inputStream);
+                    }catch (Exception e){
                         e.printStackTrace();
+                        Log.e("Exceptioninpbit  ::",e.getMessage());
+
                     }
-                    Log.d("DATASSSSSSSSSSSTTTT", String.valueOf(data.getData()));
-                    bitmaps = BitmapFactory.decodeStream(inputStream);
-                    Log.e("IMages From Stream", String.valueOf(bitmaps));
-                    Log.d("Images from Steam", String.valueOf(bitmaps));
-                    resizeIMages();
-                    // bitmaps = BitmapFactory.decodeFile(files.get(i).getAbsolutePath());
-                    imageResize(bitmaps);
+                            Toast.makeText(this, "Inputstream"+String.valueOf(inputStream), Toast.LENGTH_SHORT).show();
+
+                            Log.e("File", String.valueOf(files));
+                            Log.e("stream", String.valueOf(inputStream));
+                            editText.setText(String.valueOf(files));
+
+                        Log.e("IMages From Stream", String.valueOf(bitmaps));
+                        Log.d("Images from Steam", String.valueOf(bitmaps));
+                            resizeIMagestoAdapter();
+                            imageResize(bitmaps);
                 }
         }
     }
@@ -312,9 +280,7 @@ public class MainActivity extends AppCompatActivity {
         canvas.save();
         mutBitArray.add(mutableBitmap);
         Log.d("the watermarked Bitmaps", String.valueOf(mutableBitmap));
-
         Log.d("Mutable Bitmap", String.valueOf(mutableBitmap));
-
     }
 
     void updateBitmap(List<Bitmap> array){
@@ -344,7 +310,6 @@ public class MainActivity extends AppCompatActivity {
             Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
 
             watermarkImages(lastImage);
-            //                   toAdapter(lastImage);
         }
 
         else if (heights > widths && heights >3500 && heights <= 4500)
@@ -359,7 +324,6 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
 
                 watermarkImages(lastImage);
-                //  toAdapter(lastImage);
             }
 
 
@@ -376,7 +340,6 @@ public class MainActivity extends AppCompatActivity {
                 Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
 
                 watermarkImages(lastImage);
-                // toAdapter(lastImage);
             }
          else if (heights >widths && heights >= 5500) {
 
@@ -388,22 +351,15 @@ public class MainActivity extends AppCompatActivity {
                 bitmaps.compress(Bitmap.CompressFormat.JPEG, 20, stream);
 
                 Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
-
                 watermarkImages(lastImage);
-                //   toAdapter(lastImage);
             }
          else if (heights == widths && heights > 1300) {
 
-//                    double aspectRatio = (double) sourceImgage.getHeight() / (double) sourceImgage.getWidth();
-//                    int targetWidth = (int) (sourceImgage.getWidth() / (aspectRatio + .5));
-//                    int targetHeight = (int) (sourceImgage.getHeight() / (aspectRatio + .5));
                 Bitmap bitmaps = Bitmap.createScaledBitmap(sourceImgage, 900, 900, true);
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
                 bitmaps.compress(Bitmap.CompressFormat.JPEG, 20, stream);
                 Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
-
                 watermarkImages(lastImage);
-                //  toAdapter(lastImage);
 
         } else if (widths > heights && widths > 1300 && widths <= 3500) {
 
@@ -418,8 +374,6 @@ public class MainActivity extends AppCompatActivity {
                         Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
 
                         watermarkImages(lastImage);
-                        //             toAdapter(lastImage);
-
 
         } else if (widths > heights && widths > 3500 && widths <= 4500) {
 
@@ -433,7 +387,6 @@ public class MainActivity extends AppCompatActivity {
                 bitmaps.compress(Bitmap.CompressFormat.JPEG, 20, stream);
                 Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
                 watermarkImages(lastImage);
-                //       toAdapter(lastImage);
 
         } else if (widths > heights && widths >= 4500 && widths < 5500) {
 
@@ -455,11 +408,24 @@ public class MainActivity extends AppCompatActivity {
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
                 bitmaps.compress(Bitmap.CompressFormat.JPEG, 20, stream);
                 Bitmap lastImage = BitmapFactory.decodeStream(new ByteArrayInputStream(stream.toByteArray()));
-watermarkImages(lastImage);
+                watermarkImages(lastImage);
 
-        } else if ((widths & heights) <= 1300) {
-            watermarkImages(sourceImgage);
-            //       toAdapter(lastImage);
+        } else if ((widths & heights) <= 1300) { 
+             watermarkImages(sourceImgage);
         }
     }
+
+    @Override
+    public void onItemClicks(int position) {
+        Toast.makeText(this, String.valueOf(bitmapArray.get(position)), Toast.LENGTH_SHORT).show();
+
     }
+
+    @Override
+    public void onLongItemClicks(int position) {
+bitmapArray.remove(position);
+files.remove(position);
+
+recyclerAdapter.notifyItemRemoved(position);
+    }
+}
