@@ -1,51 +1,135 @@
-02-17 13:03:36.206 2773-3156/? E/Watchdog: !@Sync 3303 [02-17 13:03:36.208]
-02-17 13:04:06.206 2773-3156/? E/Watchdog: !@Sync 3304 [02-17 13:04:06.210]
-02-17 13:04:12.936 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 7 size : 4Kb duration : 20ms lastUpdatedAfter : 60139 ms mFlush_time_threasold : 2000 mCurrentSize : 2170
-02-17 13:04:36.206 2773-3156/? E/Watchdog: !@Sync 3305 [02-17 13:04:36.211]
-02-17 13:04:41.826 2188-2217/? E/DataRouter: USB Interface is open with 0x8
-02-17 13:04:41.831 7368-7483/? E/MTPRx: state from USB_STATE event DISCONNECTED
-02-17 13:04:41.841 7368-7368/? E/MTPRx: Read Error Came false
-02-17 13:04:41.841 7368-7368/? E/MTPRx: Read Error Came so calling usbRemoved()
-02-17 13:04:41.841 7368-7368/? E/MTPRx:  sendbooster is false!
-02-17 13:04:41.841 7368-7368/? E/MTPRx: In usbRemoved Status bar enabled
-02-17 13:04:41.861 7368-7483/? E/MTPRx: stop observing and calling usbRemoved 
-02-17 13:04:41.866 7368-7483/? E/MTPRx:  sendbooster is false!
-02-17 13:04:41.866 7368-7483/? E/MTPRx: In usbRemoved Status bar enabled
-02-17 13:04:41.886 7368-7368/? E/MtpMediaDBManager: updateMyfilesDB Count :0
-02-17 13:04:41.906 7368-7483/? E/MtpMediaDBManager: updateMyfilesDB Count :0
-02-17 13:04:41.916 7368-7368/? E/MTPRx: Sending Broadcast finish
-02-17 13:04:41.926 7368-7483/? E/MTPRx: Sending Broadcast finish
-02-17 13:04:41.976 7368-7368/? E/MtpService: onDestroy.
-02-17 13:04:42.001 7368-7368/? E/MtpService: Unregister Mtp disable Receiver
-02-17 13:04:42.001 7368-7368/? E/MtpService: Receiver not registered: com.samsung.android.MtpApplication.MtpService$1@ba74cb7
-02-17 13:04:42.001 7368-7368/? E/MtpService: Unregister mtpEmergencyReceiver
-02-17 13:04:42.001 7368-7368/? E/MtpService: Receiver not registered: com.samsung.android.MtpApplication.MtpService$2@c259c24
-02-17 13:04:42.001 7368-7368/? E/MtpService: unregistering mtpMediaReceiver in UnregisterAllIntent
-02-17 13:04:42.001 7368-7368/? E/MtpService: Receiver not registered: com.samsung.android.MtpApplication.MtpService$3@b23e7b6
-02-17 13:04:42.001 7368-7368/? E/MTPJNIInterface: noti = 3
-02-17 13:04:42.206 23535-23535/? E/Zygote: no v2
-02-17 13:04:42.311 4085-4097/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
-02-17 13:04:42.466 2773-3007/? E/WifiNative-wlan0: do suspend false
-02-17 13:04:42.476 2773-3010/? E/WifiHs20Service: received HS20_UTILITY_ACTION_TYPE_HS20_CONFIGURATION_CHANGED
-02-17 13:04:42.476 2773-3010/? E/WifiHs20Service: The changed config is NULL
-02-17 13:04:42.551 2773-3007/? E/WifiConfigStore: Ignoring SSID re-enabled from supplicant:  "DIRECT-ZvLAPTOP-KAEIVF38msos"WPA_PSK had autoJoinStatus=0 self added false ephemeral false
-02-17 13:04:42.566 3064-3064/? E/Icon: Unable to load resource 0x00000000 from pkg=
-    android.content.res.Resources$NotFoundException: Resource ID #0x0
-        at android.content.res.Resources.getValue(Resources.java:2598)
-        at android.content.res.Resources.getDrawable(Resources.java:2041)
-        at android.content.res.Resources.getDrawable(Resources.java:2027)
-        at android.graphics.drawable.Icon.loadDrawableInner(Icon.java:313)
-        at android.graphics.drawable.Icon.loadDrawable(Icon.java:269)
-        at android.widget.RemoteViews$TextViewDrawableAction.apply(RemoteViews.java:1659)
-        at android.widget.RemoteViews.performApply(RemoteViews.java:3418)
-        at android.widget.RemoteViews.apply(RemoteViews.java:3378)
-        at android.widget.RemoteViews$ViewGroupAction.apply(RemoteViews.java:1530)
-        at android.widget.RemoteViews.performApply(RemoteViews.java:3418)
-        at android.widget.RemoteViews.apply(RemoteViews.java:3378)
-        at com.android.systemui.statusbar.BaseStatusBar.inflateViews(BaseStatusBar.java:2395)
-        at com.android.systemui.statusbar.BaseStatusBar.createNotificationViews(BaseStatusBar.java:3483)
-        at com.android.systemui.statusbar.phone.PhoneStatusBar.addNotification(PhoneStatusBar.java:2257)
-        at com.android.systemui.statusbar.BaseStatusBar$11$2.run(BaseStatusBar.java:1350)
+02-26 11:31:40.081 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-26 11:31:40.081 14772-14772/? E/SamsungIME: invoke(): method is null
+    
+    --------- beginning of system
+02-26 11:31:42.046 18951-18951/? E/AffinityControl: AffinityControl: registerfunction enter
+02-26 11:31:42.101 18949-18949/? E/AffinityControl: AffinityControl: registerfunction enter
+02-26 11:31:42.171 18949-19031/? E/art: Thread attaching while runtime is shutting down: Binder_2
+02-26 11:31:44.401 19034-19034/? E/AffinityControl: AffinityControl: registerfunction enter
+02-26 11:31:44.436 18898-18966/? E/CelloDelayUploadFixer: [RxCachedThreadScheduler-2] Cleanup delay upload complete
+02-26 11:31:44.761 19077-19077/? E/Zygote: no v2
+02-26 11:31:47.461 19117-19117/? E/Zygote: no v2
+02-26 11:31:49.381 19105-19105/? E/AffinityControl: AffinityControl: registerfunction enter
+02-26 11:31:49.571 2773-3156/? E/Watchdog: !@Sync 8320 [02-26 11:31:49.579]
+02-26 11:31:50.361 2773-2944/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-26 11:31:50.461 19141-19141/? E/Zygote: no v2
+02-26 11:31:50.661 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 2 size : 0Kb duration : 42ms lastUpdatedAfter : 16481 ms mFlush_time_threasold : 2000 mCurrentSize : 450
+02-26 11:31:50.711 19154-19154/? E/Zygote: no v2
+02-26 11:31:51.091 18011-18021/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-26 11:31:51.256 18011-18022/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-26 11:31:51.376 18024-18024/? E/Finsky: [1] VerifyPerSourceInstallationConsentInstallTask.f(2): Package name null is not an installed package
+02-26 11:31:52.406 3248-3248/? E/Launcher.Model: onPackageChanged :com.google.android.apps.docs
+02-26 11:31:53.056 19196-19196/? E/Zygote: no v2
+02-26 11:31:53.156 19208-19208/? E/Zygote: no v2
+02-26 11:31:53.951 19232-19232/? E/Zygote: no v2
+02-26 11:31:54.431 19232-19232/? E/ConfigUpdater: Received malformed URL while handling Gservices.CHANGED_ACTION intent_firewall: null null
+02-26 11:31:54.536 19232-19232/? E/ConfigUpdater: Received malformed URL while handling Gservices.CHANGED_ACTION apn_db: null null
+02-26 11:31:54.566 19232-19232/? E/ConfigUpdater: Received malformed URL while handling Gservices.CHANGED_ACTION tzdata: null null
+02-26 11:31:54.611 19232-19232/? E/ConfigUpdater: Received malformed URL while handling Gservices.CHANGED_ACTION selinux: null null
+02-26 11:31:54.626 18024-18953/? E/Finsky: [24874] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:31:54.636 18024-18953/? E/Finsky: [24874] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:31:54.636 19232-19232/? E/ConfigUpdater: Received malformed URL while handling Gservices.CHANGED_ACTION carrier_provisioning_urls: null null
+02-26 11:31:54.641 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 1 size : 0Kb duration : 1ms lastUpdatedAfter : 3977 ms mFlush_time_threasold : 2000 mCurrentSize : 448
+02-26 11:31:54.656 18024-18953/? E/Finsky: [24874] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:31:54.781 18024-18953/? E/Finsky: [24874] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:31:54.821 18024-18057/? E/Finsky: [24810] kgu.apply(2): CONPRF: Failed to refresh connectivity profile metrics. Reset metrics.
+02-26 11:31:55.001 7437-19174/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method void eea.e(java.lang.String, java.lang.String, java.lang.Object[])
+02-26 11:31:55.121 7437-19173/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method void eea.e(java.lang.String, java.lang.String, java.lang.Object[])
+02-26 11:31:55.141 25665-26782/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-26 11:31:55.171 7437-19173/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method void eea.e(java.lang.String, java.lang.String, java.lang.Object[])
+02-26 11:31:55.191 7437-19176/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method void eea.e(java.lang.String, java.lang.String, java.lang.Object[])
+02-26 11:31:55.811 7437-7578/? E/azbh: Exception occurred while getting SettingsStore instance.
+    java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at bvny.s(:com.google.android.gms@210214017@21.02.14 (040306-352619232):3)
+        at bvny.get(:com.google.android.gms@210214017@21.02.14 (040306-352619232):13)
+        at azbh.c(:com.google.android.gms@210214017@21.02.14 (040306-352619232):3)
+        at azbh.a(:com.google.android.gms@210214017@21.02.14 (040306-352619232):1)
+        at aywz.c(:com.google.android.gms@210214017@21.02.14 (040306-352619232):3)
+        at aywz.fW(:com.google.android.gms@210214017@21.02.14 (040306-352619232):16)
+        at abcx.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):9)
+        at bqlt.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):2)
+        at tmw.c(:com.google.android.gms@210214017@21.02.14 (040306-352619232):6)
+        at tmw.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):7)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+        at tsu.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):0)
+        at java.lang.Thread.run(Thread.java:818)
+     Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+        at gcr.t(:com.google.android.gms@210214017@21.02.14 (040306-352619232):3)
+        at gcl.a(:com.google.android.gms@210214017@21.02.14 (040306-352619232))
+        at gcr.A(:com.google.android.gms@210214017@21.02.14 (040306-352619232):4)
+        at gcr.r(:com.google.android.gms@210214017@21.02.14 (040306-352619232):15)
+        at gcr.q(:com.google.android.gms@210214017@21.02.14 (040306-352619232))
+        at gcr.o(:com.google.android.gms@210214017@21.02.14 (040306-352619232))
+        at gcr.y(:com.google.android.gms@210214017@21.02.14 (040306-352619232))
+        at azbu.call(Unknown Source)
+        at bvrl.c(:com.google.android.gms@210214017@21.02.14 (040306-352619232):0)
+        at bvqm.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):3)
+        at bvrm.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):0)
+        at bvqt.execute(:com.google.android.gms@210214017@21.02.14 (040306-352619232):5)
+        at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:104)
+        at bvnz.h(:com.google.android.gms@210214017@21.02.14 (040306-352619232))
+        at azbv.a(:com.google.android.gms@210214017@21.02.14 (040306-352619232):3)
+        at aywz.c(:com.google.android.gms@210214017@21.02.14 (040306-352619232):2)
+        at aywz.fW(:com.google.android.gms@210214017@21.02.14 (040306-352619232):16) 
+        at abcx.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):9) 
+        at bqlt.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):2) 
+        at tmw.c(:com.google.android.gms@210214017@21.02.14 (040306-352619232):6) 
+        at tmw.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):7) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 
+        at tsu.run(:com.google.android.gms@210214017@21.02.14 (040306-352619232):0) 
+        at java.lang.Thread.run(Thread.java:818) 
+02-26 11:31:58.066 25665-26782/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-26 11:32:01.041 19312-19312/? E/Zygote: no v2
+02-26 11:32:02.181 19326-19326/? E/Zygote: no v2
+02-26 11:32:02.316 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-26 11:32:02.491 2199-2199/? E/installd: system dir 0 : /system/app/
+02-26 11:32:02.491 2199-2199/? E/installd: system dir 1 : /system/priv-app/
+02-26 11:32:02.491 2199-2199/? E/installd: system dir 2 : /vendor/app/
+02-26 11:32:02.491 2199-2199/? E/installd: system dir 3 : /oem/app/
+02-26 11:32:02.926 2199-2199/? E/installd: system dir 0 : /system/app/
+02-26 11:32:02.926 2199-2199/? E/installd: system dir 1 : /system/priv-app/
+02-26 11:32:02.926 2199-2199/? E/installd: system dir 2 : /vendor/app/
+02-26 11:32:02.926 2199-2199/? E/installd: system dir 3 : /oem/app/
+02-26 11:32:04.201 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 5 size : 3Kb duration : 114ms lastUpdatedAfter : 9561 ms mFlush_time_threasold : 2000 mCurrentSize : 1555
+02-26 11:32:04.486 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-26 11:32:04.836 19378-19378/? E/Zygote: no v2
+02-26 11:32:06.206 19312-19319/? E/DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@9e2b2eb)
+02-26 11:32:06.271 19424-19424/? E/Zygote: no v2
+02-26 11:32:07.431 19459-19459/? E/Zygote: no v2
+02-26 11:32:07.886 19472-19472/? E/Zygote: no v2
+02-26 11:32:08.656 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-26 11:32:11.081 2773-2773/? E/NotificationService: Suppressing notification from package com.samsung.android.email.provider by user request.
+02-26 11:32:11.821 19530-19530/? E/Zygote: no v2
+02-26 11:32:14.416 2773-3263/? E/SensorService: getSensorList a sensor (Sensor's Diagnostic Monitor) without holding its required permission: com.samsung.permission.SSENSOR
+02-26 11:32:14.521 19472-19566/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-26 11:32:14.521 19472-19566/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-26 11:32:14.521 19472-19566/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-26 11:32:15.956 7437-32551/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-26 11:32:16.241 7437-32551/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+02-26 11:32:18.761 18024-18024/? E/Finsky: [1] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:32:18.766 18024-18024/? E/Finsky: [1] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:32:18.791 18024-18024/? E/Finsky: [1] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:32:18.801 18024-18024/? E/Finsky: [1] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:32:18.806 18024-18024/? E/Finsky: [1] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:32:18.816 18024-18024/? E/Finsky: [1] kxz.f(7): DU: Failed to get subscriber ID.
+02-26 11:32:19.576 2773-3156/? E/Watchdog: !@Sync 8321 [02-26 11:32:19.583]
+02-26 11:32:21.191 18024-18062/? E/Finsky: [24811] afdk.b(2): SCH: Job 10-68 threw exception
+    com.google.android.finsky.networkrequests.NetworkRequestException: Null docs
+        at ajyc.kN(PG:2)
+        at ajxk.m(PG)
+        at ajxa.kN(Unknown Source)
+        at mxe.z(PG)
+        at mxy.run(PG)
+        at anta.f(PG:67)
+        at mxz.g(PG)
+        at mxz.kN(PG)
+        at mxe.z(PG)
+        at mwy.c(PG:2)
+        at yof.hB(PG)
+        at frb.q(PG:6)
+        at dqr.run(PG:2)
         at android.os.Handler.handleCallback(Handler.java:739)
         at android.os.Handler.dispatchMessage(Handler.java:95)
         at android.os.Looper.loop(Looper.java:148)
@@ -53,459 +137,157 @@
         at java.lang.reflect.Method.invoke(Native Method)
         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
-02-17 13:04:42.601 3064-3064/? E/Icon: Unable to load resource 0x00000000 from pkg=
-    android.content.res.Resources$NotFoundException: Resource ID #0x0
-        at android.content.res.Resources.getValue(Resources.java:2598)
-        at android.content.res.Resources.getDrawable(Resources.java:2041)
-        at android.content.res.Resources.getDrawable(Resources.java:2027)
-        at android.graphics.drawable.Icon.loadDrawableInner(Icon.java:313)
-        at android.graphics.drawable.Icon.loadDrawable(Icon.java:269)
-        at android.widget.RemoteViews$TextViewDrawableAction.apply(RemoteViews.java:1659)
-        at android.widget.RemoteViews.performApply(RemoteViews.java:3418)
-        at android.widget.RemoteViews.apply(RemoteViews.java:3378)
-        at android.widget.RemoteViews$ViewGroupAction.apply(RemoteViews.java:1530)
-        at android.widget.RemoteViews.performApply(RemoteViews.java:3418)
-        at android.widget.RemoteViews.apply(RemoteViews.java:3378)
-        at com.android.systemui.statusbar.BaseStatusBar.inflateViews(BaseStatusBar.java:2401)
-        at com.android.systemui.statusbar.BaseStatusBar.createNotificationViews(BaseStatusBar.java:3483)
-        at com.android.systemui.statusbar.phone.PhoneStatusBar.addNotification(PhoneStatusBar.java:2257)
-        at com.android.systemui.statusbar.BaseStatusBar$11$2.run(BaseStatusBar.java:1350)
-        at android.os.Handler.handleCallback(Handler.java:739)
-        at android.os.Handler.dispatchMessage(Handler.java:95)
-        at android.os.Looper.loop(Looper.java:148)
-        at android.app.ActivityThread.main(ActivityThread.java:7402)
-        at java.lang.reflect.Method.invoke(Native Method)
-        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
-        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
-02-17 13:04:42.631 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: isLockScreenEnabled []
-02-17 13:04:42.631 14772-14772/? E/SamsungIME: invoke(): method is null
-02-17 13:04:42.841 6307-6427/? E/BtGatt.GattService: [GSIM LOG]: gsimLogHandler: com.samsung.android.beaconmanager, msg: MESSAGE_START_SCAN
-02-17 13:04:42.846 6307-6415/? E/BtGatt.ScanManager: default value of curScanSetting 0 is choosen
-02-17 13:04:42.901 23563-23563/? E/Zygote: no v2
-02-17 13:04:43.046 27808-12537/? E/MtpServerJNI: server is null in send_object_removed
-02-17 13:04:43.046 27808-12537/? E/MtpServerJNI: server is null in send_object_removed
-02-17 13:04:43.151 23584-23584/? E/Zygote: no v2
-02-17 13:04:43.206 22676-23578/? E/DayAndMonthLocationUpdate: [#CMH#] updateLocationForDay Count : NULL 
-02-17 13:04:43.376 23606-23606/? E/Zygote: no v2
-02-17 13:04:43.826 2188-2217/? E/DataRouter: USB Interface is open with 0x8
-02-17 13:04:43.866 23634-23634/? E/Zygote: no v2
-02-17 13:04:43.966 23634-23634/? E/MTPRx: In MtpReceiverandroid.hardware.usb.action.USB_STATE
-02-17 13:04:43.971 23634-23634/? E/MTPRx: check value of boot_completed is1
-02-17 13:04:43.996 23634-23634/? E/MTPRx: check booting is completed_sys.boot_completed
-02-17 13:04:44.001 23634-23634/? E/MTPRx: Received USB_STATE with sdCardLaunch = 0
-02-17 13:04:44.001 23634-23634/? E/MTPRx: Unexpected Disconnection. call usbRemoved.
-02-17 13:04:44.001 23634-23634/? E/MTPRx:  sendbooster is false!
-02-17 13:04:44.001 23634-23634/? E/MTPRx: configured is false
-02-17 13:04:44.066 22808-22808/? E/ActivityThread: Failed to find provider info for com.myscript.atk.rmc
-02-17 13:04:44.111 23657-23657/? E/Zygote: no v2
-02-17 13:04:44.306 23676-23676/? E/Zygote: no v2
-02-17 13:04:44.386 22676-22676/? E/Controller: [#CMH#] FINISHED  EVENT_MEDIA_SCAN_FINISHED
-02-17 13:04:44.481 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233130
-02-17 13:04:44.506 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233131
-02-17 13:04:44.511 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233132
-02-17 13:04:44.516 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233133
-02-17 13:04:44.521 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233134
-02-17 13:04:44.526 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233135
-02-17 13:04:44.531 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233136
-02-17 13:04:44.536 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233137
-02-17 13:04:44.541 22676-23691/? E/DatabaseRebuilderTask: [#CMH#] Failed to insert into CMH : media_id : 233138
-02-17 13:04:45.006 22676-22676/? E/Controller: [#CMH#] FINISHED  EVENT_MEDIA_SCAN_FINISHED
-02-17 13:04:45.371 3064-3084/? E/KeyguardViewMediator: lockAfterTimeout = 5000 policyTimeout = 0
-02-17 13:04:46.091 3064-3744/? E/KeyguardViewMediator: resetStateLocked
-02-17 13:04:46.091 2773-2868/? E/PowerManagerService: handleSandman : startDreaming, but isDreaming false
-02-17 13:04:46.101 3064-3064/? E/LSO: LSO Service is not yet ready!!!
-02-17 13:04:46.136 4085-4103/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
-02-17 13:04:46.151 2773-3007/? E/WifiNative-wlan0: do suspend true
-02-17 13:04:46.311 6307-6427/? E/BtGatt.GattService: [GSIM LOG]: gsimLogHandler: com.samsung.android.beaconmanager, msg: MESSAGE_STOP_SCAN
-02-17 13:04:46.326 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: isLockScreenEnabled []
-02-17 13:04:46.326 14772-14772/? E/SamsungIME: invoke(): method is null
-02-17 13:04:50.246 2773-3007/? E/WifiConfigStore: SSID temp disabled for  "DIRECT-ZvLAPTOP-KAEIVF38msos"WPA_PSK had autoJoinStatus=0 self added false ephemeral false
-02-17 13:04:50.246 2773-3007/? E/WifiConfigStore:  message=id=24 ssid="DIRECT-ZvLAPTOP-KAEIVF38msos" auth_failures=1 duration=10 reason=WRONG_KEY
-02-17 13:04:50.246 2773-3007/? E/WifiConfigStore: SSID temp disabled for  "DIRECT-ZvLAPTOP-KAEIVF38msos"WPA_PSK had autoJoinStatus=0 self added false ephemeral false
-02-17 13:04:50.246 2773-3007/? E/WifiConfigStore:  message=id=24 ssid="DIRECT-ZvLAPTOP-KAEIVF38msos" auth_failures=2 duration=20 reason=CONN_FAILED
-02-17 13:04:50.246 2773-3007/? E/SupplicantStateTracker: [AUTHENTICATION_FAILURE_EVENT] networkId : 24, count : 1
-02-17 13:04:50.246 2773-3007/? E/SupplicantStateTracker:  >>>>>>>>>> isEap = false
-02-17 13:04:50.246 2773-3007/? E/SupplicantStateTracker: Failed to authenticate, disabling network 24
-02-17 13:04:50.246 2773-3010/? E/WifiHs20Service: received HS20_UTILITY_ACTION_TYPE_HS20_CONFIGURATION_CHANGED
-02-17 13:04:51.416 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:04:51.421 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:05:35.161 23063-23096/? E/WM-WorkerWrapper: Didn't find WorkSpec for id 8433a262-ca9f-4e26-93d1-ea75b5008592
-02-17 13:05:36.421 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:07:19.141 3643-23889/? E/WakeLock: GCM_HB_ALARM release without a matched acquire!
-02-17 13:07:19.151 3643-23889/? E/WakeLock: GCM_CONN_ALARM release without a matched acquire!
-02-17 13:07:20.406 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:09:02.386 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:11:28.401 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:20:22.496 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
-02-17 13:20:23.406 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:20:41.281 2773-3156/? E/Watchdog: !@Sync 3306 [02-17 13:20:41.282]
-02-17 13:24:03.656 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:24:41.356 4085-23476/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
-02-17 13:24:41.386 2198-15274/? E/MediaPlayerService: WFD client is not created 
-02-17 13:24:41.466 2773-3007/? E/WifiNative-wlan0: do suspend false
-02-17 13:24:41.491 2773-3010/? E/WifiHs20Service: received HS20_UTILITY_ACTION_TYPE_HS20_CONFIGURATION_CHANGED
-02-17 13:24:41.491 2773-3010/? E/WifiHs20Service: The changed config is NULL
-02-17 13:24:41.521 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: isLockScreenEnabled []
-02-17 13:24:41.521 14772-14772/? E/SamsungIME: invoke(): method is null
-02-17 13:24:41.536 2198-24052/? E/OMXNodeInstance: setConfig(98:google.vorbis.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
-02-17 13:24:41.561 2773-3007/? E/WifiConfigStore: Ignoring SSID re-enabled from supplicant:  "DIRECT-ZvLAPTOP-KAEIVF38msos"WPA_PSK had autoJoinStatus=0 self added false ephemeral false
-02-17 13:24:41.681 6307-6427/? E/BtGatt.GattService: [GSIM LOG]: gsimLogHandler: com.samsung.android.beaconmanager, msg: MESSAGE_START_SCAN
-02-17 13:24:41.691 6307-6415/? E/BtGatt.ScanManager: default value of curScanSetting 0 is choosen
-02-17 13:24:42.146 27127-24066/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk for method java.lang.Object gai.a(android.os.IBinder)
-02-17 13:24:42.146 27127-24066/? E/art: invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-2/base.apk:classes2.dex for method java.lang.String sqc.b(android.content.Context)
-02-17 13:24:42.246 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 7 size : 6Kb duration : 62ms lastUpdatedAfter : 1229310 ms mFlush_time_threasold : 2000 mCurrentSize : 3108
-02-17 13:24:42.356 2773-3044/? E/lights: write_int failed to open -1
-02-17 13:24:42.561 23634-23634/? E/MTPRx: In MtpReceiverandroid.hardware.usb.action.USB_STATE
-02-17 13:24:42.571 23634-23634/? E/MTPRx: check value of boot_completed is1
-02-17 13:24:42.571 23634-23634/? E/MTPRx: check booting is completed_sys.boot_completed
-02-17 13:24:42.571 23634-23634/? E/MTPRx: Received USB_STATE with sdCardLaunch = 0
-02-17 13:24:42.581 23634-23634/? E/MTPRx: mFirstTime: false
-02-17 13:24:42.606 23634-23634/? E/MTPJNIInterface: Getting CryptionKey from JAVA
-02-17 13:24:42.606 23634-23634/? E/MTPRx: currentUserId is 0
-02-17 13:24:42.611 23634-23634/? E/MTPRx: mtpCurrentGlobalUserId is 0
-02-17 13:24:42.621 23634-23634/? E/MTPRx: Start observing USB_STATE_MATCH 
-02-17 13:24:42.621 23634-23634/? E/MTPRx: usbMode is 0200
-02-17 13:24:42.631 2773-4113/? E/ENGMODE: Failed to enable UD-Mode(lecagy)
-02-17 13:24:42.631 2773-4113/? E/ENGMODE: Failed to open token (-1)
-02-17 13:24:42.631 2773-4113/? E/ENGMODE: Failed to read token(-12)
-02-17 13:24:42.631 2773-4113/? E/ENGMODE: the req mode is not allowed (-12)
-02-17 13:24:42.661 23634-23634/? E/MTPRx: is_Privatemode is NOT 1
-02-17 13:24:42.691 23634-23634/? E/MTPRx: Sending NORMAL_BOOT to stack
-02-17 13:24:42.691 23634-23634/? E/MTPJNIInterface: noti = 17
-02-17 13:24:42.696 23634-23634/? E/MTPRx: User is personal
-02-17 13:24:42.701 23634-23634/? E/MTPRx: sending MTP_ICON_ENABLED to stack
-02-17 13:24:42.716 23634-23634/? E/MTPRx: else part ... so first time!!!
-02-17 13:24:42.721 23634-23634/? E/MTPPlaObsrvr: inside setContext()
-02-17 13:24:42.721 23634-23634/? E/MTPPlaObsrvr:  inside createplafiles
-02-17 13:24:42.741 23634-23634/? E/MTPPlaObsrvr: playlist count is0
-02-17 13:24:42.741 23634-23634/? E/MTPPlaObsrvr:  inside try branch createplafiles
-02-17 13:24:42.746 23634-23634/? E/MTPPlaObsrvr:  inside deleteing plas createplafiles
-02-17 13:24:42.751 23634-23634/? E/MTPPlaObsrvr: Inside registerContentObserver
-02-17 13:24:42.751 23634-23634/? E/MtpAdbObserver: inside setContext()
-02-17 13:24:42.751 23634-23634/? E/MtpAdbObserver: Inside registerContentObserver
-02-17 13:24:42.761 23634-23634/? E/MtpService: onCreate.
-02-17 13:24:42.761 23634-23634/? E/MtpService: < MTP > Registering BroadCast receiver :::::
-02-17 13:24:42.771 23634-23634/? E/MtpService: < MTP > Registering BroadCast registerBroadCastPolicyRec :::::
-02-17 13:24:42.771 23634-23634/? E/MtpService: < MTP > Registering BroadCast registerBroadCastEmergencyRec :::::
-02-17 13:24:42.781 23634-23634/? E/MtpService: onStartCommand.
-02-17 13:24:42.781 22808-22808/? E/ActivityThread: Failed to find provider info for com.myscript.atk.rmc
-02-17 13:24:42.786 23634-23634/? E/MTPJNIInterface: < MTP > Registering BroadCast receiver :::::
-02-17 13:24:42.786 23634-23634/? E/MTPJNIInterface: < MTP > Registering BroadCast receiver :::::::
-02-17 13:24:42.796 23634-23634/? E/MTPJNIInterface: noti = 10
-02-17 13:24:42.801 23634-23634/? E/MtpService: onStartCommand.
-02-17 13:24:42.801 23634-23634/? E/MTPRx: Checking the driver time out
-02-17 13:24:42.801 23634-23634/? E/MTPJNIInterface: noti = 2
-02-17 13:24:42.816 27808-27808/? E/MtpServerJNI: could not open MTP driver, errno: 2
-02-17 13:24:42.821 23634-23634/? E/MTPRx: called native method
-02-17 13:24:42.821 23634-23634/? E/MTPJNIInterface: setting Media scanner status0
-02-17 13:24:42.821 23634-23634/? E/MTPJNIInterface: After setting Media scanner status0
-02-17 13:24:42.821 23634-24108/? E/MtpService: handleMessage. msg= { when=0 what=0 arg1=1 obj=Intent { cmp=com.samsung.android.MtpApplication/.MtpService } target=com.samsung.android.MtpApplication.MtpService$ServiceHandler }
-02-17 13:24:42.826 23634-24110/? E/MTPJNIInterface: Getting media scanner status0
-02-17 13:24:42.826 23634-24110/? E/MTPJNIInterface: DeviceName is Null in System
-02-17 13:24:42.826 23634-24110/? E/MTPJNIInterface: DeviceName is Galaxy On5
-02-17 13:24:42.831 23634-24108/? E/MtpService: handleMessage. msg= { when=-30ms what=0 arg1=2 obj=Intent { cmp=com.samsung.android.MtpApplication/.MtpService } target=com.samsung.android.MtpApplication.MtpService$ServiceHandler }
-02-17 13:24:42.841 27808-27808/? E/MtpServerJNI: server is null in add_storage
-02-17 13:24:42.841 27808-27808/? E/MtpServerJNI: server is null in send_object_removed
-02-17 13:24:42.846 27808-24112/? E/MtpServerJNI: server is null in run
-02-17 13:24:42.846 27808-24112/? E/MtpServerJNI: server is null in cleanup
-02-17 13:24:42.846 23634-24110/? E/MTPJNIInterface: Status for mount/Unmount :unknown
-02-17 13:24:42.846 23634-24110/? E/MTPJNIInterface: SDcard is not available
-02-17 13:24:42.856 23634-24110/? E/MTPJNIInterface: Status for mount/Unmount :unknown
-02-17 13:24:42.856 23634-24110/? E/MTPJNIInterface: SDcard is not available
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) API call with NULL database connection pointer
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) misuse at line 107891 of [5a3022e081]
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) API call with NULL database connection pointer
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) misuse at line 107891 of [5a3022e081]
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) API call with NULL database connection pointer
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) misuse at line 107891 of [5a3022e081]
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) API call with NULL database connection pointer
-02-17 13:24:42.856 23634-24110/? E/SQLiteLog: (21) misuse at line 107891 of [5a3022e081]
-02-17 13:24:42.861 23634-23634/? E/MTPRx: Open session has come  remove the  Message false
-02-17 13:24:42.876 23634-24115/? E/SQLiteLog: (1) no such table: system
-02-17 13:24:42.876 23634-24115/? E/SQLiteLog: (1) no such table: global
-02-17 13:24:42.876 23634-23634/? E/MTPJNIInterface: noti = 13
-02-17 13:24:42.876 23634-24115/? E/MTPJNIInterface: Value of device_name is Galaxy On5
-02-17 13:24:42.876 23634-23634/? E/MTPRx: in startDBupdate
-02-17 13:24:42.956 23634-24119/? E/MtpMediaDBManager: count : 344
-02-17 13:24:42.981 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:42.991 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.001 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.011 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.021 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.031 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.051 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.061 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.071 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.076 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.091 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.101 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.111 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.121 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.131 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.141 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.151 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.161 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.176 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.186 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.196 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.221 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.236 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.241 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.251 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.271 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.286 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.306 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.321 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.331 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.346 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.361 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.371 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.376 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.386 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.401 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.411 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.421 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.426 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.441 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.456 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.466 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.481 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.496 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.506 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.516 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.531 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.551 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.561 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.571 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.586 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.596 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.611 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.626 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.636 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.656 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.666 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.676 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.696 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.726 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.736 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.751 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.766 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.806 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.816 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.826 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.836 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.846 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.856 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.856 2773-3044/? E/lights: write_int failed to open -1
-02-17 13:24:43.866 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.871 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.881 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.891 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.901 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.911 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.921 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.926 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.936 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.946 23634-24119/? E/MtpMediaDBManager: Index 0 requested, with a size of 0
-02-17 13:24:43.966 23634-24119/? E/MTPJNIInterface: noti = 29
-02-17 13:24:45.671 3064-3064/? E/KeyguardViewMediator: setShowingLocked mShowing = false
-02-17 13:24:45.721 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: isLockScreenEnabled []
-02-17 13:24:45.721 14772-14772/? E/SamsungIME: invoke(): method is null
-02-17 13:24:45.771 24219-24219/? E/Zygote: no v2
-02-17 13:24:45.776 4085-4103/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
-02-17 13:24:49.251 2773-3007/? E/WifiConfigStore: SSID temp disabled for  "DIRECT-ZvLAPTOP-KAEIVF38msos"WPA_PSK had autoJoinStatus=0 self added false ephemeral false
-02-17 13:24:49.251 2773-3007/? E/WifiConfigStore:  message=id=24 ssid="DIRECT-ZvLAPTOP-KAEIVF38msos" auth_failures=1 duration=10 reason=WRONG_KEY
-02-17 13:24:49.251 2773-3007/? E/WifiConfigStore: SSID temp disabled for  "DIRECT-ZvLAPTOP-KAEIVF38msos"WPA_PSK had autoJoinStatus=0 self added false ephemeral false
-02-17 13:24:49.251 2773-3007/? E/WifiConfigStore:  message=id=24 ssid="DIRECT-ZvLAPTOP-KAEIVF38msos" auth_failures=2 duration=20 reason=CONN_FAILED
-02-17 13:24:49.251 2773-3007/? E/SupplicantStateTracker: [AUTHENTICATION_FAILURE_EVENT] networkId : 24, count : 1
-02-17 13:24:49.251 2773-3007/? E/SupplicantStateTracker:  >>>>>>>>>> isEap = false
-02-17 13:24:49.251 2773-3007/? E/SupplicantStateTracker: Failed to authenticate, disabling network 24
-02-17 13:24:49.256 2773-3010/? E/WifiHs20Service: received HS20_UTILITY_ACTION_TYPE_HS20_CONFIGURATION_CHANGED
-02-17 13:24:50.431 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:24:50.436 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:24:51.291 23063-23096/? E/WM-WorkerWrapper: Didn't find WorkSpec for id 13c3b37c-25a3-4bcf-816e-b21aaef19f28
-02-17 13:24:59.586 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:25:05.281 2773-3156/? E/Watchdog: !@Sync 3307 [02-17 13:25:05.284]
-02-17 13:25:16.736 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:25:17.811 24260-24260/? E/AffinityControl: AffinityControl: registerfunction enter
-02-17 13:25:17.921 24269-24269/? E/Zygote: no v2
-02-17 13:25:19.696 24287-24287/? E/AffinityControl: AffinityControl: registerfunction enter
-02-17 13:25:19.696 24285-24285/? E/AffinityControl: AffinityControl: registerfunction enter
-02-17 13:25:21.261 24305-24305/? E/AffinityControl: AffinityControl: registerfunction enter
-02-17 13:25:23.806 24318-24318/? E/AffinityControl: AffinityControl: registerfunction enter
-02-17 13:25:24.511 2773-2944/? E/NativeLibraryHelper: Failed to load assets verifier: 0
-02-17 13:25:24.526 24328-24328/? E/Zygote: no v2
-02-17 13:25:24.626 24328-24338/? E/NativeLibraryHelper: Failed to load assets verifier: 0
-02-17 13:25:24.636 24328-24339/? E/NativeLibraryHelper: Failed to load assets verifier: 0
-02-17 13:25:24.661 20902-20902/? E/Finsky: [1] VerifyPerSourceInstallationConsentInstallTask.f(2): Package name null is not an installed package
-02-17 13:25:26.131 22738-24345/? E/DatabaseManager: [StoryService]  Exception while parsing media cursor !!!  java.lang.NumberFormatException: Invalid int: "<unknown>"
-02-17 13:25:35.281 2773-3156/? E/Watchdog: !@Sync 3308 [02-17 13:25:35.286]
-02-17 13:25:42.316 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 7 size : 4Kb duration : 13ms lastUpdatedAfter : 60071 ms mFlush_time_threasold : 2000 mCurrentSize : 2170
-02-17 13:25:42.991 2773-2858/? E/MARsDBManager: updateDBAll : begin --size 1
-02-17 13:25:43.001 2773-2858/? E/MARsDBManager: updateDBAll : end
-02-17 13:25:49.926 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
-02-17 13:25:50.121 2773-2884/? E/NativeLibraryHelper: Failed to load assets verifier: 0
-02-17 13:26:02.661 2773-2884/? E/SecureStorageService: Process failed status=0x0200
-02-17 13:26:02.911 2199-2199/? E/installd: Couldn't opendir /data/app/vmdl657049511.tmp: No such file or directory
-02-17 13:26:03.021 4085-23476/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
-02-17 13:26:03.111 24368-24368/? E/Zygote: no v2
-02-17 13:26:03.386 2773-2858/? E/MARsDBManager: insertPackage com.example.imageuploading__retrofit is already exist in DB!
-02-17 13:26:03.426 3248-3248/? E/Launcher.Model: onPackageChanged :com.example.imageuploading__retrofit
-02-17 13:26:04.921 24383-24383/? E/AffinityControl: AffinityControl: registerfunction enter
-02-17 13:26:05.041 24441-24441/? E/Zygote: no v2
-02-17 13:26:05.281 2773-3156/? E/Watchdog: !@Sync 3309 [02-17 13:26:05.286]
-02-17 13:26:05.521 24368-24466/? E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
-02-17 13:26:05.921 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
-02-17 13:26:05.921 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
-02-17 13:26:05.921 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
-02-17 13:26:05.946 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
-02-17 13:26:05.946 14772-14772/? E/SamsungIME: invoke(): method is null
-02-17 13:26:05.951 14772-14772/? E/KeyboardInfoUtils: getInstance start
-02-17 13:26:05.951 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
-02-17 13:26:05.951 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
-02-17 13:26:05.976 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
-02-17 13:26:05.976 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
-02-17 13:26:05.976 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
-02-17 13:26:05.996 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
-02-17 13:26:05.996 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
-02-17 13:26:05.996 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
-02-17 13:26:06.126 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:06.231 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:06.651 24522-24522/? E/Zygote: no v2
-02-17 13:26:06.681 24410-24422/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x3000e in tid 24422 (Compiler driver)
-02-17 13:26:06.736 4104-4104/? E/audit: type=1701 msg=audit(1613548566.736:7340): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=24423 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
-02-17 13:26:06.736 4104-4104/? E/audit: type=1701 msg=audit(1613548566.736:7341): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=24422 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
-02-17 13:26:06.791 30211-30211/? E/DEBUG: unexpected waitpid response: n=24422, status=0000000b
-02-17 13:26:06.791 30211-30211/? E/DEBUG: tid exited before attach completed: tid 24422
-02-17 13:26:06.866 24543-24543/? E/Zygote: no v2
-02-17 13:26:07.151 24557-24557/? E/Zygote: no v2
-02-17 13:26:07.261 24571-24571/? E/Zygote: no v2
-02-17 13:26:07.416 24589-24589/? E/Zygote: no v2
-02-17 13:26:07.451 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
-02-17 13:26:07.451 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
-02-17 13:26:07.561 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=271, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
-02-17 13:26:07.566 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=272, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
-02-17 13:26:07.576 3234-3549/? E/PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
-02-17 13:26:07.801 24610-24610/? E/Zygote: no v2
-02-17 13:26:08.411 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:08.891 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:08.991 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:09.106 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:09.431 24643-24643/? E/dex2oat: <SS>: oat location is not valid /data/user/0/com.sec.android.app.samsungapps/code_cache/.    
-02-17 13:26:09.546 14772-14772/? E/SamsungIME: popupKey.codes[0] is -109
-02-17 13:26:09.666 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:09.701 24648-24648/? E/dex2oat: <SS>: oat location is not valid /data/user/0/com.sec.android.app.samsungapps/code_cache/.   
-02-17 13:26:09.731 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:09.796 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
-02-17 13:26:10.176 24610-24679/? E/ActivityThread: Failed to find provider info for null
-02-17 13:26:10.181 24610-24679/? E/ActivityThread: Failed to find provider info for com.sec.android.app.clockpackage.celebvoice
-02-17 13:26:10.356 24696-24696/? E/Zygote: no v2
-02-17 13:26:10.496 24696-24696/? E/AASAservice-TokenRule: parseToken() : TokenFile is null
-02-17 13:26:10.506 24696-24696/? E/AASAservice-UpdateReceiver: AASAUpdateReceiver : myrule is null.
-02-17 13:26:10.601 24718-24718/? E/Zygote: no v2
-02-17 13:26:10.606 24441-24441/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
-02-17 13:26:10.631 24728-24728/? E/Zygote: no v2
-02-17 13:26:10.751 24718-24742/? E/Resources: RunTimeException
+02-26 11:32:25.641 18024-18866/? E/Finsky: [24869] apka.call(118): Exceeded max retries for sending device status
+02-26 11:32:28.016 19664-19664/? E/Zygote: no v2
+02-26 11:32:31.796 19688-19688/? E/Zygote: no v2
+02-26 11:32:32.506 2773-2884/? E/NativeLibraryHelper: Failed to load assets verifier: 0
+02-26 11:32:33.241 19712-19712/? E/dex2oat: <SS>: oat location is not valid /data/user/0/com.sec.android.app.samsungapps/code_cache/.    
+02-26 11:32:33.521 19719-19719/? E/dex2oat: <SS>: oat location is not valid /data/user/0/com.sec.android.app.samsungapps/code_cache/. ​ 
+02-26 11:32:34.211 19688-19754/? E/ActivityThread: Failed to find provider info for null
+02-26 11:32:34.216 19688-19754/? E/ActivityThread: Failed to find provider info for com.sec.android.app.clockpackage.celebvoice
+02-26 11:32:43.086 19766-19766/? E/Zygote: no v2
+02-26 11:32:43.901 19784-19784/? E/Zygote: no v2
+02-26 11:32:46.516 2773-2884/? E/SecureStorageService: Process failed status=0x0200
+02-26 11:32:46.906 2199-2199/? E/installd: Couldn't opendir /data/app/vmdl1109263379.tmp: No such file or directory
+02-26 11:32:47.171 4085-4097/? E/ucsBai_agentService: notifyChange NOT SUPPORTED
+02-26 11:32:47.531 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 2 size : 0Kb duration : 10ms lastUpdatedAfter : 43329 ms mFlush_time_threasold : 2000 mCurrentSize : 450
+02-26 11:32:47.766 19825-19825/? E/Zygote: no v2
+02-26 11:32:47.796 19847-19847/? E/Zygote: no v2
+02-26 11:32:47.956 2773-2858/? E/MARsDBManager: insertPackage com.example.imageuploading__retrofit is already exist in DB!
+02-26 11:32:47.996 19861-19861/? E/Zygote: no v2
+02-26 11:32:48.161 19874-19874/? E/Zygote: no v2
+02-26 11:32:48.401 19886-19886/? E/Zygote: no v2
+02-26 11:32:48.486 3248-3248/? E/Launcher.Model: onPackageChanged :com.example.imageuploading__retrofit
+02-26 11:32:48.516 19899-19899/? E/Zygote: no v2
+02-26 11:32:48.671 19913-19913/? E/Zygote: no v2
+02-26 11:32:48.846 2182-2182/? E/lowmemorykiller: Error writing /proc/19913/oom_score_adj; errno=22
+02-26 11:32:48.851 19925-19925/? E/Zygote: no v2
+02-26 11:32:48.941 2773-2830/? E/EdmStorageProvider: Admin not in database, something went wrong
+02-26 11:32:48.996 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=672, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-26 11:32:49.061 3234-3950/? E/PhoneInterfaceManager: [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+02-26 11:32:49.436 18410-18410/? E/WebContentsProviderReceiver: onReceive - not approved application
+02-26 11:32:49.576 2773-3156/? E/Watchdog: !@Sync 8322 [02-26 11:32:49.584]
+02-26 11:32:49.586 19820-19820/? E/AffinityControl: AffinityControl: registerfunction enter
+02-26 11:32:49.651 19964-19964/? E/Zygote: no v2
+02-26 11:32:49.846 19976-19976/? E/Zygote: no v2
+02-26 11:32:51.111 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-26 11:32:51.111 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-26 11:32:51.111 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-26 11:32:51.181 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-26 11:32:51.181 14772-14772/? E/SamsungIME: invoke(): method is null
+02-26 11:32:51.206 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-26 11:32:51.211 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-26 11:32:51.211 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-26 11:32:51.261 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-26 11:32:51.261 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-26 11:32:51.261 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-26 11:32:51.271 14772-14772/? E/SamsungIME: lang.getLanguageCode():en, lang.getCountryCode():GB
+02-26 11:32:51.271 14772-14772/? E/SamsungIME: lang.getLanguageCode():ml, lang.getCountryCode():
+02-26 11:32:51.271 14772-14772/? E/SamsungIME: sendInputLanguage() : en_GB, en_GB;ml;
+02-26 11:32:51.431 20036-20036/? E/Zygote: no v2
+02-26 11:32:51.511 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-26 11:32:51.561 20036-20036/? E/AASAservice-TokenRule: parseToken() : TokenFile is null
+02-26 11:32:51.566 20036-20036/? E/AASAservice-UpdateReceiver: AASAUpdateReceiver : myrule is null.
+02-26 11:32:51.571 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 2 size : 2Kb duration : 35ms lastUpdatedAfter : 4032 ms mFlush_time_threasold : 2000 mCurrentSize : 1344
+02-26 11:32:51.636 20052-20052/? E/Zygote: no v2
+02-26 11:32:51.731 14772-14772/? E/SamsungIME: <AbstractKeyboardView> - onDraw() called
+02-26 11:32:51.981 18410-18410/? E/WebContentsProviderReceiver: onReceive - not approved application
+02-26 11:32:52.101 25665-26782/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+02-26 11:32:52.141 20073-20073/? E/Zygote: no v2
+02-26 11:32:52.311 20086-20086/? E/Zygote: no v2
+02-26 11:32:53.306 18410-18410/? E/WebContentsProviderReceiver: onReceive - not approved application
+02-26 11:32:53.631 20115-20115/? E/Zygote: no v2
+02-26 11:32:53.806 2773-3480/? E/SensorService: getSensorList a sensor (Sensor's Diagnostic Monitor) without holding its required permission: com.samsung.permission.SSENSOR
+02-26 11:32:53.811 19964-20129/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-26 11:32:53.811 19964-20129/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-26 11:32:53.811 19964-20129/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-26 11:32:57.086 20149-20149/? E/Zygote: no v2
+02-26 11:32:57.191 20149-20149/? E/ActivityThread: Failed to find provider info for com.myscript.atk.rmc
+02-26 11:32:57.211 20162-20162/? E/Zygote: no v2
+02-26 11:32:57.351 20174-20174/? E/Zygote: no v2
+02-26 11:32:57.446 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=670, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-26 11:32:57.601 20174-20174/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+02-26 11:32:57.851 20200-20200/? E/Zygote: no v2
+02-26 11:33:00.276 20250-20250/? E/Zygote: no v2
+02-26 11:33:02.206 20326-20326/? E/Zygote: no v2
+02-26 11:33:02.976 20306-20311/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x3000e in tid 20311 (Compiler driver)
+02-26 11:33:03.011 20306-20306/? A/libc: Fatal signal 11 (SIGSEGV), code 1, fault addr 0x2d in tid 20306 (main)
+02-26 11:33:03.056 20250-20360/? E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+02-26 11:33:03.071 4104-4104/? E/audit: type=1701 msg=audit(1614319383.066:13814): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=20309 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-26 11:33:03.071 4104-4104/? E/audit: type=1701 msg=audit(1614319383.066:13815): auid=4294967295 uid=10027 gid=10027 ses=4294967295 subj=u:r:untrusted_app:s0:c512,c768 pid=20311 comm=436F6D70696C657220647269766572 reason="memory violation" sig=11
+02-26 11:33:03.091 17460-17460/? E/DEBUG: unexpected waitpid response: n=20311, status=0000000b
+02-26 11:33:03.091 17460-17460/? E/DEBUG: tid exited before attach completed: tid 20311
+02-26 11:33:04.046 2773-2787/? E/SensorService: getSensorList a sensor (Sensor's Diagnostic Monitor) without holding its required permission: com.samsung.permission.SSENSOR
+02-26 11:33:04.051 20250-20425/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 0, K2HH Acceleration , STM
+02-26 11:33:04.051 20250-20425/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 1, CM36672P Proximity Sensor, Capella Microsystems, Inc.
+02-26 11:33:04.051 20250-20425/? E/SensorManager: nativeGetSensorAtIndex: name, vendor - 2, Screen Orientation Sensor, Samsung Electronics
+02-26 11:33:04.401 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 5 size : 3Kb duration : 103ms lastUpdatedAfter : 12831 ms mFlush_time_threasold : 2000 mCurrentSize : 1555
+02-26 11:33:07.426 20466-20466/? E/Zygote: no v2
+02-26 11:33:07.856 2773-4111/? E/InputMethodManagerService: Perflock object null
+02-26 11:33:07.861 14772-14772/? E/KeyboardInfoUtils: getInstance start
+02-26 11:33:07.861 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
+02-26 11:33:07.861 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
+02-26 11:33:07.876 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
+02-26 11:33:07.876 14772-14772/? E/SamsungIME: invoke(): method is null
+02-26 11:33:12.971 20500-20500/? E/Zygote: no v2
+02-26 11:33:12.976 19976-19976/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-26 11:33:13.141 20500-20512/? E/Resources: RunTimeException
     android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
         at android.content.res.Resources.getValue(Resources.java:2598)
         at android.content.res.Resources.startRC(Resources.java:1132)
         at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
         at java.lang.Thread.run(Thread.java:818)
-02-17 13:26:10.811 24745-24745/? E/Zygote: no v2
-02-17 13:26:11.011 24745-24745/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
-02-17 13:26:11.091 24772-24772/? E/Zygote: no v2
-02-17 13:26:11.251 24788-24788/? E/Zygote: no v2
-02-17 13:26:11.396 24772-24772/? E/MotionRecognitionManager: mSContextService = null
-02-17 13:26:11.396 24772-24772/? E/MotionRecognitionManager: motionService = null
-02-17 13:26:11.601 24820-24820/? E/Zygote: no v2
-02-17 13:26:11.651 2773-3148/? E/InputMethodManagerService: Perflock object null
-02-17 13:26:11.661 14772-14772/? E/KeyboardInfoUtils: getInstance start
-02-17 13:26:11.661 14772-14772/? E/KeyboardInfoUtils: sendSIPInformation state:6  isAbstractKeyboardView : true
-02-17 13:26:11.661 14772-14772/? E/KeyboardInfoUtils: sending null keyboardInfo as SIP is closed
-02-17 13:26:11.691 14772-14772/? E/SamsungIME: getMethod(): java.lang.NoSuchMethodException: changeFullInputMethod []
-02-17 13:26:11.691 14772-14772/? E/SamsungIME: invoke(): method is null
-02-17 13:26:11.736 27127-27657/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
-02-17 13:26:11.886 24845-24845/? E/Zygote: no v2
-02-17 13:26:11.911 24856-24856/? E/Zygote: no v2
-02-17 13:26:12.211 27127-24616/? E/ChromeSync: [Sync,SyncIntentOperation] Error handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.imageuploading__retrofit flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService bqHint=4 (has extras) }.
-02-17 13:26:12.546 24845-24845/? E/SQLiteLog: (14) cannot open file at line 31558 of [5a3022e081]
-02-17 13:26:12.546 24845-24845/? E/SQLiteLog: (14) os_unix.c:31558: (2) open(/data/user/0/com.facebook.appmanager/databases/androidx.work.workdb) - 
-02-17 13:26:12.566 24845-24845/? E/SQLiteDatabase: Failed to open database '/data/user/0/com.facebook.appmanager/databases/androidx.work.workdb'.
-    android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 1294): Could not open database
-    #################################################################
-    Error Code : 1294 (SQLITE_CANTOPEN_ENOENT)
-    Caused By : Specified directory or database file does not exist.
-    	(unknown error (code 1294): Could not open database)
-    #################################################################
-        at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
-        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:238)
-        at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:199)
-        at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:514)
-        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:206)
-        at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:178)
-        at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:934)
-        at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:895)
-        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:708)
-        at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:683)
-        at com.facebook.oxygen.common.androidx.workmanager.initializer.b.a(WorkManagerDatabase.java:20)
-        at com.facebook.oxygen.appmanager.app.d.b(AppManagerApplicationImpl.java:19)
-        at com.facebook.oxygen.common.e.b.d.onCreate(OxpDelegatingApplication.java:69)
-        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1037)
-        at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6456)
-        at android.app.ActivityThread.access$1800(ActivityThread.java:229)
-        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1898)
-        at android.os.Handler.dispatchMessage(Handler.java:102)
-        at android.os.Looper.loop(Looper.java:148)
-        at android.app.ActivityThread.main(ActivityThread.java:7402)
-        at java.lang.reflect.Method.invoke(Native Method)
-        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
-        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
-02-17 13:26:12.641 24890-24890/? E/Zygote: no v2
-02-17 13:26:13.591 24845-24930/? E/ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
-02-17 13:26:13.971 24856-24914/? E/CelloDelayUploadFixer: [RxCachedThreadScheduler-4] Cleanup delay upload complete
-02-17 13:26:14.121 24965-24965/? E/Zygote: no v2
-02-17 13:26:14.471 24965-24983/? E/ServiceManager: [#CMH#] Failed binding To Service  EnhanceService
-02-17 13:26:14.486 24995-24995/? E/Zygote: no v2
-02-17 13:26:17.496 24965-25001/? E/ServiceManager: [#CMH#] Failed binding To Service  IPService
-02-17 13:26:17.496 24965-25001/? E/ServiceManager: [#CMH#] Failed binding To Service  FaceService
-02-17 13:26:17.511 25017-25017/? E/Zygote: no v2
-02-17 13:26:17.516 24965-25001/? E/ServiceManager: [#CMH#] Failed binding To Service  TapestryService
-02-17 13:26:22.981 25040-25040/? E/Zygote: no v2
-02-17 13:26:23.281 3248-3248/? E/Launcher.Model: onPackageChanged :com.google.android.apps.docs
-02-17 13:26:29.776 24441-24441/com.example.imageuploading__retrofit E/File: [/storage/emulated/0/mediapicker/images/69d25d83-3a6e-4446-95f4-c5212291d615.jpg, /storage/emulated/0/mediapicker/images/e7c0f698-f8f4-4020-b6e3-acca7c466902.jpg, /storage/emulated/0/mediapicker/images/034f9563-652f-41db-9e29-1ac02f293ca3.jpg]
-02-17 13:26:29.776 24441-24441/com.example.imageuploading__retrofit E/stream: java.io.FileInputStream@b9b61ea
-02-17 13:26:29.801 24441-24441/com.example.imageuploading__retrofit E/IMages From Stream: android.graphics.Bitmap@764bbb7
-02-17 13:26:29.941 27808-3245/? E/MtpServerJNI: server is null in send_object_added
-02-17 13:26:29.951 27808-3245/? E/MtpServerJNI: server is null in send_object_added
-02-17 13:26:29.966 24965-25070/? E/Controller: [#CMH#] Content inserted without datetaken 
-02-17 13:26:29.981 24441-24441/com.example.imageuploading__retrofit E/MediaStore: Failed to insert image
-    java.io.FileNotFoundException: No such file or directory
-        at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:144)
-        at android.content.ContentProviderProxy.openAssetFile(ContentProviderNative.java:621)
-        at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1009)
-        at android.content.ContentResolver.openOutputStream(ContentResolver.java:751)
-        at android.content.ContentResolver.openOutputStream(ContentResolver.java:727)
-        at android.provider.MediaStore$Images$Media.insertImage(MediaStore.java:995)
-        at com.example.imageuploading__retrofit.MainActivity.resizeIMagestoAdapter(MainActivity.java:168)
-        at com.example.imageuploading__retrofit.MainActivity.onActivityResult(MainActivity.java:262)
-        at android.app.Activity.dispatchActivityResult(Activity.java:7165)
-        at android.app.ActivityThread.deliverResults(ActivityThread.java:5028)
-        at android.app.ActivityThread.handleSendResult(ActivityThread.java:5075)
-        at android.app.ActivityThread.access$1600(ActivityThread.java:229)
-        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1886)
-        at android.os.Handler.dispatchMessage(Handler.java:102)
-        at android.os.Looper.loop(Looper.java:148)
-        at android.app.ActivityThread.main(ActivityThread.java:7402)
-        at java.lang.reflect.Method.invoke(Native Method)
-        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
-        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
-02-17 13:26:29.996 27808-11679/? E/MtpServerJNI: server is null in send_object_removed
-02-17 13:26:30.116 24965-25073/? E/DayAndMonthLocationUpdate: [#CMH#] updateLocationForDay error in updating location intodaywisecluster 
-02-17 13:26:30.261 24441-24441/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
-02-17 13:26:30.266 24441-24441/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
-02-17 13:26:34.786 20902-20946/? E/PlayCommon: [10678] ayfq.h(134): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
-02-17 13:26:34.881 20902-20946/? E/PlayCommon: [10678] ayfq.m(5): Failed to get auth token: java.io.IOException: NetworkError
-02-17 13:26:35.286 2773-3156/? E/Watchdog: !@Sync 3310 [02-17 13:26:35.288]
-02-17 13:26:42.251 25097-25097/? E/Zygote: no v2
-02-17 13:26:42.441 27305-27320/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 7 size : 4Kb duration : 14ms lastUpdatedAfter : 60124 ms mFlush_time_threasold : 2000 mCurrentSize : 2170
-02-17 13:26:55.106 16247-16247/? E/wpa_supplicant: wpa_supplicant_select_bss: selected_bss is null
+02-26 11:33:13.341 20515-20515/? E/Zygote: no v2
+02-26 11:33:13.516 20529-20529/? E/Zygote: no v2
+02-26 11:33:13.666 20515-20515/? E/MotionRecognitionManager: mSContextService = null
+02-26 11:33:13.671 20515-20515/? E/MotionRecognitionManager: motionService = null
+02-26 11:33:13.701 20546-20546/? E/Zygote: no v2
+02-26 11:33:13.821 20570-20570/? E/Zygote: no v2
+02-26 11:33:15.596 2773-3012/? E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=673, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+02-26 11:33:15.956 20570-20603/? E/CelloDelayUploadFixer: [RxCachedThreadScheduler-2] Cleanup delay upload complete
+02-26 11:33:16.096 20646-20646/? E/Zygote: no v2
+02-26 11:33:16.491 20646-20665/? E/ServiceManager: [#CMH#] Failed binding To Service  EnhanceService
+02-26 11:33:16.511 20674-20674/? E/Zygote: no v2
+02-26 11:33:19.516 20646-20679/? E/ServiceManager: [#CMH#] Failed binding To Service  IPService
+02-26 11:33:19.516 20646-20679/? E/ServiceManager: [#CMH#] Failed binding To Service  FaceService
+02-26 11:33:19.531 20699-20699/? E/Zygote: no v2
+02-26 11:33:19.531 20646-20679/? E/ServiceManager: [#CMH#] Failed binding To Service  TapestryService
+02-26 11:33:19.581 2773-3156/? E/Watchdog: !@Sync 8323 [02-26 11:33:19.584]
+02-26 11:33:24.961 20728-20728/? E/Zygote: no v2
+02-26 11:33:25.181 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 2 size : 0Kb duration : 3ms lastUpdatedAfter : 20779 ms mFlush_time_threasold : 2000 mCurrentSize : 450
+02-26 11:33:25.221 20742-20742/? E/Zygote: no v2
+02-26 11:33:25.956 3248-3248/? E/Launcher.Model: onPackageChanged :com.google.android.apps.docs
+02-26 11:33:29.196 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 2 size : 0Kb duration : 2ms lastUpdatedAfter : 4017 ms mFlush_time_threasold : 2000 mCurrentSize : 448
+02-26 11:33:33.696 19976-19976/com.example.imageuploading__retrofit E/File: [/storage/emulated/0/mediapicker/images/f970c00c-3d85-4370-9a63-41e36dd3a537.jpg, /storage/emulated/0/mediapicker/images/e9374f3f-7499-4083-a74f-edf3979eb05f.jpg, /storage/emulated/0/mediapicker/images/55980c7a-9f0a-4242-854c-877867594c54.jpg]
+02-26 11:33:33.696 19976-19976/com.example.imageuploading__retrofit E/stream: java.io.FileInputStream@a44d0fd
+02-26 11:33:33.731 19976-19976/com.example.imageuploading__retrofit E/IMages From Stream: android.graphics.Bitmap@24b5954
+02-26 11:33:49.546 2773-2858/? E/MARsDBManager: updateDBAll : begin --size 1
+02-26 11:33:49.581 20785-20785/? E/Zygote: no v2
+02-26 11:33:49.581 2773-3156/? E/Watchdog: !@Sync 8324 [02-26 11:33:49.586]
+02-26 11:33:49.696 2773-2858/? E/MARsDBManager: updateDBAll : end
+02-26 11:34:04.461 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 5 size : 3Kb duration : 17ms lastUpdatedAfter : 35263 ms mFlush_time_threasold : 2000 mCurrentSize : 1555
+02-26 11:34:04.756 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-26 11:34:04.756 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-26 11:34:14.971 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-26 11:34:14.971 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-26 11:34:19.586 2773-3156/? E/Watchdog: !@Sync 8325 [02-26 11:34:19.588]
+02-26 11:34:30.036 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-26 11:34:30.036 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-26 11:34:34.811 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-26 11:34:34.811 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-26 11:34:45.471 19976-19976/com.example.imageuploading__retrofit E/ViewRootImpl: sendUserActionEvent() mView == null
+02-26 11:34:45.471 20500-20827/? E/Resources: RunTimeException
+    android.content.res.Resources$NotFoundException: Resource ID #0x7f030000
+        at android.content.res.Resources.getValue(Resources.java:2598)
+        at android.content.res.Resources.startRC(Resources.java:1132)
+        at android.app.ActivityThread$mRunnable.run(ActivityThread.java:3105)
+        at java.lang.Thread.run(Thread.java:818)
+02-26 11:34:45.591 20515-20515/? E/MotionRecognitionManager: mSContextService = null
+02-26 11:34:45.591 20515-20515/? E/MotionRecognitionManager: motionService = null
+02-26 11:34:49.581 2773-3156/? E/Watchdog: !@Sync 8326 [02-26 11:34:49.589]
+02-26 11:34:50.276 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-26 11:34:50.276 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-26 11:35:04.596 25853-25870/? E/ContactsProvider_EventLog: Flush buffer to file cnt : 5 size : 3Kb duration : 12ms lastUpdatedAfter : 60137 ms mFlush_time_threasold : 2000 mCurrentSize : 1555
+02-26 11:35:10.166 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+02-26 11:35:10.166 2193-2930/? E/NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+02-26 11:35:19.586 2773-3156/? E/Watchdog: !@Sync 8327 [02-26 11:35:19.590]
